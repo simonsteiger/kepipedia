@@ -1,0 +1,39 @@
+---
+title: Padyukov, L., 2022
+date: last-modified
+author: Younes Laalou
+categories:
+    - Alleles
+    - Arthritis 
+    - Rheumatoid/etiology/genetics
+    - Autoantibodies
+    - Genetic Predisposition to Disease
+    - HLA-DRB1 Chains/genetics
+    - Humans
+    - Proteomics
+    - Autoantibody
+    - Autoimmunity
+    - Genetic polymorphism
+    - Hla
+    - Inflammation
+    - Rheumatoid arthritis
+subtitle: >
+    Genetics of rheumatoid arthritis
+---
+
+
+::: {.callout-tip}
+
+### At a glance
+
+Objectives
+: 
+
+Related articles
+:
+
+Link
+: DOI: [https://doi.org/10.1007/s00281-022-00912-0]
+
+:::
+
