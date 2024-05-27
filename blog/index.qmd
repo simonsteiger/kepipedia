@@ -1,0 +1,23 @@
+---
+title: "Recent articles"
+subtitle: "Go and have fun!"
+#description: |
+#    This is a preliminary landing page. Hopefully there will be some content here soon!
+listing:
+  contents:
+    - "**/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [title, author, categories, date]
+  page-size: 5
+citation: false
+toc: false
+comments: false
+format:
+    html:
+      page-layout: full
+title-block-banner: true
+---

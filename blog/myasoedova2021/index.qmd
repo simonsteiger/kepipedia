@@ -1,0 +1,50 @@
+---
+title: Myasoedova et al., 2021
+date: last-modified
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - Treatment response
+    - Prediction
+    - Composites
+    - Genetics
+subtitle: >
+    Toward Individualized Prediction of Response to Methotrexate in Early Rheumatoid Arthritis: A Pharmacogenomics-Driven Machine Learning Approach
+---
+
+::: {.callout-tip}
+
+### At a glance
+
+Objective
+: To test the ability of ML approaches with clinical and genomic biomarkers to predict MTX treatment response in patients with early RA.
+
+Related articles
+: For more articles on prediction of MTX treatment response, see Duong et al., 2022, Sergeant et al., 2018, Castrejón et al., 2016.
+
+Link
+: DOI: [https://doi.org/10.1002/acr.24834](https://doi.org/10.1002/acr.24834)
+
+:::
+
+## Background
+
+- MTX may be the only drug necessary to control RA for some, but in 30-40% there is no response
+- 50% of patients discontinue MTX within 3-5 years (Aletaha & Smolen, 2002)
+- Composite disease activity measures reflect a clinically meaningful target of reaching low disease activity (see Van Gestel et al., 1996, Van Gestel et al., 1998, and Fransen & van Riel, 2005)
+
+## Methods
+
+- Demographic, clinical and genomic data of 643 european-ancestry patients with early RA
+- Response to MTX was defined as good or moderate by the EULAR response criteria at the 3-month follow-up
+- Random forests were trained and prediction performance was evaluated with AUC
+
+## Results
+
+- In-sample AUC 0.84, out-of-sample prediction accuracy 76% (with p values for both, lol?)
+- Intergenic SNPs had variable importance above 60 (whatever that means), and among with **baseline DAS28** were the top predictors of MTX response
+
+## Conclusion
+
+- Pharmacogenomic biomarkers combined with baseline DAS28 can be useful in predicting response to MTX in patients with early RA
+- ML is promising in this area, potentially able to predict timely escalation of treatment strategies in early RA

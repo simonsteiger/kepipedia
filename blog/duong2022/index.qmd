@@ -1,0 +1,80 @@
+---
+title: Duong et al., 2022
+date: last-modified
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - Treatment response
+    - Prediction
+    - Composites
+subtitle: >
+    Clinical predictors of response to methotrexate in patients with rheumatoid arthritis: a machine learning approach using clinical trial data
+---
+
+::: {.callout-tip}
+
+### At a glance
+
+Objectives
+: To identify clinical predictors of response to MTX in patients with RA using ML methods.
+
+Related articles
+: Prediction of treatment response (Capelusnik & Aletaha, 2021, Sergeant et al., 2018, Castrejón et al., 2016).
+
+Link
+: DOI: [https://doi.org/10.1186/s13075-022-02851-5](https://doi.org/10.1186/s13075-022-02851-5)
+
+:::
+
+## Background
+
+- MTX is the popular first-line DMARD treatment in RA
+- There are no clinically useful tools to predict response to MTX treatment in patients with RA
+
+## Methods
+
+- DMARD-naïve patients with RA from RCTs were accessed through a database
+- Required **DAS28-ESR** at baseline and 12 and 24 weeks
+- [Latent class modelling](https://en.wikipedia.org/wiki/Latent_class_model) of MTX response
+- [Lasso](https://en.wikipedia.org/wiki/Lasso_(statistics)) and [random forests](https://en.wikipedia.org/wiki/Random_forest) were used to identify predictors of response
+- Model performance was assessed using [AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)
+
+## Results
+
+- 775 patients from 4 RCTs were included
+- Two classes of patients were identified based on DAS28-ESR **change** over 24 weeks: good vs poor responders
+- Top predictors were baseline DAS28, ACPA, HAQ – highest likelihood of response in DAS28 < 7.4, ACPA positive, HAQ < 2
+- Isn't this a bit of a no brainer? If you're doing better at the start, you're more likely to achieve a certain low threshold after a short amount of time? See also Capelusnik & Aletaha, 2021.
+
+## Conclusions
+
+- Developed and externally validated a prediction model for response to MTX within 24 weeks in DMARD-naïve patients with RA
+- One of the first studies to use ML methods to identify latent trajectories of DAS28-ESR over 24 weeks
+
+::: {.callout-warning}
+
+### Heterogeneous responses to MTX unaccounted for in treatment guidelines
+
+The vast heterogeneity in response to MTX among individual patients with RA is **insufficiently addressed in the current treatment guidelines**, and systematic patient-tailored tools to personalize early RA management are lacking (for more information on treatment guidelines, see Smolen et al., 2020, Fraenkel et al., 2021).
+
+:::
+
+- Lower baseline disease activity and better functional status are predictive of good responders to MTX is in line with previous studies ([[Capelusnik & Aletaha, 2021]], [[Sergeant et al., 2018]], [[Castrejón et al., 2016]])
+- Authors claim that people below certain cutoffs (see [[#Results]]) have an 80% probability of responding to MTX treatment, but it is unclear to me how much uncertainty there is on an individual level – after all, this prediction should only matter on an individual level
+
+::: {.callout-note}
+
+### More discussion
+
+The authors go into further detail about
+- Relevance of different time windows
+- Relevance of ACPA positivity
+- Relevance of individual DAS28 components for prediction and point to another study from the Netherlands where this was similar (see [here](https://www.mdpi.com/2075-4426/11/1/44), yet to be summarised)
+- Sociodemographic characteristics
+- External validation of results
+- Limitations and strengths of their study
+
+
+
+:::
+

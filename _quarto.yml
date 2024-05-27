@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "KEPipedia"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Library
+        href: blog/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

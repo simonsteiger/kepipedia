@@ -1,0 +1,57 @@
+---
+title: Smolen et al., 2020
+date: last-modified
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - bDMARD
+    - csDMARD
+    - tsDMARD
+    - Guidelines
+subtitle: >
+    EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2019 update
+---
+
+::: {.callout-tip}
+
+### At a glance
+
+Objectives
+: To provide an update of the European League Against Rheumatism (EULAR) RA management recommendations to account for the most recent developments in the field.
+
+Related articles
+: Treatment recommendations by the ACR (Fraenkel et al., 2021).
+
+Link
+: DOI: [https://doi.org/10.1136/annrheumdis-2019-216655](https://doi.org/10.1136/annrheumdis-2019-216655)
+
+:::
+
+## Methods
+
+- Summarise new supporting or contradicting evidence for therapies
+- Literature search and predefined voting process on current levels of evidence
+
+## Results
+
+- Task force agreed on five overarching principles and 12 recommendations concerning use of csDMARDs (MTX, leflunomide, sulfasalizine), glucocorticoids (GCs), bDMARDs (TNFis), and tsDMARDs (JAKis)
+- Guidance on monotherapy, combination therapy, treatment strategy (treat-to-target) and tapering on sustained clinical remission is provided
+	1. Begin with MTX plus GCs and upon insufficient response within 3 to 6 months, stratify by risk factors
+	2. In the presence of poor prognostic factors (autoantibodies, high disease activity, early erosions or failure of two csDMARDs), any bDMARD or JAKi should be **added** to the csDMARD
+	3. Add a bDMARD (another or same class) or tsDMARD is recommended
+
+::: {.callout-note}
+
+### Defining MTX failure
+
+According to this definition, MTX treatment has been unsuccessful once a patient **adds** any bDMARD or JAKi.
+Classifying initial treatment success for MTX in SRQ should therefore look for the **addition** of other drugs and not the stopping date of MTX.
+
+:::
+
+- On sustained remission, DMARDs may be tapered but not stopped
+- Levels of agreement among experts were high mostly
+
+## Conclusion
+
+WIP
