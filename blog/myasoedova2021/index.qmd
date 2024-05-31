@@ -1,6 +1,6 @@
 ---
 title: Myasoedova et al., 2021
-date: last-modified
+date: 2024-05-25
 author: Simon Steiger
 categories:
     - Rheumatoid arthritis
@@ -12,7 +12,7 @@ subtitle: >
     Toward Individualized Prediction of Response to Methotrexate in Early Rheumatoid Arthritis: A Pharmacogenomics-Driven Machine Learning Approach
 ---
 
-::: {.callout-tip}
+::: {.callout-note}
 
 ### At a glance
 

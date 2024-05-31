@@ -1,6 +1,6 @@
 ---
 title: Padyukov, L., 2022
-date: last-modified
+date: 2024-05-29
 author: Younes Laalou
 categories:
     - Alleles
@@ -22,7 +22,7 @@ subtitle: >
 ---
 
 
-::: {.callout-tip}
+::: {.callout-note}
 
 ### At a glance
 

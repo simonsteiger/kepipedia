@@ -1,18 +1,16 @@
 ---
 title: Smolen et al., 2020
-date: last-modified
+date: 2024-05-27
 author: Simon Steiger
 categories:
     - Rheumatoid arthritis
-    - bDMARD
-    - csDMARD
-    - tsDMARD
+    - Treatment
     - Guidelines
 subtitle: >
     EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2019 update
 ---
 
-::: {.callout-tip}
+::: {.callout-note}
 
 ### At a glance
 

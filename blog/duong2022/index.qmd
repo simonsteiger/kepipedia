@@ -1,6 +1,6 @@
 ---
 title: Duong et al., 2022
-date: last-modified
+date: 2024-05-23
 author: Simon Steiger
 categories:
     - Rheumatoid arthritis
@@ -11,7 +11,7 @@ subtitle: >
     Clinical predictors of response to methotrexate in patients with rheumatoid arthritis: a machine learning approach using clinical trial data
 ---
 
-::: {.callout-tip}
+::: {.callout-note}
 
 ### At a glance
 
@@ -19,7 +19,7 @@ Objectives
 : To identify clinical predictors of response to MTX in patients with RA using ML methods.
 
 Related articles
-: Prediction of treatment response (Capelusnik & Aletaha, 2021, Sergeant et al., 2018, Castrejón et al., 2016).
+: Prediction of treatment response (Capelusnik & Aletaha, 2021, [Sergeant et al., 2018](../sergeant2018/index.qmd), [Castrejón et al., 2016](../castrejon2016/index.qmd)).
 
 Link
 : DOI: [https://doi.org/10.1186/s13075-022-02851-5](https://doi.org/10.1186/s13075-022-02851-5)

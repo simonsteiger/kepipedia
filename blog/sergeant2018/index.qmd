@@ -1,0 +1,51 @@
+---
+title: Sergeant et al., 2018
+date: 2024-05-30
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - Treatment response
+    - Prediction
+    - Composites
+subtitle: >
+    Prediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS)
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objective
+: To identify baseline predictors of non-response to MTX and combine these into a prediction algorithm.
+
+Related articles
+: For more articles on prediction of MTX treatment response, see [Duong et al., 2022](../duong2022/index.qmd), [Myasoedova et al., 2021](../myasoedova2021/index.qmd), Castrejón et al., 2016.
+
+Link
+: DOI: [https://doi.org/10.1186/s13075-018-1645-5](https://doi.org/10.1186/s13075-018-1645-5)
+
+:::
+
+## Background
+
+- MTX is the DMARD of choice in anti-rheumatic treatment
+- Response to MTX varies between patients
+
+## Methods
+
+- Participants from the UK multi-center prospective observational study RAMS (RA medication study)
+- MTX-naïve patients
+- Non-response was defined as "no response" after the EULAR response criteria (see also [Smolen et al., 2020](../smolen2020/index.qmd)), discontinuation of MTX due to **inefficacy** or **starting biologic therapy**
+- Tested association of baseline demographic, clinical and psychosocial predictors with non-response using logistic regression
+- AUC and calibration plots to assess predictive performance
+
+## Results
+
+- 43% of patients were classified as non-responders
+- independent multivariable predictors of MTX non-response were RF negativity, higher HAQ, higher TJC, lower DAS28 and higher Hospital Anxiety and Depression Scale anxiety score
+- Optimism-corrected (huh?) AUC was 0.74
+
+## Conclusions
+
+- First MTX non-response model to be developed in a large cohort where MTX starters where analysed with demographic, clinical and psychosocial predictors
+- Anxiety is a predictor of non-response and could be addressed at treatment commencement

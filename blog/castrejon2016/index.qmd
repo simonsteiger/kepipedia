@@ -1,0 +1,47 @@
+---
+title: Castrejón et al., 2018
+date: 2024-05-31
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - Prediction
+    - Composites
+subtitle: >
+    Prediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS)
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objective
+: To identify baseline variables that predict remission according to different criteria in RA
+
+Related articles
+: For more articles on prediction of MTX treatment response, see [Duong et al., 2022](../duong2022/index.qmd), [Myasoedova et al., 2021](../myasoedova2021/index.qmd), [Sergeant et al., 2018](../sergeant2018/index.qmd).
+
+Link
+: DOI: [https://doi.org/10.3899/jrheum.141586](https://doi.org/10.3899/jrheum.141586)
+
+:::
+
+## Background
+
+TODO
+
+## Methods
+
+- Analysed individual variables and indices at baseline
+- Predicted remission at either 6 or 12 months according to Boolean remission, SDAI, CDAI and DAS28
+
+## Results
+
+- Remission was predicted "significantly" (?) in 27 to 51 percent of patients
+- Relevant predictors were younger age, low scores (no brainer? see also Capelusnik & Aletaha, 2021) on composites and their components, HAQ, pain, etc
+- Remission was not predicted by the absence of "poor prognosis RA" (meaning "difficult to treat RA"?) or radiographic erosions
+- In multivariate regressions that included only three variables (sounds like some model selection?) low HAQ predicted remission according to all criteria as effectively as SJC, ESR, or CRP
+
+## Conclusions
+
+- Younger age and (low scores on) six core data set clinical measures predicted remission
+- Absence of traditional "poor prognosis RA" indicators, RA, ACPA, or radiographic erosions did **not** predict remission

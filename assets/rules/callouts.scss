@@ -1,0 +1,15 @@
+.callout-tip {
+    border-left-color: $orange !important;
+}
+
+.callout-tip {
+    .callout-header {
+        background-color: $light-orange !important;
+        
+        .callout-icon-container .callout-icon {
+            i::before {
+                color: $orange !important;
+            }
+        }
+    }
+}
