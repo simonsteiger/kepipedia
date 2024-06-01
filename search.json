@@ -1,52 +1,38 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blog/sergeant2018/index.html",
+    "href": "blog/sergeant2018/index.html",
+    "title": "Sergeant et al., 2018",
     "section": "",
-    "text": "About this site"
+    "text": "At a glance\n\n\n\n\nObjective\n\nTo identify baseline predictors of non-response to MTX and combine these into a prediction algorithm.\n\nRelated articles\n\nFor more articles on prediction of MTX treatment response, see Duong et al., 2022, Myasoedova et al., 2021, Castrejón et al., 2016.\n\nLink\n\nDOI: https://doi.org/10.1186/s13075-018-1645-5"
   },
   {
-    "objectID": "blog/myasoedova2021/index.html",
-    "href": "blog/myasoedova2021/index.html",
-    "title": "Myasoedova et al., 2021",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjective\n\nTo test the ability of ML approaches with clinical and genomic biomarkers to predict MTX treatment response in patients with early RA.\n\nRelated articles\n\nFor more articles on prediction of MTX treatment response, see Duong et al., 2022, Sergeant et al., 2018, Castrejón et al., 2016.\n\nLink\n\nDOI: https://doi.org/10.1002/acr.24834"
-  },
-  {
-    "objectID": "blog/myasoedova2021/index.html#background",
-    "href": "blog/myasoedova2021/index.html#background",
-    "title": "Myasoedova et al., 2021",
+    "objectID": "blog/sergeant2018/index.html#background",
+    "href": "blog/sergeant2018/index.html#background",
+    "title": "Sergeant et al., 2018",
     "section": "Background",
-    "text": "Background\n\nMTX may be the only drug necessary to control RA for some, but in 30-40% there is no response\n50% of patients discontinue MTX within 3-5 years (Aletaha & Smolen, 2002)\nComposite disease activity measures reflect a clinically meaningful target of reaching low disease activity (see Van Gestel et al., 1996, Van Gestel et al., 1998, and Fransen & van Riel, 2005)"
+    "text": "Background\n\nMTX is the DMARD of choice in anti-rheumatic treatment\nResponse to MTX varies between patients"
   },
   {
-    "objectID": "blog/myasoedova2021/index.html#methods",
-    "href": "blog/myasoedova2021/index.html#methods",
-    "title": "Myasoedova et al., 2021",
+    "objectID": "blog/sergeant2018/index.html#methods",
+    "href": "blog/sergeant2018/index.html#methods",
+    "title": "Sergeant et al., 2018",
     "section": "Methods",
-    "text": "Methods\n\nDemographic, clinical and genomic data of 643 european-ancestry patients with early RA\nResponse to MTX was defined as good or moderate by the EULAR response criteria at the 3-month follow-up\nRandom forests were trained and prediction performance was evaluated with AUC"
+    "text": "Methods\n\nParticipants from the UK multi-center prospective observational study RAMS (RA medication study)\nMTX-naïve patients\nNon-response was defined as “no response” after the EULAR response criteria (see also Smolen et al., 2020), discontinuation of MTX due to inefficacy or starting biologic therapy\nTested association of baseline demographic, clinical and psychosocial predictors with non-response using logistic regression\nAUC and calibration plots to assess predictive performance"
   },
   {
-    "objectID": "blog/myasoedova2021/index.html#results",
-    "href": "blog/myasoedova2021/index.html#results",
-    "title": "Myasoedova et al., 2021",
+    "objectID": "blog/sergeant2018/index.html#results",
+    "href": "blog/sergeant2018/index.html#results",
+    "title": "Sergeant et al., 2018",
     "section": "Results",
-    "text": "Results\n\nIn-sample AUC 0.84, out-of-sample prediction accuracy 76% (with p values for both, lol?)\nIntergenic SNPs had variable importance above 60 (whatever that means), and among with baseline DAS28 were the top predictors of MTX response"
+    "text": "Results\n\n43% of patients were classified as non-responders\nindependent multivariable predictors of MTX non-response were RF negativity, higher HAQ, higher TJC, lower DAS28 and higher Hospital Anxiety and Depression Scale anxiety score\nOptimism-corrected (huh?) AUC was 0.74"
   },
   {
-    "objectID": "blog/myasoedova2021/index.html#conclusion",
-    "href": "blog/myasoedova2021/index.html#conclusion",
-    "title": "Myasoedova et al., 2021",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nPharmacogenomic biomarkers combined with baseline DAS28 can be useful in predicting response to MTX in patients with early RA\nML is promising in this area, potentially able to predict timely escalation of treatment strategies in early RA"
-  },
-  {
-    "objectID": "blog/leonidpadyukov2022/index.html",
-    "href": "blog/leonidpadyukov2022/index.html",
-    "title": "Padyukov, L., 2022",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjectives\n\n\n\n\nRelated articles :\n\nLink\n\nDOI: [https://doi.org/10.1007/s00281-022-00912-0]"
+    "objectID": "blog/sergeant2018/index.html#conclusions",
+    "href": "blog/sergeant2018/index.html#conclusions",
+    "title": "Sergeant et al., 2018",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nFirst MTX non-response model to be developed in a large cohort where MTX starters where analysed with demographic, clinical and psychosocial predictors\nAnxiety is a predictor of non-response and could be addressed at treatment commencement"
   },
   {
     "objectID": "blog/duong2022/index.html",
@@ -84,53 +70,60 @@
     "text": "Conclusions\n\nDeveloped and externally validated a prediction model for response to MTX within 24 weeks in DMARD-naïve patients with RA\nOne of the first studies to use ML methods to identify latent trajectories of DAS28-ESR over 24 weeks\n\n\n\n\n\n\n\nHeterogeneous responses to MTX unaccounted for in treatment guidelines\n\n\n\nThe vast heterogeneity in response to MTX among individual patients with RA is insufficiently addressed in the current treatment guidelines, and systematic patient-tailored tools to personalize early RA management are lacking (for more information on treatment guidelines, see Smolen et al., 2020, Fraenkel et al., 2021).\n\n\n\nLower baseline disease activity and better functional status are predictive of good responders to MTX is in line with previous studies ([[Capelusnik & Aletaha, 2021]], [[Sergeant et al., 2018]], [[Castrejón et al., 2016]])\nAuthors claim that people below certain cutoffs (see [[#Results]]) have an 80% probability of responding to MTX treatment, but it is unclear to me how much uncertainty there is on an individual level – after all, this prediction should only matter on an individual level\n\n\n\n\n\n\n\nMore discussion\n\n\n\nThe authors go into further detail about - Relevance of different time windows - Relevance of ACPA positivity - Relevance of individual DAS28 components for prediction and point to another study from the Netherlands where this was similar (see here, yet to be summarised) - Sociodemographic characteristics - External validation of results - Limitations and strengths of their study"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "KEPipedia",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "blog/sergeant2018/index.html",
-    "href": "blog/sergeant2018/index.html",
-    "title": "Sergeant et al., 2018",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjective\n\nTo identify baseline predictors of non-response to MTX and combine these into a prediction algorithm.\n\nRelated articles\n\nFor more articles on prediction of MTX treatment response, see Duong et al., 2022, Myasoedova et al., 2021, Castrejón et al., 2016.\n\nLink\n\nDOI: https://doi.org/10.1186/s13075-018-1645-5"
-  },
-  {
-    "objectID": "blog/sergeant2018/index.html#background",
-    "href": "blog/sergeant2018/index.html#background",
-    "title": "Sergeant et al., 2018",
-    "section": "Background",
-    "text": "Background\n\nMTX is the DMARD of choice in anti-rheumatic treatment\nResponse to MTX varies between patients"
-  },
-  {
-    "objectID": "blog/sergeant2018/index.html#methods",
-    "href": "blog/sergeant2018/index.html#methods",
-    "title": "Sergeant et al., 2018",
-    "section": "Methods",
-    "text": "Methods\n\nParticipants from the UK multi-center prospective observational study RAMS (RA medication study)\nMTX-naïve patients\nNon-response was defined as “no response” after the EULAR response criteria (see also Smolen et al., 2020), discontinuation of MTX due to inefficacy or starting biologic therapy\nTested association of baseline demographic, clinical and psychosocial predictors with non-response using logistic regression\nAUC and calibration plots to assess predictive performance"
-  },
-  {
-    "objectID": "blog/sergeant2018/index.html#results",
-    "href": "blog/sergeant2018/index.html#results",
-    "title": "Sergeant et al., 2018",
-    "section": "Results",
-    "text": "Results\n\n43% of patients were classified as non-responders\nindependent multivariable predictors of MTX non-response were RF negativity, higher HAQ, higher TJC, lower DAS28 and higher Hospital Anxiety and Depression Scale anxiety score\nOptimism-corrected (huh?) AUC was 0.74"
-  },
-  {
-    "objectID": "blog/sergeant2018/index.html#conclusions",
-    "href": "blog/sergeant2018/index.html#conclusions",
-    "title": "Sergeant et al., 2018",
-    "section": "Conclusions",
-    "text": "Conclusions\n\nFirst MTX non-response model to be developed in a large cohort where MTX starters where analysed with demographic, clinical and psychosocial predictors\nAnxiety is a predictor of non-response and could be addressed at treatment commencement"
-  },
-  {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "Recent articles",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nCastrejón et al., 2018\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 31, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nSergeant et al., 2018\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 30, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nPadyukov, L., 2022\n\n\nGenetics of rheumatoid arthritis \n\n\n\nAlleles\n\n\nArthritis\n\n\nRheumatoid/etiology/genetics\n\n\nAutoantibodies\n\n\nGenetic Predisposition to Disease\n\n\nHLA-DRB1 Chains/genetics\n\n\nHumans\n\n\nProteomics\n\n\nAutoantibody\n\n\nAutoimmunity\n\n\nGenetic polymorphism\n\n\nHla\n\n\nInflammation\n\n\nRheumatoid arthritis\n\n\n\n\n\n\nMay 29, 2024\n\n\nYounes Laalou\n\n\n\n\n\n\n\nSmolen et al., 2020\n\n\nEULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2019 update \n\n\n\nRheumatoid arthritis\n\n\nTreatment\n\n\nGuidelines\n\n\n\n\n\n\nMay 27, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nMyasoedova et al., 2021\n\n\nToward Individualized Prediction of Response to Methotrexate in Early Rheumatoid Arthritis: A Pharmacogenomics-Driven Machine Learning Approach \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\nGenetics\n\n\n\n\n\n\nMay 25, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nDuong et al., 2022\n\n\nClinical predictors of response to methotrexate in patients with rheumatoid arthritis: a machine learning approach using clinical trial data \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 23, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/myasoedova2021/index.html",
+    "href": "blog/myasoedova2021/index.html",
+    "title": "Myasoedova et al., 2021",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjective\n\nTo test the ability of ML approaches with clinical and genomic biomarkers to predict MTX treatment response in patients with early RA.\n\nRelated articles\n\nFor more articles on prediction of MTX treatment response, see Duong et al., 2022, Sergeant et al., 2018, Castrejón et al., 2016.\n\nLink\n\nDOI: https://doi.org/10.1002/acr.24834"
+  },
+  {
+    "objectID": "blog/myasoedova2021/index.html#background",
+    "href": "blog/myasoedova2021/index.html#background",
+    "title": "Myasoedova et al., 2021",
+    "section": "Background",
+    "text": "Background\n\nMTX may be the only drug necessary to control RA for some, but in 30-40% there is no response\n50% of patients discontinue MTX within 3-5 years (Aletaha & Smolen, 2002)\nComposite disease activity measures reflect a clinically meaningful target of reaching low disease activity (see Van Gestel et al., 1996, Van Gestel et al., 1998, and Fransen & van Riel, 2005)"
+  },
+  {
+    "objectID": "blog/myasoedova2021/index.html#methods",
+    "href": "blog/myasoedova2021/index.html#methods",
+    "title": "Myasoedova et al., 2021",
+    "section": "Methods",
+    "text": "Methods\n\nDemographic, clinical and genomic data of 643 european-ancestry patients with early RA\nResponse to MTX was defined as good or moderate by the EULAR response criteria at the 3-month follow-up\nRandom forests were trained and prediction performance was evaluated with AUC"
+  },
+  {
+    "objectID": "blog/myasoedova2021/index.html#results",
+    "href": "blog/myasoedova2021/index.html#results",
+    "title": "Myasoedova et al., 2021",
+    "section": "Results",
+    "text": "Results\n\nIn-sample AUC 0.84, out-of-sample prediction accuracy 76% (with p values for both, lol?)\nIntergenic SNPs had variable importance above 60 (whatever that means), and among with baseline DAS28 were the top predictors of MTX response"
+  },
+  {
+    "objectID": "blog/myasoedova2021/index.html#conclusion",
+    "href": "blog/myasoedova2021/index.html#conclusion",
+    "title": "Myasoedova et al., 2021",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nPharmacogenomic biomarkers combined with baseline DAS28 can be useful in predicting response to MTX in patients with early RA\nML is promising in this area, potentially able to predict timely escalation of treatment strategies in early RA"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "KEPipedia",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "blog/smolen2020/index.html",
@@ -194,5 +187,12 @@
     "title": "Castrejón et al., 2018",
     "section": "Conclusions",
     "text": "Conclusions\n\nYounger age and (low scores on) six core data set clinical measures predicted remission\nAbsence of traditional “poor prognosis RA” indicators, RA, ACPA, or radiographic erosions did not predict remission"
+  },
+  {
+    "objectID": "blog/leonidpadyukov2022/index.html",
+    "href": "blog/leonidpadyukov2022/index.html",
+    "title": "Padyukov, L., 2022",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjectives\n\n\n\n\nRelated articles :\n\nLink\n\nDOI: [https://doi.org/10.1007/s00281-022-00912-0]"
   }
 ]
