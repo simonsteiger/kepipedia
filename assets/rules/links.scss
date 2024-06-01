@@ -1,12 +1,23 @@
 .pagination {
     .page-item.active {
         .page.page-link {
-            background-color: $orange !important;
+            background-color: $dark-plum !important;
         }
     }
     .page-item {
         .page.page-link {
             background-color: $light-orange !important;
         }
+    }
+}
+
+.listing-category {
+    background-color: $light-orange !important;
+    border: solid $orange 1px !important;
+
+    // add a hover effect
+    &:hover {
+        background-color: lighten($light-orange, 2%) !important;
+        color: $orange !important;
     }
 }
