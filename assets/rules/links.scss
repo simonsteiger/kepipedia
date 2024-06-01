@@ -11,13 +11,24 @@
     }
 }
 
-.listing-category {
-    background-color: $light-orange !important;
-    border: solid $orange 1px !important;
+// add a mixin that includes the contents of .listing-category below
+@mixin custom-category($bg, $highlight) {
+    color: $text-muted !important;
+    background-color: $bg !important;
+    border: solid $highlight 1px !important;
 
     // add a hover effect
     &:hover {
-        background-color: lighten($light-orange, 2%) !important;
-        color: $orange !important;
+        background-color: lighten($bg, 2%) !important;
+        color: $highlight !important;
     }
+}
+
+
+.listing-category {
+    @include custom-category($light-orange, $orange);
+}
+
+.quarto-category {
+    @include custom-category($light-orange, $orange);
 }
