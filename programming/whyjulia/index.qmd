@@ -1,0 +1,11 @@
+---
+title: "A love letter to Julia"
+author: Simon Steiger
+date: "2024-06-02"
+categories:
+    - Julia
+subtitle: >
+    Why coding in Julia is fun to me
+---
+
+Have to write something here, but then, if I haven't convinced you, you're welcome to [watch Julia burn](https://github.com/JuliaWTF/WatchJuliaBurn.jl).

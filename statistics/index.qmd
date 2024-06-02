@@ -1,6 +1,6 @@
 ---
-title: "Recent articles"
-subtitle: "Go and have fun!"
+title: "Statistics"
+subtitle: "Less articles, more blog-ish posts"
 #description: |
 #    This is a preliminary landing page. Hopefully there will be some content here soon!
 listing:
