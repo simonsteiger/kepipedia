@@ -1,0 +1,35 @@
+---
+title: "Cutoffs used it Rheumatology"
+author: Simon Steiger
+date: "2024-06-03"
+categories:
+    - Rheumatoid arthritis
+    - Psoriatric arthritis
+    - Spondyloarthritis
+    - Composites
+subtitle: >
+    The use of composite scores is wide-spread and cutoffs play an essential role in classifying the disease activity of patients
+---
+
+## Rheumatoid arthritis
+
+The composite measures are sorted alphabetically from left to right.
+
+| **Disease activity** | **CDAI** | **DAS28CRP** | **DAS28ESR** |    **SDAI** |
+|----------------------|---------:|-------------:|-------------:|------------:|
+|            Remission |        ? |      $>$ 2.4 |      $>$ 2.6 |     $>$ 3.3 |
+|                  Low |        ? |   $\leq$ 2.9 |   $\leq$ 3.2 | $\leq$ 11.0 |
+|             Moderate |        ? |   $\leq$ 4.6 |   $\leq$ 5.1 | $\leq$ 26.0 |
+|                 High |        ? |      $<$ 4.6 |      $<$ 5.1 |    $<$ 26.0 |
+
+: Cutoffs of the most commonly used composite measures for RA disease activity.
+
+**TODO**: Add CDAI and sources for each column.
+
+## Psoriatric arthritis
+
+TODO
+
+## Spondyloarthritis
+
+TODO

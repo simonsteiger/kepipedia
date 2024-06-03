@@ -8,11 +8,16 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: About
-        href: about.qmd
-      - text: Library
-        href: blog/index.qmd
+      - text: Epidemiology
+        href: content/epidemiology/index.qmd
+      - text: Statistics
+        href: content/statistics/index.qmd
+      - text: Programming
+        href: content/programming/index.qmd
+      - text: Articles
+        href: content/articles/index.qmd
 
+highlight-style: github
 format:
   html:
     theme: 

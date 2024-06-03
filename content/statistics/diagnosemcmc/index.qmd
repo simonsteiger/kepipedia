@@ -1,0 +1,62 @@
+---
+title: "Diagnosing issues in MCMC sampling"
+author: Simon Steiger
+date: "2024-06-01"
+categories:
+    - MCMC
+    - Bayesian statistics
+    - NUTS
+subtitle: >
+    MCMC is your workhorse, so make sure it's healthy
+description: ''
+---
+
+## What's MCMC
+
+Well! I should write a well thought-out explanation here when it's not late in the evening.
+
+## Relevant MCMC internals
+
+This is my current understanding of which MCMC internals should be checked, how potential issues can be resolved, and what the internals reflect.
+No guarantee!
+
+### $\hat{R}$
+
+> $\hat{R}$ should be very close to 1 for all parameters.
+
+$\hat{R}$ is a convergence measure (variance within vs between chains, I think) and must be very close to 1.
+Otherwise, our chains have not converged to the sample from the same posterior distribution.
+If $\hat{R}$ is elevated, you can usually fix this by simply drawing more samples per chain.
+In case the posterior geometry can be simplified with, e.g., non centered parametrisation in hierarchical models, this is often a more efficient step to take.
+
+### ESS
+
+Large effective sample size is important because it ensures stable estimates in the low-density regions of the posterior.
+Note that the effective sample size can be larger than the actual number of samples drawn.
+
+> Aim for ESS of at least 10 000 per parameter and posterior region (bulk / tail).
+
+Be skeptical if your ESS bulk is much lower than the tail!
+You might be working with a multimodal posterior.
+
+
+### Divergent transitions
+
+Something about skaters flying out into the infinite universe.
+
+> Divergent transitions are bad. We don't want them.
+
+If you have some, they should not be concentrated in any particular region of the posterior.
+
+### Tree depth
+
+The tree depth can tell us if a model is poorly identified or (I think) has other sampling issues like a bimodal posterior.
+
+> If your tree depth hits the default maximum tree depth of 10, you're in trouble.
+
+If the tree depth is really high, the NUTS algorithm builds a very complicated sampling tree, which leads to very, very, very slow sampling.
+
+
+## Other MCMC internals
+
+There are other internals like the leepfrog step size, loglikelihood (?), hamiltonian energy, energy error... not sure about these.
