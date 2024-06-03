@@ -1,6 +1,6 @@
 ---
 title: "Statistics"
-subtitle: "Less articles, more blog-ish posts"
+subtitle: Blog-style entries and short wikis on stats topics
 #description: |
 #    This is a preliminary landing page. Hopefully there will be some content here soon!
 listing:

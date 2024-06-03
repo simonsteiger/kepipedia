@@ -1,0 +1,46 @@
+---
+title: Salmeen et al., 2011
+date: 2024-06-03
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - Remission
+    - Composites
+subtitle: >
+    Should imaging be a component of rheumatoid arthritis remission criteria? A comparison between traditional and modified composite remission scores and imaging assessments
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objective
+: To test wheter considering ultrasound measurements allow for the definition of stricter remission criteria, which ensure that patients in remission are free of [synovitis](https://en.wikipedia.org/wiki/Synovitis).
+
+Related articles
+: For other articles casting doubt on the validity of the DAS28, see Lee et al., 2011.
+
+Link
+: DOI: [https://doi.org/10.1136/ard.2010.134445](https://doi.org/10.1136/ard.2010.134445)
+
+:::
+
+## Background
+
+## Methods
+
+- Sample included patients with DAS28 $\leq$ 2.6 (implies DAS28ESR was used) for at least 6 months
+- These patients were classified using standard DAS28-, more stringent DAS28-, and SDAI [cutoffs](../../epidemiology/cutoffs/index.qmd)
+- Records of ultrasound were made to compare against clinical disease activity measures
+
+## Results
+
+- 128 patients receiving either DMARD _or_ DMARD and TNFi were included (median DAS28ESR 1.7, all < 2.6)
+- Of 640 imaged joints, 5% had moderate or severe [power Doppler](https://en.wikipedia.org/wiki/Doppler_effect#Medical) (PD) activity, 8% were clinically swollen, 1% were tender
+- Moderate to severe PD activity was present in patients fulfilling DAS28ESR (21%), ACR (15%) or SDAI (19%) remission
+- More stringent DAS28ESR and SDAI criteria reduced the mean number of swollen and tender joints, but not the percentage of patients with PD activity
+
+## Conclusions
+
+- Using more stringent remission criteria reduces symptoms of inflammation, but not PD activity in patients with remission
+- Clinical criteria may be sufficiently insensitive (?) to detect low but clinically relevant levels of inflammation accurately

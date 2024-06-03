@@ -1,6 +1,6 @@
 ---
 title: "Programming"
-subtitle: "Oh no. Not code."
+subtitle: Blog-style entries and short wikis on programming topics
 #description: |
 #    This is a preliminary landing page. Hopefully there will be some content here soon!
 listing:
