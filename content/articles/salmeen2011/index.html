@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Simon Steiger">
-<meta name="dcterms.date" content="2024-05-27">
+<meta name="dcterms.date" content="2024-06-03">
 
-<title>KEPipedia - Smolen et al., 2020</title>
+<title>KEPipedia - Salmeen et al., 2011</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -81,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">KEPipedia</span>
     </a>
   </div>
@@ -92,16 +121,24 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../../content/epidemiology/index.html"> 
+<span class="menu-text">Epidemiology</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/index.html"> 
-<span class="menu-text">Library</span></a>
+    <a class="nav-link" href="../../../content/statistics/index.html"> 
+<span class="menu-text">Statistics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../content/programming/index.html"> 
+<span class="menu-text">Programming</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../content/articles/index.html"> 
+<span class="menu-text">Articles</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -120,9 +157,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#methods" id="toc-methods" class="nav-link active" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
   </ul>
 </nav>
     </div>
@@ -131,12 +169,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Smolen et al., 2020</h1>
-<p class="subtitle lead"></p><p>EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2019 update</p><p></p>
+<h1 class="title">Salmeen et al., 2011</h1>
+<p class="subtitle lead"></p><p>Should imaging be a component of rheumatoid arthritis remission criteria? A comparison between traditional and modified composite remission scores and imaging assessments</p><p></p>
   <div class="quarto-categories">
     <div class="quarto-category">Rheumatoid arthritis</div>
-    <div class="quarto-category">Treatment</div>
-    <div class="quarto-category">Guidelines</div>
+    <div class="quarto-category">Remission</div>
+    <div class="quarto-category">Composites</div>
   </div>
   </div>
 
@@ -154,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 27, 2024</p>
+      <p class="date">June 3, 2024</p>
     </div>
   </div>
   
@@ -177,60 +215,47 @@ At a glance
 </div>
 <div class="callout-body-container callout-body">
 <dl>
-<dt>Objectives</dt>
+<dt>Objective</dt>
 <dd>
-To provide an update of the European League Against Rheumatism (EULAR) RA management recommendations to account for the most recent developments in the field.
+To test wheter considering ultrasound measurements allow for the definition of stricter remission criteria, which ensure that patients in remission are free of <a href="https://en.wikipedia.org/wiki/Synovitis">synovitis</a>.
 </dd>
 <dt>Related articles</dt>
 <dd>
-Treatment recommendations by the ACR (Fraenkel et al., 2021).
+For other articles casting doubt on the validity of the DAS28, see Lee et al., 2011.
 </dd>
 <dt>Link</dt>
 <dd>
-DOI: <a href="https://doi.org/10.1136/annrheumdis-2019-216655">https://doi.org/10.1136/annrheumdis-2019-216655</a>
+DOI: <a href="https://doi.org/10.1136/ard.2010.134445">https://doi.org/10.1136/ard.2010.134445</a>
 </dd>
 </dl>
 </div>
 </div>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+</section>
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
 <ul>
-<li>Summarise new supporting or contradicting evidence for therapies</li>
-<li>Literature search and predefined voting process on current levels of evidence</li>
+<li>Sample included patients with DAS28 <span class="math inline">\(\leq\)</span> 2.6 (implies DAS28ESR was used) for at least 6 months</li>
+<li>These patients were classified using standard DAS28-, more stringent DAS28-, and SDAI <a href="../../../content/epidemiology/cutoffs/index.html">cutoffs</a></li>
+<li>Records of ultrasound were made to compare against clinical disease activity measures</li>
 </ul>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
 <ul>
-<li>Task force agreed on five overarching principles and 12 recommendations concerning use of csDMARDs (MTX, leflunomide, sulfasalizine), glucocorticoids (GCs), bDMARDs (TNFis), and tsDMARDs (JAKis)</li>
-<li>Guidance on monotherapy, combination therapy, treatment strategy (treat-to-target) and tapering on sustained clinical remission is provided
-<ol type="1">
-<li>Begin with MTX plus GCs and upon insufficient response within 3 to 6 months, stratify by risk factors</li>
-<li>In the presence of poor prognostic factors (autoantibodies, high disease activity, early erosions or failure of two csDMARDs), any bDMARD or JAKi should be <strong>added</strong> to the csDMARD</li>
-<li>Add a bDMARD (another or same class) or tsDMARD is recommended</li>
-</ol></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Defining MTX failure
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>According to this definition, MTX treatment has been unsuccessful once a patient <strong>adds</strong> any bDMARD or JAKi. Classifying initial treatment success for MTX in SRQ should therefore look for the <strong>addition</strong> of other drugs and not the stopping date of MTX.</p>
-</div>
-</div>
-<ul>
-<li>On sustained remission, DMARDs may be tapered but not stopped</li>
-<li>Levels of agreement among experts were high mostly</li>
+<li>128 patients receiving either DMARD <em>or</em> DMARD and TNFi were included (median DAS28ESR 1.7, all &lt; 2.6)</li>
+<li>Of 640 imaged joints, 5% had moderate or severe <a href="https://en.wikipedia.org/wiki/Doppler_effect#Medical">power Doppler</a> (PD) activity, 8% were clinically swollen, 1% were tender</li>
+<li>Moderate to severe PD activity was present in patients fulfilling DAS28ESR (21%), ACR (15%) or SDAI (19%) remission</li>
+<li>More stringent DAS28ESR and SDAI criteria reduced the mean number of swollen and tender joints, but not the percentage of patients with PD activity</li>
 </ul>
 </section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>WIP</p>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<ul>
+<li>Using more stringent remission criteria reduces symptoms of inflammation, but not PD activity in patients with remission</li>
+<li>Clinical criteria may be sufficiently insensitive (?) to detect low but clinically relevant levels of inflammation accurately</li>
+</ul>
 
 
 </section>

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Simon Steiger">
+<meta name="dcterms.date" content="2024-05-23">
 
-<title>KEPipedia</title>
+<title>KEPipedia - Duong et al., 2022</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">KEPipedia</span>
     </a>
   </div>
@@ -90,23 +92,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./content/epidemiology/index.html"> 
+    <a class="nav-link" href="../../../content/epidemiology/index.html"> 
 <span class="menu-text">Epidemiology</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./content/statistics/index.html"> 
+    <a class="nav-link" href="../../../content/statistics/index.html"> 
 <span class="menu-text">Statistics</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./content/programming/index.html"> 
+    <a class="nav-link" href="../../../content/programming/index.html"> 
 <span class="menu-text">Programming</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./content/articles/index.html"> 
+    <a class="nav-link" href="../../../content/articles/index.html"> 
 <span class="menu-text">Articles</span></a>
   </li>  
 </ul>
@@ -122,21 +124,49 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">KEPipedia</h1>
-</div>
+<h1 class="title">Duong et al., 2022</h1>
+<p class="subtitle lead"></p><p>Clinical predictors of response to methotrexate in patients with rheumatoid arthritis: a machine learning approach using clinical trial data</p><p></p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Rheumatoid arthritis</div>
+    <div class="quarto-category">Treatment response</div>
+    <div class="quarto-category">Prediction</div>
+    <div class="quarto-category">Composites</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Simon Steiger </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 23, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -146,10 +176,97 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+At a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<dl>
+<dt>Objectives</dt>
+<dd>
+To identify clinical predictors of response to MTX in patients with RA using ML methods.
+</dd>
+<dt>Related articles</dt>
+<dd>
+Prediction of treatment response (Capelusnik &amp; Aletaha, 2021, <a href="../../../content/articles/sergeant2018/index.html">Sergeant et al., 2018</a>, <a href="../../../content/articles/castrejon2016/index.html">Castrejón et al., 2016</a>).
+</dd>
+<dt>Link</dt>
+<dd>
+DOI: <a href="https://doi.org/10.1186/s13075-022-02851-5">https://doi.org/10.1186/s13075-022-02851-5</a>
+</dd>
+</dl>
+</div>
+</div>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<ul>
+<li>MTX is the popular first-line DMARD treatment in RA</li>
+<li>There are no clinically useful tools to predict response to MTX treatment in patients with RA</li>
+</ul>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<ul>
+<li>DMARD-naïve patients with RA from RCTs were accessed through a database</li>
+<li>Required <strong>DAS28-ESR</strong> at baseline and 12 and 24 weeks</li>
+<li><a href="https://en.wikipedia.org/wiki/Latent_class_model">Latent class modelling</a> of MTX response</li>
+<li><a href="https://en.wikipedia.org/wiki/Lasso_(statistics)">Lasso</a> and <a href="https://en.wikipedia.org/wiki/Random_forest">random forests</a> were used to identify predictors of response</li>
+<li>Model performance was assessed using <a href="https://en.wikipedia.org/wiki/Receiver_operating_characteristic">AUC</a></li>
+</ul>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<ul>
+<li>775 patients from 4 RCTs were included</li>
+<li>Two classes of patients were identified based on DAS28-ESR <strong>change</strong> over 24 weeks: good vs poor responders</li>
+<li>Top predictors were baseline DAS28, ACPA, HAQ – highest likelihood of response in DAS28 &lt; 7.4, ACPA positive, HAQ &lt; 2</li>
+<li>Isn’t this a bit of a no brainer? If you’re doing better at the start, you’re more likely to achieve a certain low threshold after a short amount of time? See also Capelusnik &amp; Aletaha, 2021.</li>
+</ul>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<ul>
+<li>Developed and externally validated a prediction model for response to MTX within 24 weeks in DMARD-naïve patients with RA</li>
+<li>One of the first studies to use ML methods to identify latent trajectories of DAS28-ESR over 24 weeks</li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Heterogeneous responses to MTX unaccounted for in treatment guidelines
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The vast heterogeneity in response to MTX among individual patients with RA is <strong>insufficiently addressed in the current treatment guidelines</strong>, and systematic patient-tailored tools to personalize early RA management are lacking (for more information on treatment guidelines, see Smolen et al., 2020, Fraenkel et al., 2021).</p>
+</div>
+</div>
+<ul>
+<li>Lower baseline disease activity and better functional status are predictive of good responders to MTX is in line with previous studies ([[Capelusnik &amp; Aletaha, 2021]], [[Sergeant et al., 2018]], [[Castrejón et al., 2016]])</li>
+<li>Authors claim that people below certain cutoffs (see [[#Results]]) have an 80% probability of responding to MTX treatment, but it is unclear to me how much uncertainty there is on an individual level – after all, this prediction should only matter on an individual level</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+More discussion
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The authors go into further detail about - Relevance of different time windows - Relevance of ACPA positivity - Relevance of individual DAS28 components for prediction and point to another study from the Netherlands where this was similar (see <a href="https://www.mdpi.com/2075-4426/11/1/44">here</a>, yet to be summarised) - Sociodemographic characteristics - External validation of results - Limitations and strengths of their study</p>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

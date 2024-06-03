@@ -1,39 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://simonsteiger.github.io/kepipedia/blog/sergeant2018/index.html</loc>
-    <lastmod>2024-06-01T08:21:30.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://simonsteiger.github.io/kepipedia/blog/duong2022/index.html</loc>
-    <lastmod>2024-06-01T08:21:30.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://simonsteiger.github.io/kepipedia/blog/index.html</loc>
-    <lastmod>2024-06-01T08:21:30.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://simonsteiger.github.io/kepipedia/blog/myasoedova2021/index.html</loc>
-    <lastmod>2024-06-01T08:21:30.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://simonsteiger.github.io/kepipedia/about.html</loc>
-    <lastmod>2024-06-01T08:21:30.167Z</lastmod>
-  </url>
-  <url>
     <loc>https://simonsteiger.github.io/kepipedia/index.html</loc>
-    <lastmod>2024-06-01T08:21:30.167Z</lastmod>
+    <lastmod>2024-06-03T13:59:45.979Z</lastmod>
   </url>
   <url>
-    <loc>https://simonsteiger.github.io/kepipedia/blog/smolen2020/index.html</loc>
-    <lastmod>2024-06-01T08:21:30.167Z</lastmod>
+    <loc>https://simonsteiger.github.io/kepipedia/content/epidemiology/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
   </url>
   <url>
-    <loc>https://simonsteiger.github.io/kepipedia/blog/castrejon2016/index.html</loc>
-    <lastmod>2024-06-01T08:21:30.167Z</lastmod>
+    <loc>https://simonsteiger.github.io/kepipedia/content/articles/leonidpadyukov2022/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
   </url>
   <url>
-    <loc>https://simonsteiger.github.io/kepipedia/blog/leonidpadyukov2022/index.html</loc>
-    <lastmod>2024-06-01T08:21:30.167Z</lastmod>
+    <loc>https://simonsteiger.github.io/kepipedia/content/articles/duong2022/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/articles/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/articles/myasoedova2021/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/programming/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/statistics/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/statistics/diagnosemcmc/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/statistics/kmeans/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/programming/whyjulia/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/articles/smolen2020/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/articles/castrejon2016/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/articles/salmeen2011/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/articles/sergeant2018/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
+  </url>
+  <url>
+    <loc>https://simonsteiger.github.io/kepipedia/content/epidemiology/cutoffs/index.html</loc>
+    <lastmod>2024-06-03T13:59:45.975Z</lastmod>
   </url>
 </urlset>
