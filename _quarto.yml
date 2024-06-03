@@ -9,11 +9,13 @@ website:
       - text: Home
         href: index.qmd
       - text: Epidemiology
-        href: epidemiology/index.qmd
+        href: content/epidemiology/index.qmd
       - text: Statistics
-        href: statistics/index.qmd
+        href: content/statistics/index.qmd
       - text: Programming
-        href: programming/index.qmd
+        href: content/programming/index.qmd
+      - text: Articles
+        href: content/articles/index.qmd
 
 highlight-style: github
 format:

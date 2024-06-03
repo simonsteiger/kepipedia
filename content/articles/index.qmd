@@ -1,6 +1,6 @@
 ---
-title: "Epidemiology"
-subtitle: "Currently mostly summaries of interesting articles"
+title: "Articles"
+subtitle: "An overview over relevant literature"
 #description: |
 #    This is a preliminary landing page. Hopefully there will be some content here soon!
 listing:
