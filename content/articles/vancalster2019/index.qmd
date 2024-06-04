@@ -1,0 +1,69 @@
+---
+title: Van Calster, McLeronon and Van Smeden et al., 2019.
+date: 2024-06-03
+author: Anton Öberg Sysojev
+categories:
+    - [PREDICTION MODELS]
+    - Calibration
+subtitle: >
+    Calibration: the Achilles heel of predictive analytics
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objectives
+: STRATOS initiative paper, arguing for the relevance and importance of calibration, as a complement to discrimination, in prediction modeling.
+
+Related articles
+: FIX THIS - Prediction of treatment response (Capelusnik & Aletaha, 2021, [Sergeant et al., 2018](../sergeant2018/index.qmd), [Castrejón et al., 2016](../castrejon2016/index.qmd)).
+
+Link
+: DOI: [10.1186/s12916-019-1466-7](https://doi-org.proxy.kib.ki.se/10.1186/s12916-019-1466-7)
+
+:::
+
+## Background
+- Authors argue that, while important, good discrimination is not the sole factor in the quality of a prediction model.
+- They note that a 'worse' model with respect to discrimination (e.g. AUC) may still be preferable if it is providing accurate risk predictions.
+
+## Why does poor calibration occur?
+- Firstly, poorly matching external validation sets may lead to issues in translating risk predictions, with the symptom of poor calibration.
+- In a healthcare context, this may be exemplified by differences in practice between clinics, regions or countries: 'The predictors in the algorithm may explain a part of the heterogeneity, but often differences between predictors will not explain all differences between settings'.
+- Secondly, overfitting is another common cause, noticeable already in internal validation.
+- This may occur by forcing too many predictors into a model, or by relying on extremely flexible models such as neural networks, or decision trees.
+
+## How can it be measured?
+- A hierarchical set of criteria are suggested, as delineated in detail in a previous publication from the authors [Van Calster, Niebor and Vergouwe et al., 2016](https://doi-org.proxy.kib.ki.se/10.1016/j.jclinepi.2015.12.005).
+- Mean or 'calibration-in-the-large' is achieved when the mean predicted risk matches the overall event rate, with too low indicating an underfit model, too high indicating an overfit model.
+- Weak calibration is achieved if, on average, no over- or underestimation of risk occurs while also not giving too extreme risk predictions. 
+- Moderate calibration is achieved if estimated risk predictions accurately match observed proportions, in large (in contrast to mean calibration which is on average).
+- Strong calibration is the optimal goal, and it is achieved when the predicted risk matches the observed proportion 'for every possible combination of predictor values'.
+
+- A pedagogical example of the computation of the above is provided in the Supplementary Material of the paper, and is worth checking out for those interested in implementing these in practice.
+
+## How can poor calibration be mitigated?
+- The authors mention shrinkage strategies to avoid overfitting occurring when the model is too complex for the data (e.g., using ridge or lasso).
+- They also mention 'updating', exemplified by the updating of regression model coefficients through adding calibration intercept and scaling coefficients by the calibration slope.
+
+- In practice, I found both approaches poor in improving calibrations: neither may be possible within a machine learning context, and their effect on calibration may be minor.
+- Instead, I would also like to mention Platt Scaling, Isotonic Regression and Beta Calibration, which can be read about in [TITLE] (LINK).
+
+::: {.callout-warning}
+
+### What should go here?
+- Text!
+
+:::
+
+- And what should go here?
+- Anything here?
+
+::: {.callout-note}
+
+### What about here? Is there anything worth putting here?
+- Text!
+
+:::
+
