@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Simon Steiger">
-<meta name="dcterms.date" content="2024-05-25">
+<meta name="author" content="Anton Öberg Sysojev">
+<meta name="dcterms.date" content="2024-06-03">
 
-<title>KEPipedia - Myasoedova et al., 2021</title>
+<title>KEPipedia - Van Calster, Niebeor and Vergouwe et al., 2016.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,8 +129,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#a-hierarchy-of-risk-calibration" id="toc-a-hierarchy-of-risk-calibration" class="nav-link" data-scroll-target="#a-hierarchy-of-risk-calibration">A hierarchy of risk calibration</a>
+  <ul class="collapse">
+  <li><a href="#mean-calibration" id="toc-mean-calibration" class="nav-link" data-scroll-target="#mean-calibration">Mean calibration</a></li>
+  <li><a href="#weak-calibration" id="toc-weak-calibration" class="nav-link" data-scroll-target="#weak-calibration">Weak calibration</a></li>
+  <li><a href="#moderate-calibration" id="toc-moderate-calibration" class="nav-link" data-scroll-target="#moderate-calibration">Moderate calibration</a></li>
+  <li><a href="#strong-calibration" id="toc-strong-calibration" class="nav-link" data-scroll-target="#strong-calibration">Strong calibration</a></li>
+  </ul></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
@@ -140,14 +145,11 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Myasoedova et al., 2021</h1>
-<p class="subtitle lead"></p><p>Toward Individualized Prediction of Response to Methotrexate in Early Rheumatoid Arthritis: A Pharmacogenomics-Driven Machine Learning Approach</p><p></p>
+<h1 class="title">Van Calster, Niebeor and Vergouwe et al., 2016.</h1>
+<p class="subtitle lead"></p><p>A calibration hierarchy for risk models was defined: from utopia to empirical data</p><p></p>
   <div class="quarto-categories">
-    <div class="quarto-category">Rheumatoid arthritis</div>
-    <div class="quarto-category">Treatment response</div>
     <div class="quarto-category">Prediction</div>
-    <div class="quarto-category">Composites</div>
-    <div class="quarto-category">Genetics</div>
+    <div class="quarto-category">Calibration</div>
   </div>
   </div>
 
@@ -158,14 +160,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Simon Steiger </p>
+             <p>Anton Öberg Sysojev </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 25, 2024</p>
+      <p class="date">June 3, 2024</p>
     </div>
   </div>
   
@@ -188,17 +190,17 @@ At a glance
 </div>
 <div class="callout-body-container callout-body">
 <dl>
-<dt>Objective</dt>
+<dt>Objectives</dt>
 <dd>
-To test the ability of ML approaches with clinical and genomic biomarkers to predict MTX treatment response in patients with early RA.
+Paper by STRATOS initiative-involved researchers, defines a hierarchy of calibration - from weak to strong - and illustrates them with simulations and examples.
 </dd>
 <dt>Related articles</dt>
 <dd>
-For more articles on prediction of MTX treatment response, see Duong et al., 2022, Sergeant et al., 2018, Castrejón et al., 2016.
+Van Calster, McLernon and Van Smeden et al.&nbsp;(2019) [(PubMed)[https://pubmed.ncbi.nlm.nih.gov/31842878/]] [(kepipedia)[../vancalster2016/index.qmd]]; Kull, Filho and Flach (2017) [(GitHub)[https://betacal.github.io/]].
 </dd>
 <dt>Link</dt>
 <dd>
-DOI: <a href="https://doi.org/10.1002/acr.24834">https://doi.org/10.1002/acr.24834</a>
+DOI: <a href="https://doi-org.proxy.kib.ki.se/10.1016/j.jclinepi.2015.12.005">10.1016/j.jclinepi.2015.12.005</a>
 </dd>
 </dl>
 </div>
@@ -206,32 +208,86 @@ DOI: <a href="https://doi.org/10.1002/acr.24834">https://doi.org/10.1002/acr.248
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
 <ul>
-<li>MTX may be the only drug necessary to control RA for some, but in 30-40% there is no response</li>
-<li>50% of patients discontinue MTX within 3-5 years (Aletaha &amp; Smolen, 2002)</li>
-<li>Composite disease activity measures reflect a clinically meaningful target of reaching low disease activity (see Van Gestel et al., 1996, Van Gestel et al., 1998, and Fransen &amp; van Riel, 2005)</li>
+<li>Having a well-calibrated model (i.e., a model that provides accurate probabilities of risk) is an often overlooked aspect of prediction modeling.</li>
+<li>Nevertheless, it is rarely emphasized in practice, rarely investigated, and rarely elaborated upon.</li>
+<li>In this paper, the authors streamline definitions, as well as the numerical assessment of, levels of calibration.</li>
 </ul>
 </section>
-<section id="methods" class="level2">
-<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<section id="a-hierarchy-of-risk-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="a-hierarchy-of-risk-calibration">A hierarchy of risk calibration</h2>
+<section id="mean-calibration" class="level3">
+<h3 class="anchored" data-anchor-id="mean-calibration">Mean calibration</h3>
 <ul>
-<li>Demographic, clinical and genomic data of 643 european-ancestry patients with early RA</li>
-<li>Response to MTX was defined as good or moderate by the EULAR response criteria at the 3-month follow-up</li>
-<li>Random forests were trained and prediction performance was evaluated with AUC</li>
+<li>The first level concerns mean calibration, or ‘calibration-in-the-large’, which simply compares the average predicted risk with the observed event rate.</li>
+<li>While simple, it is insufficient as the sole criterion.</li>
 </ul>
 </section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
+<section id="weak-calibration" class="level3">
+<h3 class="anchored" data-anchor-id="weak-calibration">Weak calibration</h3>
 <ul>
-<li>In-sample AUC 0.84, out-of-sample prediction accuracy 76% (with p values for both, lol?)</li>
-<li>Intergenic SNPs had variable importance above 60 (whatever that means), and among with <strong>baseline DAS28</strong> were the top predictors of MTX response</li>
+<li>The second level concerns weak calibration, which is indicative of there being no overfitting or underfitting, nor any systematic over- or underestimation of predicted risks.</li>
+<li>It can be assessed by computing the calibration intercept and the calibration slope, where the former should be close to zero, the latter close to one.</li>
+<li>More specifically, the calibration intercept is, for a binary outcome vector Y and predicted risk estimates P, obtained by a logistic regression Y ~ I(P) where I(P) indicates the use of an offset.</li>
+<li>Similarly, the calibration slope is then obtained by a logistic regression Y ~ P.</li>
+<li>Note that this is still assessing calibration in an aggregate level, and weak calibration also suffers from generally being achieved if standard estimation methods are used.</li>
 </ul>
+</section>
+<section id="moderate-calibration" class="level3">
+<h3 class="anchored" data-anchor-id="moderate-calibration">Moderate calibration</h3>
+<ul>
+<li>Common notion of calibration: achieved if, among those with the same predicted risk, the observed event rate equals the predicted risk.</li>
+<li>If we again suppose a binary outcome vector Y and predicted risk estimates P, then we can assess this by fitting (and subsequently plotting) Y ~ f(P), where f is a smoothing function (loess/spline).</li>
+<li>One may also bin the estimated risk predictions (e.g., splitting [0, 1] into pieces of ten, each estimated risk prediction belonging to one bin), and assess moderate calibration in each bin.</li>
+</ul>
+</section>
+<section id="strong-calibration" class="level3">
+<h3 class="anchored" data-anchor-id="strong-calibration">Strong calibration</h3>
+<ul>
+<li>For strong calibration, we require predicted risk to match observed event rates <em>for each and every covariate pattern</em>.</li>
+<li>The authors note that this is generally infeasible in any realistic setting, and therefore mention it as a utopic goal to aim for.</li>
+</ul>
+</section>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <ul>
-<li>Pharmacogenomic biomarkers combined with baseline DAS28 can be useful in predicting response to MTX in patients with early RA</li>
-<li>ML is promising in this area, potentially able to predict timely escalation of treatment strategies in early RA</li>
+<li>While strong calibration is the optimal goal, moderate calibration is the realistic goal which we ought to achieve in our model development.</li>
+<li>As final recommendations they suggest graphically assessing models for moderate calibration, and providing the summary statistics for weak calibration.</li>
 </ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What should go here?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Text!</li>
+</ul>
+</div>
+</div>
+<ul>
+<li>And what should go here?</li>
+<li>Anything here?</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What about here? Is there anything worth putting here?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Text!</li>
+</ul>
+</div>
+</div>
 
 
 </section>

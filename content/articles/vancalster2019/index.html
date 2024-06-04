@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Simon Steiger">
-<meta name="dcterms.date" content="2024-05-25">
+<meta name="author" content="Anton Öberg Sysojev">
+<meta name="dcterms.date" content="2024-06-03">
 
-<title>KEPipedia - Myasoedova et al., 2021</title>
+<title>KEPipedia - Van Calster, McLeronon and Van Smeden et al., 2019.</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,9 +129,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#why-does-poor-calibration-occur" id="toc-why-does-poor-calibration-occur" class="nav-link" data-scroll-target="#why-does-poor-calibration-occur">Why does poor calibration occur?</a></li>
+  <li><a href="#how-can-it-be-measured" id="toc-how-can-it-be-measured" class="nav-link" data-scroll-target="#how-can-it-be-measured">How can it be measured?</a></li>
+  <li><a href="#how-can-poor-calibration-be-mitigated" id="toc-how-can-poor-calibration-be-mitigated" class="nav-link" data-scroll-target="#how-can-poor-calibration-be-mitigated">How can poor calibration be mitigated?</a></li>
   </ul>
 </nav>
     </div>
@@ -140,14 +140,11 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Myasoedova et al., 2021</h1>
-<p class="subtitle lead"></p><p>Toward Individualized Prediction of Response to Methotrexate in Early Rheumatoid Arthritis: A Pharmacogenomics-Driven Machine Learning Approach</p><p></p>
+<h1 class="title">Van Calster, McLeronon and Van Smeden et al., 2019.</h1>
+<p class="subtitle lead"></p><p>Calibration: the Achilles heel of predictive analytics</p><p></p>
   <div class="quarto-categories">
-    <div class="quarto-category">Rheumatoid arthritis</div>
-    <div class="quarto-category">Treatment response</div>
     <div class="quarto-category">Prediction</div>
-    <div class="quarto-category">Composites</div>
-    <div class="quarto-category">Genetics</div>
+    <div class="quarto-category">Calibration</div>
   </div>
   </div>
 
@@ -158,14 +155,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Simon Steiger </p>
+             <p>Anton Öberg Sysojev </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 25, 2024</p>
+      <p class="date">June 3, 2024</p>
     </div>
   </div>
   
@@ -188,17 +185,17 @@ At a glance
 </div>
 <div class="callout-body-container callout-body">
 <dl>
-<dt>Objective</dt>
+<dt>Objectives</dt>
 <dd>
-To test the ability of ML approaches with clinical and genomic biomarkers to predict MTX treatment response in patients with early RA.
+STRATOS initiative paper, arguing for the relevance and importance of calibration, as a complement to discrimination, in prediction modeling.
 </dd>
 <dt>Related articles</dt>
 <dd>
-For more articles on prediction of MTX treatment response, see Duong et al., 2022, Sergeant et al., 2018, Castrejón et al., 2016.
+Van Calster, Niebor and Vergouwe et al.&nbsp;(2016) [(PubMed)[https://pubmed.ncbi.nlm.nih.gov/26772608/]] [(kepipedia)[../vancalster2019/index.qmd]]; Kull, Filho and Flach (2017) [(GitHub)[https://betacal.github.io/]].
 </dd>
 <dt>Link</dt>
 <dd>
-DOI: <a href="https://doi.org/10.1002/acr.24834">https://doi.org/10.1002/acr.24834</a>
+DOI: <a href="https://doi-org.proxy.kib.ki.se/10.1186/s12916-019-1466-7">10.1186/s12916-019-1466-7</a>
 </dd>
 </dl>
 </div>
@@ -206,32 +203,72 @@ DOI: <a href="https://doi.org/10.1002/acr.24834">https://doi.org/10.1002/acr.248
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
 <ul>
-<li>MTX may be the only drug necessary to control RA for some, but in 30-40% there is no response</li>
-<li>50% of patients discontinue MTX within 3-5 years (Aletaha &amp; Smolen, 2002)</li>
-<li>Composite disease activity measures reflect a clinically meaningful target of reaching low disease activity (see Van Gestel et al., 1996, Van Gestel et al., 1998, and Fransen &amp; van Riel, 2005)</li>
+<li>Authors argue that, while important, good discrimination is not the sole factor in the quality of a prediction model.</li>
+<li>They note that a ‘worse’ model with respect to discrimination (e.g.&nbsp;AUC) may still be preferable if it is providing accurate risk predictions.</li>
 </ul>
 </section>
-<section id="methods" class="level2">
-<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<section id="why-does-poor-calibration-occur" class="level2">
+<h2 class="anchored" data-anchor-id="why-does-poor-calibration-occur">Why does poor calibration occur?</h2>
 <ul>
-<li>Demographic, clinical and genomic data of 643 european-ancestry patients with early RA</li>
-<li>Response to MTX was defined as good or moderate by the EULAR response criteria at the 3-month follow-up</li>
-<li>Random forests were trained and prediction performance was evaluated with AUC</li>
+<li>Firstly, poorly matching external validation sets may lead to issues in translating risk predictions, with the symptom of poor calibration.</li>
+<li>In a healthcare context, this may be exemplified by differences in practice between clinics, regions or countries: ‘The predictors in the algorithm may explain a part of the heterogeneity, but often differences between predictors will not explain all differences between settings’.</li>
+<li>Secondly, overfitting is another common cause, noticeable already in internal validation.</li>
+<li>This may occur by forcing too many predictors into a model, or by relying on extremely flexible models such as neural networks, or decision trees.</li>
 </ul>
 </section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
+<section id="how-can-it-be-measured" class="level2">
+<h2 class="anchored" data-anchor-id="how-can-it-be-measured">How can it be measured?</h2>
 <ul>
-<li>In-sample AUC 0.84, out-of-sample prediction accuracy 76% (with p values for both, lol?)</li>
-<li>Intergenic SNPs had variable importance above 60 (whatever that means), and among with <strong>baseline DAS28</strong> were the top predictors of MTX response</li>
+<li><p>A hierarchical set of criteria are suggested, as delineated in detail in a previous publication from the authors <a href="https://doi-org.proxy.kib.ki.se/10.1016/j.jclinepi.2015.12.005">Van Calster, Niebor and Vergouwe et al., 2016</a>.</p></li>
+<li><p>Mean or ‘calibration-in-the-large’ is achieved when the mean predicted risk matches the overall event rate, with too low indicating an underfit model, too high indicating an overfit model.</p></li>
+<li><p>Weak calibration is achieved if, on average, no over- or underestimation of risk occurs while also not giving too extreme risk predictions.</p></li>
+<li><p>Moderate calibration is achieved if estimated risk predictions accurately match observed proportions, in large (in contrast to mean calibration which is on average).</p></li>
+<li><p>Strong calibration is the optimal goal, and it is achieved when the predicted risk matches the observed proportion ‘for every possible combination of predictor values’.</p></li>
+<li><p>A pedagogical example of the computation of the above is provided in the Supplementary Material of the paper, and is worth checking out for those interested in implementing these in practice.</p></li>
 </ul>
 </section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<section id="how-can-poor-calibration-be-mitigated" class="level2">
+<h2 class="anchored" data-anchor-id="how-can-poor-calibration-be-mitigated">How can poor calibration be mitigated?</h2>
 <ul>
-<li>Pharmacogenomic biomarkers combined with baseline DAS28 can be useful in predicting response to MTX in patients with early RA</li>
-<li>ML is promising in this area, potentially able to predict timely escalation of treatment strategies in early RA</li>
+<li><p>The authors mention shrinkage strategies to avoid overfitting occurring when the model is too complex for the data (e.g., using ridge or lasso).</p></li>
+<li><p>They also mention ‘updating’, exemplified by the updating of regression model coefficients through adding calibration intercept and scaling coefficients by the calibration slope.</p></li>
+<li><p>In practice, I found both approaches poor in improving calibrations: neither may be possible within a machine learning context, and their effect on calibration may be minor.</p></li>
+<li><p>Instead, I would also like to mention Platt Scaling, Isotonic Regression and Beta Calibration, which can be read about in <a href="https://proceedings.mlr.press/v54/kull17a.html">Kull, Filho and Flach (2017)</a>.</p></li>
 </ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What should go here?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Text!</li>
+</ul>
+</div>
+</div>
+<ul>
+<li>And what should go here?</li>
+<li>Anything here?</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What about here? Is there anything worth putting here?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Text!</li>
+</ul>
+</div>
+</div>
 
 
 </section>
