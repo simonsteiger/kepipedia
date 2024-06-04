@@ -17,7 +17,7 @@ Objectives
 : Paper by STRATOS initiative-involved researchers, defines a hierarchy of calibration - from weak to strong - and illustrates them with simulations and examples.
 
 Related articles
-: FIX THIS - Prediction of treatment response (Capelusnik & Aletaha, 2021, [Sergeant et al., 2018](../sergeant2018/index.qmd), [Castrejón et al., 2016](../castrejon2016/index.qmd)).
+: Van Calster, McLernon and Van Smeden et al. (2019) [(PubMed)[https://pubmed.ncbi.nlm.nih.gov/31842878/]] [(kepipedia)[../vancalster2016/index.qmd]]; Kull, Filho and Flach (2017) [(GitHub)[https://betacal.github.io/]].
 
 Link
 : DOI: [10.1016/j.jclinepi.2015.12.005 ](https://doi-org.proxy.kib.ki.se/10.1016/j.jclinepi.2015.12.005)

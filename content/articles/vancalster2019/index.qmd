@@ -17,7 +17,7 @@ Objectives
 : STRATOS initiative paper, arguing for the relevance and importance of calibration, as a complement to discrimination, in prediction modeling.
 
 Related articles
-: FIX THIS - Prediction of treatment response (Capelusnik & Aletaha, 2021, [Sergeant et al., 2018](../sergeant2018/index.qmd), [Castrejón et al., 2016](../castrejon2016/index.qmd)).
+: Van Calster, Niebor and Vergouwe et al. (2016) [(PubMed)[https://pubmed.ncbi.nlm.nih.gov/26772608/]] [(kepipedia)[../vancalster2019/index.qmd]]; Kull, Filho and Flach (2017) [(GitHub)[https://betacal.github.io/]].
 
 Link
 : DOI: [10.1186/s12916-019-1466-7](https://doi-org.proxy.kib.ki.se/10.1186/s12916-019-1466-7)
