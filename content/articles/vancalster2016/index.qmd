@@ -1,0 +1,73 @@
+---
+title: Van Calster, Niebeor and Vergouwe et al., 2016.
+date: 2024-06-03
+author: Anton Öberg Sysojev
+categories:
+    - Prediction
+    - Calibration
+subtitle: >
+    A calibration hierarchy for risk models was defined: from utopia to empirical data
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objectives
+: Paper by STRATOS initiative-involved researchers, defines a hierarchy of calibration - from weak to strong - and illustrates them with simulations and examples.
+
+Related articles
+: Van Calster, McLernon and Van Smeden et al. (2019) [(PubMed)[https://pubmed.ncbi.nlm.nih.gov/31842878/]] [(kepipedia)[../vancalster2016/index.qmd]]; Kull, Filho and Flach (2017) [(GitHub)[https://betacal.github.io/]].
+
+Link
+: DOI: [10.1016/j.jclinepi.2015.12.005 ](https://doi-org.proxy.kib.ki.se/10.1016/j.jclinepi.2015.12.005)
+
+:::
+
+## Background
+- Having a well-calibrated model (i.e., a model that provides accurate probabilities of risk) is an often overlooked aspect of prediction modeling.
+- Nevertheless, it is rarely emphasized in practice, rarely investigated, and rarely elaborated upon.
+- In this paper, the authors streamline definitions, as well as the numerical assessment of, levels of calibration.
+
+## A hierarchy of risk calibration
+### Mean calibration
+- The first level concerns mean calibration, or 'calibration-in-the-large', which simply compares the average predicted risk with the observed event rate.
+- While simple, it is insufficient as the sole criterion.
+
+### Weak calibration
+- The second level concerns weak calibration, which is indicative of there being no overfitting or underfitting, nor any systematic over- or underestimation of predicted risks.
+- It can be assessed by computing the calibration intercept and the calibration slope, where the former should be close to zero, the latter close to one.
+- More specifically, the calibration intercept is, for a binary outcome vector Y and predicted risk estimates P, obtained by a logistic regression Y ~ I(P) where I(P) indicates the use of an offset.
+- Similarly, the calibration slope is then obtained by a logistic regression Y ~ P.
+- Note that this is still assessing calibration in an aggregate level, and weak calibration also suffers from generally being achieved if standard estimation methods are used.
+
+### Moderate calibration
+- Common notion of calibration: achieved if, among those with the same predicted risk, the observed event rate equals the predicted risk.
+- If we again suppose a binary outcome vector Y and predicted risk estimates P, then we can assess this by fitting (and subsequently plotting) Y ~ f(P), where f is a smoothing function (loess/spline).
+- One may also bin the estimated risk predictions (e.g., splitting [0, 1] into pieces of ten, each estimated risk prediction belonging to one bin), and assess moderate calibration in each bin.
+
+### Strong calibration
+- For strong calibration, we require predicted risk to match observed event rates *for each and every covariate pattern*.
+- The authors note that this is generally infeasible in any realistic setting, and therefore mention it as a utopic goal to aim for.
+
+## Conclusion
+- While strong calibration is the optimal goal, moderate calibration is the realistic goal which we ought to achieve in our model development.
+- As final recommendations they suggest graphically assessing models for moderate calibration, and providing the summary statistics for weak calibration.
+
+::: {.callout-warning}
+
+### What should go here?
+- Text!
+
+:::
+
+- And what should go here?
+- Anything here?
+
+::: {.callout-note}
+
+### What about here? Is there anything worth putting here?
+- Text!
+
+:::
+
