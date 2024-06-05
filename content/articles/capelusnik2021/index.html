@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Simon Steiger">
-<meta name="dcterms.date" content="2024-05-23">
+<meta name="dcterms.date" content="2024-06-05">
 
-<title>KEPipedia - Duong et al., 2022</title>
+<title>KEPipedia - Capelusnik &amp; Aletaha, 2021</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -140,11 +140,10 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Duong et al., 2022</h1>
-<p class="subtitle lead"></p><p>Clinical predictors of response to methotrexate in patients with rheumatoid arthritis: a machine learning approach using clinical trial data</p><p></p>
+<h1 class="title">Capelusnik &amp; Aletaha, 2021</h1>
+<p class="subtitle lead"></p><p>Prediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS)</p><p></p>
   <div class="quarto-categories">
     <div class="quarto-category">Rheumatoid arthritis</div>
-    <div class="quarto-category">Treatment response</div>
     <div class="quarto-category">Prediction</div>
     <div class="quarto-category">Composites</div>
   </div>
@@ -164,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 23, 2024</p>
+      <p class="date">June 5, 2024</p>
     </div>
   </div>
   
@@ -187,52 +186,43 @@ At a glance
 </div>
 <div class="callout-body-container callout-body">
 <dl>
-<dt>Objectives</dt>
+<dt>Objective</dt>
 <dd>
-To identify clinical predictors of response to MTX in patients with RA using ML methods.
+To perform a comprehensive analysis of predictors of achieving disease activity outcomes by change, response and state measures.
 </dd>
 <dt>Related articles</dt>
 <dd>
-Other articles predicting MTX treatment response are <a href="../../../content/articles/sergeant2018/index.html">Sergeant et al., 2018</a>, <a href="../../../content/articles/castrejon2016/index.html">Castrejón et al., 2016</a>, <a href="../../../content/articles/myasoedova2021/index.html">Myasoedova et al., 2021</a>.
+Capelusnik and Aletaha do not specifically look at MTX treatment response, but articles relating to said topic are probably still interesting, so see <a href="../../../content/articles/duong2022/index.html">Duong et al., 2022</a>, <a href="../../../content/articles/myasoedova2021/index.html">Myasoedova et al., 2021</a>, <a href="../../../content/articles/sergeant2018/index.html">Sergeant et al., 2018</a>, <a href="../../../content/articles/castrejon2016/index.html">Castrejón et al., 2016</a>.
 </dd>
 <dt>Link</dt>
 <dd>
-DOI: <a href="https://doi.org/10.1186/s13075-022-02851-5">https://doi.org/10.1186/s13075-022-02851-5</a>
+DOI: <a href="https://doi.org/10.1136/annrheumdis-2021-220853">https://doi.org/10.1136/annrheumdis-2021-220853</a>
 </dd>
 </dl>
 </div>
 </div>
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
-<ul>
-<li>MTX is the popular first-line DMARD treatment in RA</li>
-<li>There are no clinically useful tools to predict response to MTX treatment in patients with RA</li>
-</ul>
 </section>
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
 <ul>
-<li>DMARD-naïve patients with RA from RCTs were accessed through a database</li>
-<li>Required <strong>DAS28-ESR</strong> at baseline and 12 and 24 weeks</li>
-<li><a href="https://en.wikipedia.org/wiki/Latent_class_model">Latent class modelling</a> of MTX response</li>
-<li><a href="https://en.wikipedia.org/wiki/Lasso_(statistics)">Lasso</a> and <a href="https://en.wikipedia.org/wiki/Random_forest">random forests</a> were used to identify predictors of response</li>
-<li>Model performance was assessed using <a href="https://en.wikipedia.org/wiki/Receiver_operating_characteristic">AUC</a></li>
+<li>Data from three RA trials (one main analysis, two for validation)</li>
+<li>Analyse effect of patient and disease characteristics (<strong>host vs disease</strong>) measured by composite indices (remission or low disease activity as defined by SDAI, and change on a continuous scale)</li>
 </ul>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
 <ul>
-<li>775 patients from 4 RCTs were included</li>
-<li>Two classes of patients were identified based on DAS28-ESR <strong>change</strong> over 24 weeks: good vs poor responders</li>
-<li>Top predictors were baseline DAS28, ACPA, HAQ – highest likelihood of response in DAS28 &lt; 7.4, ACPA positive, HAQ &lt; 2</li>
-<li>Isn’t this a bit of a no brainer? If you’re doing better at the start, you’re more likely to achieve a certain low threshold after a short amount of time? See also Capelusnik &amp; Aletaha, 2021.</li>
-</ul>
-</section>
-<section id="conclusions" class="level2">
-<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<li>Lower disease activity at baseline was associated with state outcome (remission / low disease activity), see also <a href="../../../content/articles/duong2022/index.html">Duong et al., 2022</a></li>
+<li>High baseline values were associated with change outcomes (large SDAI absolute change)</li>
+<li>Multivariate (TODO: check if they mean <em>multivariable</em>) analysis identified predictors of <strong>state outcomes</strong>:
 <ul>
-<li>Developed and externally validated a prediction model for response to MTX within 24 weeks in DMARD-naïve patients with RA</li>
-<li>One of the first studies to use ML methods to identify latent trajectories of DAS28-ESR over 24 weeks</li>
+<li>short disease duration</li>
+<li>male sex</li>
+<li>lower disease activity</li>
+</ul></li>
+<li>No significant predictors were found for the prediction of response except for CRP, where higher levels at baseline were associated with better responses (TODO: how was response defined?)</li>
 </ul>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -240,30 +230,22 @@ DOI: <a href="https://doi.org/10.1186/s13075-022-02851-5">https://doi.org/10.118
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Heterogeneous responses to MTX unaccounted for in treatment guidelines
+Correlated intercepts and slopes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The vast heterogeneity in response to MTX among individual patients with RA is <strong>insufficiently addressed in the current treatment guidelines</strong>, and systematic patient-tailored tools to personalize early RA management are lacking (for more information on treatment guidelines, see Smolen et al., 2020, Fraenkel et al., 2021).</p>
+<p>It is not surprising that people with higher disease activity at baseline show higher absolute change at follow up, while those with lower disease activity show higher rates of remission at follow up.</p>
+<p>I wonder what these regression coefficients would look like if one would specifically <a href="https://www.youtube.com/watch?v=Es44-Bp1aKo">model the intercept-slope interaction</a>.</p>
 </div>
 </div>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
 <ul>
-<li>Lower baseline disease activity and better functional status are predictive of good responders to MTX is in line with previous studies ([[Capelusnik &amp; Aletaha, 2021]], [[Sergeant et al., 2018]], [[Castrejón et al., 2016]])</li>
-<li>Authors claim that people below certain cutoffs (see [[#Results]]) have an 80% probability of responding to MTX treatment, but it is unclear to me how much uncertainty there is on an individual level – after all, this prediction should only matter on an individual level</li>
+<li>Prediction of treatment success is limited in RA</li>
+<li>Particularly in early RA, prediction of state targets can be achieved by lower baseline levels of disease activity (not surprising, I think, see above)</li>
+<li>Sex and disease duration may improve predictability of state targets</li>
 </ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-More discussion
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The authors go into further detail about - Relevance of different time windows - Relevance of ACPA positivity - Relevance of individual DAS28 components for prediction and point to another study from the Netherlands where this was similar (see <a href="https://www.mdpi.com/2075-4426/11/1/44">here</a>, yet to be summarised) - Sociodemographic characteristics - External validation of results - Limitations and strengths of their study</p>
-</div>
-</div>
 
 
 </section>

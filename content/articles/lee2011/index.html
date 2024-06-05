@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Simon Steiger">
-<meta name="dcterms.date" content="2024-05-23">
+<meta name="dcterms.date" content="2024-06-05">
 
-<title>KEPipedia - Duong et al., 2022</title>
+<title>KEPipedia - Lee et al., 2011</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
-  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -140,13 +140,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Duong et al., 2022</h1>
-<p class="subtitle lead"></p><p>Clinical predictors of response to methotrexate in patients with rheumatoid arthritis: a machine learning approach using clinical trial data</p><p></p>
+<h1 class="title">Lee et al., 2011</h1>
+<p class="subtitle lead"></p><p>Pain persists in DAS28 rheumatoid arthritis remission but not in ACR/EULAR remission: a longitudinal observational study</p><p></p>
   <div class="quarto-categories">
     <div class="quarto-category">Rheumatoid arthritis</div>
-    <div class="quarto-category">Treatment response</div>
     <div class="quarto-category">Prediction</div>
     <div class="quarto-category">Composites</div>
+    <div class="quarto-category">Validity</div>
   </div>
   </div>
 
@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 23, 2024</p>
+      <p class="date">June 5, 2024</p>
     </div>
   </div>
   
@@ -187,17 +187,17 @@ At a glance
 </div>
 <div class="callout-body-container callout-body">
 <dl>
-<dt>Objectives</dt>
+<dt>Objective</dt>
 <dd>
-To identify clinical predictors of response to MTX in patients with RA using ML methods.
+To understand the degree to which pain persists in patients with DAS28CRP remission.
 </dd>
 <dt>Related articles</dt>
 <dd>
-Other articles predicting MTX treatment response are <a href="../../../content/articles/sergeant2018/index.html">Sergeant et al., 2018</a>, <a href="../../../content/articles/castrejon2016/index.html">Castrejón et al., 2016</a>, <a href="../../../content/articles/myasoedova2021/index.html">Myasoedova et al., 2021</a>.
+For other articles casting doubt on the validity of the DAS28, see <a href="../../../content/articles/salmeen2011/index.html">Salmeen et al., 2011</a>.
 </dd>
 <dt>Link</dt>
 <dd>
-DOI: <a href="https://doi.org/10.1186/s13075-022-02851-5">https://doi.org/10.1186/s13075-022-02851-5</a>
+DOI: <a href="https://arthritis-research.biomedcentral.com/articles/10.1186/ar3353">https://arthritis-research.biomedcentral.com/articles/10.1186/ar3353</a>
 </dd>
 </dl>
 </div>
@@ -205,65 +205,31 @@ DOI: <a href="https://doi.org/10.1186/s13075-022-02851-5">https://doi.org/10.118
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
 <ul>
-<li>MTX is the popular first-line DMARD treatment in RA</li>
-<li>There are no clinically useful tools to predict response to MTX treatment in patients with RA</li>
+<li>Cause of pain in patients in remission unknown, but may be inflammation, structural joint damage, and / or non-disease-related factors</li>
 </ul>
 </section>
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
 <ul>
-<li>DMARD-naïve patients with RA from RCTs were accessed through a database</li>
-<li>Required <strong>DAS28-ESR</strong> at baseline and 12 and 24 weeks</li>
-<li><a href="https://en.wikipedia.org/wiki/Latent_class_model">Latent class modelling</a> of MTX response</li>
-<li><a href="https://en.wikipedia.org/wiki/Lasso_(statistics)">Lasso</a> and <a href="https://en.wikipedia.org/wiki/Random_forest">random forests</a> were used to identify predictors of response</li>
-<li>Model performance was assessed using <a href="https://en.wikipedia.org/wiki/Receiver_operating_characteristic">AUC</a></li>
+<li>157 RA patients from the Brigham and Women’s Hospital Rheumatoid Arthritis Sequential Study (BRASS) at baseline and one-year follow up</li>
+<li>Multivariable-adjusted logistic regression onto pain with predictors disease-related predictors (such as MDHAQ function score, disease duration or patient global assessment … why is patient global assessment disease-related?), and others like fatigue, sleep problems</li>
 </ul>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
 <ul>
-<li>775 patients from 4 RCTs were included</li>
-<li>Two classes of patients were identified based on DAS28-ESR <strong>change</strong> over 24 weeks: good vs poor responders</li>
-<li>Top predictors were baseline DAS28, ACPA, HAQ – highest likelihood of response in DAS28 &lt; 7.4, ACPA positive, HAQ &lt; 2</li>
-<li>Isn’t this a bit of a no brainer? If you’re doing better at the start, you’re more likely to achieve a certain low threshold after a short amount of time? See also Capelusnik &amp; Aletaha, 2021.</li>
+<li>Cause of pain in patients in remission is <strong>not likely</strong> inflammation or structural joint damage, because CRP, swollen-joint count, and tender-joint count were not significantly associated with pain</li>
+<li>Function scores and patient global assessment were significantly associated with pain at baseline and one year follow up</li>
 </ul>
 </section>
-<section id="conclusions" class="level2">
-<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <ul>
-<li>Developed and externally validated a prediction model for response to MTX within 24 weeks in DMARD-naïve patients with RA</li>
-<li>One of the first studies to use ML methods to identify latent trajectories of DAS28-ESR over 24 weeks</li>
+<li>Function and patient global assessment are often interpreted as RA-related, but these measures also reflect a wide range of other factors</li>
+<li>For example, fibromyalgia is a non-inflammatory condition that is not associated with joint damage</li>
+<li>RA patients with fibromyalgia have much worse function but only slightly elevated sedimentation rate (inflammation)</li>
+<li>The strong association between baseline fatigue, sleep problems, poor self-efficacy and baseline and one-year pain severity supports the existence of an enhanced, non-inflammatory pain state (more on <a href="https://pubmed.ncbi.nlm.nih.gov/11790996/">pain in fibromyalgia</a>)</li>
 </ul>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Heterogeneous responses to MTX unaccounted for in treatment guidelines
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The vast heterogeneity in response to MTX among individual patients with RA is <strong>insufficiently addressed in the current treatment guidelines</strong>, and systematic patient-tailored tools to personalize early RA management are lacking (for more information on treatment guidelines, see Smolen et al., 2020, Fraenkel et al., 2021).</p>
-</div>
-</div>
-<ul>
-<li>Lower baseline disease activity and better functional status are predictive of good responders to MTX is in line with previous studies ([[Capelusnik &amp; Aletaha, 2021]], [[Sergeant et al., 2018]], [[Castrejón et al., 2016]])</li>
-<li>Authors claim that people below certain cutoffs (see [[#Results]]) have an 80% probability of responding to MTX treatment, but it is unclear to me how much uncertainty there is on an individual level – after all, this prediction should only matter on an individual level</li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-More discussion
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The authors go into further detail about - Relevance of different time windows - Relevance of ACPA positivity - Relevance of individual DAS28 components for prediction and point to another study from the Netherlands where this was similar (see <a href="https://www.mdpi.com/2075-4426/11/1/44">here</a>, yet to be summarised) - Sociodemographic characteristics - External validation of results - Limitations and strengths of their study</p>
-</div>
-</div>
 
 
 </section>
