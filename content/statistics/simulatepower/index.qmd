@@ -76,7 +76,7 @@ Other values which do not change across different batch numbers should also be d
 ```r
 n_metabolites <- 230
 n_per_batch <- 6
-true_prop_relevant <- 0.02 # two percent of all metabolites are relevant (230 * 0.02 = 4.6)
+true_prop_relevant <- 0.02 # two percent of all metabolites are relevant
 ```
 
 Next, we will determine which of the metabolites is a relevant correlate of the target biomarker. To do so, we sample from a Bernoulli distribution with $p=\text{true-prop-relevant}$. We then determine if a given relevant correlate has a positive or negative sign. Once again, we sample from a Bernoulli distribution, but here with $p = 0.5$.
