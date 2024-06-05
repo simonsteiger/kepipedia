@@ -4,7 +4,7 @@ author: Simon Steiger
 date: "2024-06-01"
 categories:
     - MCMC
-    - Bayesian statistics
+    - Bayesian Statistics
     - NUTS
 subtitle: >
     MCMC is your workhorse, so make sure it's healthy
