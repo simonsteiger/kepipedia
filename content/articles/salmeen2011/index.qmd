@@ -6,6 +6,7 @@ categories:
     - Rheumatoid arthritis
     - Remission
     - Composites
+    - Validity
 subtitle: >
     Should imaging be a component of rheumatoid arthritis remission criteria? A comparison between traditional and modified composite remission scores and imaging assessments
 ---
@@ -18,7 +19,7 @@ Objective
 : To test wheter considering ultrasound measurements allow for the definition of stricter remission criteria, which ensure that patients in remission are free of [synovitis](https://en.wikipedia.org/wiki/Synovitis).
 
 Related articles
-: For other articles casting doubt on the validity of the DAS28, see Lee et al., 2011.
+: For other articles casting doubt on the validity of the DAS28, see [Lee et al., 2011](../lee2011/index.qmd).
 
 Link
 : DOI: [https://doi.org/10.1136/ard.2010.134445](https://doi.org/10.1136/ard.2010.134445)

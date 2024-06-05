@@ -1,0 +1,48 @@
+---
+title: Lee et al., 2011
+date: 2024-06-05
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - Prediction
+    - Composites
+    - Validity
+subtitle: >
+    Pain persists in DAS28 rheumatoid arthritis remission but not in ACR/EULAR remission: a longitudinal observational study
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objective
+: To understand the degree to which pain persists in patients with DAS28CRP remission.
+
+Related articles
+: For other articles casting doubt on the validity of the DAS28, see [Salmeen et al., 2011](../salmeen2011/index.qmd).
+
+Link
+: DOI: [https://arthritis-research.biomedcentral.com/articles/10.1186/ar3353](https://arthritis-research.biomedcentral.com/articles/10.1186/ar3353)
+
+:::
+
+## Background
+
+- Cause of pain in patients in remission unknown, but may be inflammation, structural joint damage, and / or non-disease-related factors
+
+## Methods
+
+- 157 RA patients from the Brigham and Women's Hospital Rheumatoid Arthritis Sequential Study (BRASS) at baseline and one-year follow up
+- Multivariable-adjusted logistic regression onto pain with predictors disease-related predictors (such as MDHAQ function score, disease duration or patient global assessment ... why is patient global assessment disease-related?), and others like fatigue, sleep problems
+
+## Results
+
+- Cause of pain in patients in remission is **not likely** inflammation or structural joint damage, because CRP, swollen-joint count, and tender-joint count were not significantly associated with pain
+- Function scores and patient global assessment were significantly associated with pain at baseline and one year follow up
+
+## Conclusion
+
+- Function and patient global assessment are often interpreted as RA-related, but these measures also reflect a wide range of other factors
+- For example, fibromyalgia is a non-inflammatory condition that is not associated with joint damage
+- RA patients with fibromyalgia have much worse function but only slightly elevated sedimentation rate (inflammation)
+- The strong association between baseline fatigue, sleep problems, poor self-efficacy and baseline and one-year pain severity supports the existence of an enhanced, non-inflammatory pain state (more on [pain in fibromyalgia](https://pubmed.ncbi.nlm.nih.gov/11790996/))
