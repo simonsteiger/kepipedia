@@ -87,7 +87,7 @@ Finally, we set the strength of the association and create the "true" vector of 
 
 ### How do we know if it worked?
 
-The goal of our simulation is to recover the "true" vector of regression coefficients $beta$.
+The goal of our simulation is to recover the "true" vector of regression coefficients $\beta$.
 
 If our model finds the signals of the very few relevant correlates among the many irrelevant ones, we have succeeded! 🎉
 
