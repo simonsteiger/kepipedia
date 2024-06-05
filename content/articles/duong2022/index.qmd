@@ -19,7 +19,7 @@ Objectives
 : To identify clinical predictors of response to MTX in patients with RA using ML methods.
 
 Related articles
-: Prediction of treatment response (Capelusnik & Aletaha, 2021, [Sergeant et al., 2018](../sergeant2018/index.qmd), [Castrejón et al., 2016](../castrejon2016/index.qmd)).
+: Other articles predicting MTX treatment response are [Sergeant et al., 2018](../sergeant2018/index.qmd), [Castrejón et al., 2016](../castrejon2016/index.qmd), [Myasoedova et al., 2021](../myasoedova2021/index.qmd).
 
 Link
 : DOI: [https://doi.org/10.1186/s13075-022-02851-5](https://doi.org/10.1186/s13075-022-02851-5)

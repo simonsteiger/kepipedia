@@ -20,7 +20,7 @@ Objective
 : To test the ability of ML approaches with clinical and genomic biomarkers to predict MTX treatment response in patients with early RA.
 
 Related articles
-: For more articles on prediction of MTX treatment response, see Duong et al., 2022, Sergeant et al., 2018, Castrejón et al., 2016.
+: For more articles on prediction of MTX treatment response, see [Duong et al., 2022](../duong2022/index.qmd), [Sergeant et al., 2018](../sergeant2018/index.qmd), [Castrejón et al., 2016](../castrejon2016/index.qmd).
 
 Link
 : DOI: [https://doi.org/10.1002/acr.24834](https://doi.org/10.1002/acr.24834)
