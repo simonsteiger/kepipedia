@@ -1,0 +1,61 @@
+---
+title: Capelusnik & Aletaha, 2021
+date: 2024-06-05
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - Prediction
+    - Composites
+subtitle: >
+    Prediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS)
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objective
+: To perform a comprehensive analysis of predictors of achieving disease activity outcomes by change, response and state measures.
+
+Related articles
+: Capelusnik and Aletaha do not specifically look at MTX treatment response, but articles relating to said topic are probably still interesting, so see [Duong et al., 2022](../duong2022/index.qmd), [Myasoedova et al., 2021](../myasoedova2021/index.qmd), [Sergeant et al., 2018](../sergeant2018/index.qmd), [Castrejón et al., 2016](../castrejon2016/index.qmd).
+
+Link
+: DOI: [https://doi.org/10.1136/annrheumdis-2021-220853](https://doi.org/10.1136/annrheumdis-2021-220853)
+
+:::
+
+## Background
+
+
+
+## Methods
+
+- Data from three RA trials (one main analysis, two for validation)
+- Analyse effect of patient and disease characteristics (**host vs disease**) measured by composite indices (remission or low disease activity as defined by SDAI, and change on a continuous scale)
+
+## Results
+
+- Lower disease activity at baseline was associated with state outcome (remission / low disease activity), see also [Duong et al., 2022](../duong2022/index.qmd)
+- High baseline values were associated with change outcomes (large SDAI absolute change)
+- Multivariate (TODO: check if they mean *multivariable*) analysis identified predictors of **state outcomes**:
+    - short disease duration
+    - male sex
+    - lower disease activity
+- No significant predictors were found for the prediction of response except for CRP, where higher levels at baseline were associated with better responses (TODO: how was response defined?)
+
+::: {.callout-warning}
+
+### Correlated intercepts and slopes
+
+It is not surprising that people with higher disease activity at baseline show higher absolute change at follow up, while those with lower disease activity show higher rates of remission at follow up.
+
+I wonder what these regression coefficients would look like if one would specifically [model the intercept-slope interaction](https://www.youtube.com/watch?v=Es44-Bp1aKo).
+
+:::
+
+## Conclusions
+
+- Prediction of treatment success is limited in RA
+- Particularly in early RA, prediction of state targets can be achieved by lower baseline levels of disease activity (not surprising, I think, see above)
+- Sex and disease duration may improve predictability of state targets
