@@ -79,7 +79,9 @@ n_per_batch <- 6
 true_prop_relevant <- 0.02 # two percent of all metabolites are relevant
 ```
 
-Next, we will determine which of the metabolites is a relevant correlate of the target biomarker. To do so, we sample from a Bernoulli distribution with $p=\text{true-prop-relevant}$. We then determine if a given relevant correlate has a positive or negative sign. Once again, we sample from a Bernoulli distribution, but here with $p = 0.5$.
+Next, we will determine which of the metabolites is a relevant correlate of the target biomarker. 
+To do so, we sample from a Bernoulli distribution with $p=\text{true-prop-relevant}$. 
+We then determine if a given relevant correlate has a positive or negative sign. Once again, we sample from a Bernoulli distribution, but here with $p = 0.5$.
 
 Finally, we set the strength of the association and create the "true" vector of regression coefficients.
 
@@ -117,11 +119,14 @@ We would want to repeat this simulation to really understand whether a given num
 
 ### Signal-to-noise ratio
 
-The difficulty of telling apart signal and noise depends on how "loud" each of them is. I won't hear you scream next to a highway, but certainly at the library!
+The difficulty of telling apart signal and noise depends on how "loud" each of them is. 
+I won't hear you scream next to a highway, but certainly at the library!
 
 I am not working with lab measurements a lot, but would assume that there is less  noise in these than, for example, in the patient-reported outcomes that I typically work with.
 
-In the results shown here, the noise is set to $\frac{1}{3}$ of the signal strength. I have tried setting them to *equal* strength, and in this scenario, five batches no longer detect any signal. With the noise at $\frac{1}{6}$ of the signal strength, we detect the true signal one batch earlier compared to the noise at $\frac{1}{3}$.
+In the results shown here, the noise is set to $\frac{1}{3}$ of the signal strength. 
+I have tried setting them to *equal* strength, and in this scenario, five batches no longer detect any signal. 
+With the noise at $\frac{1}{6}$ of the signal strength, we detect the true signal one batch earlier compared to the noise at $\frac{1}{3}$.
 
 :::
 
