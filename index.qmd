@@ -1,7 +1,7 @@
 ---
 title: "Welcome to the inofficial KEP Wiki"
-subtitle: "Opinions here are not those of KEP, of course!"
-toc: false
+subtitle: ""
+toc: true
 title-block-banner: true
 listing:
 - id: epidemiology
@@ -53,6 +53,14 @@ listing:
   max-items: 6
   image-height: "200"
 ---
+
+::: {.callout-important style="margin-bottom:3.5rem;"}
+
+### Disclaimer
+
+Any opinions expressed here are those of the respective authors and do not represent the views of the Division of Clinical Epidemiology nor those of Karolinska Institutet.
+
+:::
 
 
 ## Epidemiology

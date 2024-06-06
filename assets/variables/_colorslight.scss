@@ -7,10 +7,14 @@ $medium-grey: #CCD1D5;
 
 $color-primary: $dark-plum;
 $color-secondary: $light-orange;
+$color-highlight: $orange;
+
+$color-hover-highlight: darken($color-highlight, 7%);
+$color-hover-secondary: lighten($color-secondary, 2%);
 
 $color-fg: black;
 
 $light-bg: white;
-$light-bg-offset: $light-orange;
+$light-bg-offset: $color-secondary;
 
-$box-shadow-color: #0000008b;
+$box-shadow-color: #0000009a;

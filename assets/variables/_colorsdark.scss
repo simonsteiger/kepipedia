@@ -1,0 +1,20 @@
+$dark-plum: #4F0433;
+$orange: #FF876F;
+$light-orange: darken(#FEEEEB, 5%); // the actual KI color is a little light for many potential use cases
+$light-blue: darken(#EDF4F4, 5%);
+$logo-plum: #870052;
+$medium-grey: #CCD1D5;
+
+$color-primary: $orange;
+$color-secondary: $dark-plum;
+$color-highlight: $light-orange;
+
+$color-hover-highlight: lighten($color-highlight, 7%);
+$color-hover-secondary: darken($color-secondary, 2%);
+
+$color-fg: white;
+
+$light-bg: #201F24;
+$light-bg-offset: $color-secondary;
+
+$box-shadow-color: #000000;
