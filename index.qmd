@@ -1,7 +1,88 @@
 ---
-title: "KEPipedia"
+title: "Welcome to the inofficial KEP Wiki"
+subtitle: "Opinions here are not those of KEP, of course!"
+toc: false
+title-block-banner: true
+listing:
+- id: epidemiology
+  contents:
+    - "epidemiology/*/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 3
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, date, author]
+  max-items: 3
+  image-height: "200"
+- id: statistics
+  contents:
+    - "statistics/*/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 3
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, date, author]
+  max-items: 3
+  image-height: "200"
+- id: programming
+  contents:
+    - "programming/*/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 3
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, date, author]
+  max-items: 3
+  image-height: "200"
+- id: articles
+  contents:
+    - "articles/*/index.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 3
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, date, author]
+  max-items: 6
+  image-height: "200"
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Epidemiology
+
+::: {#epidemiology}
+
+:::
+
+[See all &rarr;](content/epidemiology){.about-links .subtitle}
+
+## Statistics
+
+::: {#statistics}
+
+:::
+
+[See all &rarr;](content/statistics){.about-links .subtitle}
+
+## Programming
+
+::: {#programming}
+
+:::
+
+[See all &rarr;](content/programming){.about-links .subtitle}
+
+## Articles
+
+::: {#articles}
+
+:::
+
+[See all &rarr;](content/articles){.about-links .subtitle}
