@@ -221,8 +221,8 @@ window.Quarto = {
 <p class="subtitle lead"></p><p>Estimating the number of samples required to detect relevant predictors among large numbers of irrelevant predictors.</p><p></p>
   <div class="quarto-categories">
     <div class="quarto-category">Simulation</div>
-    <div class="quarto-category">Bayesian Statistics</div>
-    <div class="quarto-category">Power Analysis</div>
+    <div class="quarto-category">Bayesian statistics</div>
+    <div class="quarto-category">Power analysis</div>
     <div class="quarto-category">Sparsity</div>
     <div class="quarto-category">R</div>
     <div class="quarto-category">Stan</div>
@@ -322,7 +322,7 @@ How do we know if it worked?
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Determine if a metabolite is a relevant predictor</span></span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>is_relevant <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(n_metabolites, <span class="dv">1</span>, true_prop_relevant)</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Determine if a metabolite positively correlates with KYNA _if_ it is relevant</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Determine if a metabolite positively correlates with target _if_ it is relevant</span></span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>is_positive <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(n_metabolites, <span class="dv">1</span>, <span class="fl">0.5</span>)</span>
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Set strength of association (the "signal")</span></span>
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>signal <span class="ot">&lt;-</span> <span class="dv">3</span></span>
@@ -405,11 +405,11 @@ Loop
 <h1>Modeling</h1>
 <p>All that’s left is to wrap everything in a data frame, define the model formula and priors, and hit run! 🔥</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Store everything in a data.frame</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">y =</span> y, <span class="at">KYNA_t0 =</span> KYNA_t0, <span class="at">group_index =</span> group_index)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">y =</span> y, <span class="at">y_t0 =</span> y_t0, <span class="at">group_index =</span> group_index)</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>data<span class="sc">$</span>X <span class="ot">&lt;-</span> X</span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the formula</span></span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>formul <span class="ot">&lt;-</span> <span class="fu">bf</span>(y <span class="sc">~</span> <span class="dv">1</span> <span class="sc">+</span> KYNA_t0 <span class="sc">+</span> X <span class="sc">+</span> (<span class="dv">1</span> <span class="sc">|</span> group_index))</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>formul <span class="ot">&lt;-</span> <span class="fu">bf</span>(y <span class="sc">~</span> <span class="dv">1</span> <span class="sc">+</span> y_t0 <span class="sc">+</span> X <span class="sc">+</span> (<span class="dv">1</span> <span class="sc">|</span> group_index))</span>
 <span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the priors</span></span>
 <span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>priors <span class="ot">&lt;-</span> <span class="fu">prior</span>(<span class="fu">horseshoe</span>(<span class="at">par_ratio =</span> true_prop_relevant), <span class="at">class =</span> <span class="st">"b"</span>)</span>
 <span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
