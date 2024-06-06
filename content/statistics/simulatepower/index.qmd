@@ -102,7 +102,7 @@ If our model finds the signals of the very few relevant correlates among the man
 set.seed(42)
 # Determine if a metabolite is a relevant predictor
 is_relevant <- rbinom(n_metabolites, 1, true_prop_relevant)
-# Determine if a metabolite positively correlates with KYNA _if_ it is relevant
+# Determine if a metabolite positively correlates with target _if_ it is relevant
 is_positive <- rbinom(n_metabolites, 1, 0.5)
 # Set strength of association (the "signal")
 signal <- 3
@@ -204,11 +204,11 @@ All that's left is to wrap everything in a data frame, define the model formula 
 
 ```r
 # Store everything in a data.frame
-data <- data.frame(y = y, KYNA_t0 = KYNA_t0, group_index = group_index)
+data <- data.frame(y = y, y_t0 = y_t0, group_index = group_index)
 data$X <- X
 
 # Define the formula
-formul <- bf(y ~ 1 + KYNA_t0 + X + (1 | group_index))
+formul <- bf(y ~ 1 + y_t0 + X + (1 | group_index))
 # Define the priors
 priors <- prior(horseshoe(par_ratio = true_prop_relevant), class = "b")
 

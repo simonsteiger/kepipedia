@@ -20,6 +20,7 @@ website:
 highlight-style: github
 format:
   html:
+    monofont: "Fira Code"
     theme: 
       light: [flatly, assets/light.scss]
       dark: [darkly, assets/dark.scss]

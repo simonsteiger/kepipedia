@@ -1,13 +1,14 @@
 // mixin to customise listing and quarto category classes
-@mixin custom-category($bg, $highlight) {
+@mixin custom-category($bg, $highlight, $border-width: 1px) {
     color: $text-muted !important;
     background-color: $bg !important;
-    border: solid $highlight 1px !important;
+    border: solid $highlight $border-width !important;
     opacity: 0.8 !important;
 
     // add a hover effect
     &:hover {
         background-color: lighten($bg, 2%) !important;
+        border: solid darken($highlight, 5%) $border-width !important;
         color: $highlight !important;
     }
 }

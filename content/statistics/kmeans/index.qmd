@@ -126,7 +126,7 @@ I've already mentioned the second condition, which is that there is no change in
 Finally, the algorithm should stop once it has reached the maximum number of iterations (`itr < max`).
 
 ```julia
-notconverged(ctr, itr, max) = (itr < 2 || ctr[itr] ≠ ctr[itr-1]) && itr < max;
+notconverged(ctr, itr, max) = (itr < 2 || ctr[itr] != ctr[itr-1]) && itr < max;
 ```
 
 Looking at the boolean algebra connecting these three conditions in the function above, we see that the algorithm will stop, i.e., `notconverged()` will return `false`, when *both* condition 1 and 2 evaluate to `false`, *or* when condition 3 evaluates to `false`.
