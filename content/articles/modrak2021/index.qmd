@@ -1,0 +1,47 @@
+---
+title: Modrák et al., 2021
+date: 2024-06-10
+author: Simon Steiger
+categories:
+    - COVID-19
+    - Trajectory
+    - Hidden Markov models
+subtitle: >
+    Disease progression of 213 patients hospitalized with COVID-19 in the Czech Republic in March-October 2020: An exploratory analysis
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objective
+: To explore associations between COVID-19 treatments and patient outcomes.
+
+Related articles
+: Currently none. This article may be related to other articles modeling disease trajectories over time.
+
+DOI
+: DOI: [https://doi.org/10.1371/journal.pone.0245103](https://doi.org/10.1371/journal.pone.0245103)
+
+:::
+
+## Background
+
+- Lack of knowledge about effective treatments for COVID-19
+- Existing methods for predicting COVID-19 severity are at high risk of bias
+
+## Methods
+
+- Convenience sample from 10 sites
+- Data were available on daily resolution
+- Multiverse analysis, which reports and compare different models to capture uncertainty about different models and its impact on the conclusions
+- Among the models run is a Bayesian HMM using rates, restricted transitions, and terminal states implemented in `brms` with some added special sauce (for more detail, see the [GitHub repo](https://github.com/cas-bioinf/covid19retrospective) and a [post on the Stan discourse](https://discourse.mc-stan.org/t/fitting-hmms-with-time-varying-transition-matrices-using-brms-a-prototype/19645))
+
+## Results
+
+- Mostly inconclusive results
+- Adjusted models suggest that effect of some candidate treatments is spurious
+
+## Conclusion
+
+- Other studies on the analyzed treatments likely overestimated their effectiveness
