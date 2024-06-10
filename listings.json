@@ -22,9 +22,9 @@
     ]
   },
   {
-    "listing": "/content/epidemiology/index.html",
+    "listing": "/content/programming/index.html",
     "items": [
-      "/content/epidemiology/cutoffs/index.html"
+      "/content/programming/whyjulia/index.html"
     ]
   },
   {
@@ -33,12 +33,6 @@
       "/content/statistics/simulatepower/index.html",
       "/content/statistics/diagnosemcmc/index.html",
       "/content/statistics/kmeans/index.html"
-    ]
-  },
-  {
-    "listing": "/content/programming/index.html",
-    "items": [
-      "/content/programming/whyjulia/index.html"
     ]
   },
   {
@@ -56,6 +50,12 @@
       "/content/articles/smolen2020/index.html",
       "/content/articles/myasoedova2021/index.html",
       "/content/articles/duong2022/index.html"
+    ]
+  },
+  {
+    "listing": "/content/epidemiology/index.html",
+    "items": [
+      "/content/epidemiology/cutoffs/index.html"
     ]
   }
 ]
