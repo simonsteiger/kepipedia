@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Welcome to the inofficial KEP Wiki",
     "section": "",
-    "text": "Simon Steiger\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
+    "text": "Disclaimer\n\n\n\nAny opinions expressed here are those of the respective authors and do not represent the views of the Division of Clinical Epidemiology nor those of Karolinska Institutet."
   },
   {
     "objectID": "index.html#epidemiology",
     "href": "index.html#epidemiology",
     "title": "Welcome to the inofficial KEP Wiki",
-    "section": "",
-    "text": "Simon Steiger\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
+    "section": "Epidemiology",
+    "text": "Epidemiology\n\n\n\n\n\n\n\nCutoffs used it Rheumatology\n\n\n\nSimon Steiger\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
   },
   {
     "objectID": "index.html#statistics",
@@ -32,7 +32,7 @@
     "href": "index.html#articles",
     "title": "Welcome to the inofficial KEP Wiki",
     "section": "Articles",
-    "text": "Articles\n\n\n\n\n\n\n\nCapelusnik & Aletaha, 2021\n\n\n\nSimon Steiger\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\n\n\n\nLee et al., 2011\n\n\n\nSimon Steiger\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\n\n\n\nSalmeen et al., 2011\n\n\n\nSimon Steiger\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\n\n\n\nVan Calster, Niebeor and Vergouwe et al., 2016.\n\n\n\nAnton Öberg Sysojev\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\n\n\n\nVan Calster, McLeronon and Van Smeden et al., 2019.\n\n\n\nAnton Öberg Sysojev\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\n\n\n\nCastrejón et al., 2018\n\n\n\nSimon Steiger\n\n\nMay 31, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
+    "text": "Articles\n\n\n\n\n\n\n\nModrák et al., 2021\n\n\n\nSimon Steiger\n\n\nJun 10, 2024\n\n\n\n\n\n\n\n\n\n\n\nCapelusnik & Aletaha, 2021\n\n\n\nSimon Steiger\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\n\n\n\nLee et al., 2011\n\n\n\nSimon Steiger\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\n\n\n\nSalmeen et al., 2011\n\n\n\nSimon Steiger\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\n\n\n\nVan Calster, Niebeor and Vergouwe et al., 2016.\n\n\n\nAnton Öberg Sysojev\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\n\n\n\nVan Calster, McLeronon and Van Smeden et al., 2019.\n\n\n\nAnton Öberg Sysojev\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
   },
   {
     "objectID": "content/epidemiology/index.html",
@@ -42,158 +42,298 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nCutoffs used it Rheumatology\n\n\nThe use of composite scores is wide-spread and cutoffs play an essential role in classifying the disease activity of patients \n\n\n\nRheumatoid arthritis\n\n\nPsoriatric arthritis\n\n\nSpondyloarthritis\n\n\nComposites\n\n\n\n\n\n\nJun 3, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/articles/sergeant2018/index.html",
-    "href": "content/articles/sergeant2018/index.html",
-    "title": "Sergeant et al., 2018",
+    "objectID": "content/articles/lee2011/index.html",
+    "href": "content/articles/lee2011/index.html",
+    "title": "Lee et al., 2011",
     "section": "",
-    "text": "At a glance\n\n\n\n\nObjective\n\nTo identify baseline predictors of non-response to MTX and combine these into a prediction algorithm.\n\nRelated articles\n\nFor more articles on prediction of MTX treatment response, see Duong et al., 2022, Myasoedova et al., 2021, Castrejón et al., 2016.\n\nLink\n\nDOI: https://doi.org/10.1186/s13075-018-1645-5"
+    "text": "At a glance\n\n\n\n\nObjective\n\nTo understand the degree to which pain persists in patients with DAS28CRP remission.\n\nRelated articles\n\nFor other articles casting doubt on the validity of the DAS28, see Salmeen et al., 2011.\n\nLink\n\nDOI: https://arthritis-research.biomedcentral.com/articles/10.1186/ar3353"
   },
   {
-    "objectID": "content/articles/sergeant2018/index.html#background",
-    "href": "content/articles/sergeant2018/index.html#background",
-    "title": "Sergeant et al., 2018",
+    "objectID": "content/articles/lee2011/index.html#background",
+    "href": "content/articles/lee2011/index.html#background",
+    "title": "Lee et al., 2011",
     "section": "Background",
-    "text": "Background\n\nMTX is the DMARD of choice in anti-rheumatic treatment\nResponse to MTX varies between patients"
+    "text": "Background\n\nCause of pain in patients in remission unknown, but may be inflammation, structural joint damage, and / or non-disease-related factors"
   },
   {
-    "objectID": "content/articles/sergeant2018/index.html#methods",
-    "href": "content/articles/sergeant2018/index.html#methods",
-    "title": "Sergeant et al., 2018",
+    "objectID": "content/articles/lee2011/index.html#methods",
+    "href": "content/articles/lee2011/index.html#methods",
+    "title": "Lee et al., 2011",
     "section": "Methods",
-    "text": "Methods\n\nParticipants from the UK multi-center prospective observational study RAMS (RA medication study)\nMTX-naïve patients\nNon-response was defined as “no response” after the EULAR response criteria (see also Smolen et al., 2020), discontinuation of MTX due to inefficacy or starting biologic therapy\nTested association of baseline demographic, clinical and psychosocial predictors with non-response using logistic regression\nAUC and calibration plots to assess predictive performance"
+    "text": "Methods\n\n157 RA patients from the Brigham and Women’s Hospital Rheumatoid Arthritis Sequential Study (BRASS) at baseline and one-year follow up\nMultivariable-adjusted logistic regression onto pain with predictors disease-related predictors (such as MDHAQ function score, disease duration or patient global assessment … why is patient global assessment disease-related?), and others like fatigue, sleep problems"
   },
   {
-    "objectID": "content/articles/sergeant2018/index.html#results",
-    "href": "content/articles/sergeant2018/index.html#results",
-    "title": "Sergeant et al., 2018",
+    "objectID": "content/articles/lee2011/index.html#results",
+    "href": "content/articles/lee2011/index.html#results",
+    "title": "Lee et al., 2011",
     "section": "Results",
-    "text": "Results\n\n43% of patients were classified as non-responders\nindependent multivariable predictors of MTX non-response were RF negativity, higher HAQ, higher TJC, lower DAS28 and higher Hospital Anxiety and Depression Scale anxiety score\nOptimism-corrected (huh?) AUC was 0.74"
+    "text": "Results\n\nCause of pain in patients in remission is not likely inflammation or structural joint damage, because CRP, swollen-joint count, and tender-joint count were not significantly associated with pain\nFunction scores and patient global assessment were significantly associated with pain at baseline and one year follow up"
   },
   {
-    "objectID": "content/articles/sergeant2018/index.html#conclusions",
-    "href": "content/articles/sergeant2018/index.html#conclusions",
-    "title": "Sergeant et al., 2018",
-    "section": "Conclusions",
-    "text": "Conclusions\n\nFirst MTX non-response model to be developed in a large cohort where MTX starters where analysed with demographic, clinical and psychosocial predictors\nAnxiety is a predictor of non-response and could be addressed at treatment commencement"
-  },
-  {
-    "objectID": "content/articles/leonidpadyukov2022/index.html",
-    "href": "content/articles/leonidpadyukov2022/index.html",
-    "title": "Padyukov, L., 2022",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjectives\n\n\n\n\nRelated articles :\n\nLink\n\nDOI: [https://doi.org/10.1007/s00281-022-00912-0]"
-  },
-  {
-    "objectID": "content/articles/duong2022/index.html",
-    "href": "content/articles/duong2022/index.html",
-    "title": "Duong et al., 2022",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjectives\n\nTo identify clinical predictors of response to MTX in patients with RA using ML methods.\n\nRelated articles\n\nOther articles predicting MTX treatment response are Sergeant et al., 2018, Castrejón et al., 2016, Myasoedova et al., 2021.\n\nLink\n\nDOI: https://doi.org/10.1186/s13075-022-02851-5"
-  },
-  {
-    "objectID": "content/articles/duong2022/index.html#background",
-    "href": "content/articles/duong2022/index.html#background",
-    "title": "Duong et al., 2022",
-    "section": "Background",
-    "text": "Background\n\nMTX is the popular first-line DMARD treatment in RA\nThere are no clinically useful tools to predict response to MTX treatment in patients with RA"
-  },
-  {
-    "objectID": "content/articles/duong2022/index.html#methods",
-    "href": "content/articles/duong2022/index.html#methods",
-    "title": "Duong et al., 2022",
-    "section": "Methods",
-    "text": "Methods\n\nDMARD-naïve patients with RA from RCTs were accessed through a database\nRequired DAS28-ESR at baseline and 12 and 24 weeks\nLatent class modelling of MTX response\nLasso and random forests were used to identify predictors of response\nModel performance was assessed using AUC"
-  },
-  {
-    "objectID": "content/articles/duong2022/index.html#results",
-    "href": "content/articles/duong2022/index.html#results",
-    "title": "Duong et al., 2022",
-    "section": "Results",
-    "text": "Results\n\n775 patients from 4 RCTs were included\nTwo classes of patients were identified based on DAS28-ESR change over 24 weeks: good vs poor responders\nTop predictors were baseline DAS28, ACPA, HAQ – highest likelihood of response in DAS28 &lt; 7.4, ACPA positive, HAQ &lt; 2\nIsn’t this a bit of a no brainer? If you’re doing better at the start, you’re more likely to achieve a certain low threshold after a short amount of time? See also Capelusnik & Aletaha, 2021."
-  },
-  {
-    "objectID": "content/articles/duong2022/index.html#conclusions",
-    "href": "content/articles/duong2022/index.html#conclusions",
-    "title": "Duong et al., 2022",
-    "section": "Conclusions",
-    "text": "Conclusions\n\nDeveloped and externally validated a prediction model for response to MTX within 24 weeks in DMARD-naïve patients with RA\nOne of the first studies to use ML methods to identify latent trajectories of DAS28-ESR over 24 weeks\n\n\n\n\n\n\n\nHeterogeneous responses to MTX unaccounted for in treatment guidelines\n\n\n\nThe vast heterogeneity in response to MTX among individual patients with RA is insufficiently addressed in the current treatment guidelines, and systematic patient-tailored tools to personalize early RA management are lacking (for more information on treatment guidelines, see Smolen et al., 2020, Fraenkel et al., 2021).\n\n\n\nLower baseline disease activity and better functional status are predictive of good responders to MTX is in line with previous studies ([[Capelusnik & Aletaha, 2021]], [[Sergeant et al., 2018]], [[Castrejón et al., 2016]])\nAuthors claim that people below certain cutoffs (see [[#Results]]) have an 80% probability of responding to MTX treatment, but it is unclear to me how much uncertainty there is on an individual level – after all, this prediction should only matter on an individual level\n\n\n\n\n\n\n\nMore discussion\n\n\n\nThe authors go into further detail about - Relevance of different time windows - Relevance of ACPA positivity - Relevance of individual DAS28 components for prediction and point to another study from the Netherlands where this was similar (see here, yet to be summarised) - Sociodemographic characteristics - External validation of results - Limitations and strengths of their study"
-  },
-  {
-    "objectID": "content/articles/index.html",
-    "href": "content/articles/index.html",
-    "title": "Articles",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nCapelusnik & Aletaha, 2021\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nLee et al., 2011\n\n\nPain persists in DAS28 rheumatoid arthritis remission but not in ACR/EULAR remission: a longitudinal observational study \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\nValidity\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nSalmeen et al., 2011\n\n\nShould imaging be a component of rheumatoid arthritis remission criteria? A comparison between traditional and modified composite remission scores and imaging assessments \n\n\n\nRheumatoid arthritis\n\n\nRemission\n\n\nComposites\n\n\nValidity\n\n\n\n\n\n\nJun 3, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nVan Calster, Niebeor and Vergouwe et al., 2016.\n\n\nA calibration hierarchy for risk models was defined: from utopia to empirical data \n\n\n\nPrediction\n\n\nCalibration\n\n\n\n\n\n\nJun 3, 2024\n\n\nAnton Öberg Sysojev\n\n\n\n\n\n\n\nVan Calster, McLeronon and Van Smeden et al., 2019.\n\n\nCalibration: the Achilles heel of predictive analytics \n\n\n\nPrediction\n\n\nCalibration\n\n\n\n\n\n\nJun 3, 2024\n\n\nAnton Öberg Sysojev\n\n\n\n\n\n\n\nCastrejón et al., 2018\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 31, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nSergeant et al., 2018\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 30, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nPadyukov, L., 2022\n\n\nGenetics of rheumatoid arthritis \n\n\n\nAlleles\n\n\nArthritis\n\n\nRheumatoid/etiology/genetics\n\n\nAutoantibodies\n\n\nGenetic Predisposition to Disease\n\n\nHLA-DRB1 Chains/genetics\n\n\nHumans\n\n\nProteomics\n\n\nAutoantibody\n\n\nAutoimmunity\n\n\nGenetic polymorphism\n\n\nHla\n\n\nInflammation\n\n\nRheumatoid arthritis\n\n\n\n\n\n\nMay 29, 2024\n\n\nYounes Laalou\n\n\n\n\n\n\n\nSmolen et al., 2020\n\n\nEULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2019 update \n\n\n\nRheumatoid arthritis\n\n\nTreatment\n\n\nGuidelines\n\n\n\n\n\n\nMay 27, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nMyasoedova et al., 2021\n\n\nToward Individualized Prediction of Response to Methotrexate in Early Rheumatoid Arthritis: A Pharmacogenomics-Driven Machine Learning Approach \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\nGenetics\n\n\n\n\n\n\nMay 25, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nDuong et al., 2022\n\n\nClinical predictors of response to methotrexate in patients with rheumatoid arthritis: a machine learning approach using clinical trial data \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 23, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "content/articles/vancalster2019/index.html",
-    "href": "content/articles/vancalster2019/index.html",
-    "title": "Van Calster, McLeronon and Van Smeden et al., 2019.",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjectives\n\nSTRATOS initiative paper, arguing for the relevance and importance of calibration, as a complement to discrimination, in prediction modeling.\n\nRelated articles\n\nVan Calster, Niebor and Vergouwe et al. (2016) on PubMed or kepipedia; Kull, Filho and Flach (2017) GitHub.\n\nLink\n\nDOI: 10.1186/s12916-019-1466-7"
-  },
-  {
-    "objectID": "content/articles/vancalster2019/index.html#background",
-    "href": "content/articles/vancalster2019/index.html#background",
-    "title": "Van Calster, McLeronon and Van Smeden et al., 2019.",
-    "section": "Background",
-    "text": "Background\n\nAuthors argue that, while important, good discrimination is not the sole factor in the quality of a prediction model.\nThey note that a ‘worse’ model with respect to discrimination (e.g. AUC) may still be preferable if it is providing accurate risk predictions."
-  },
-  {
-    "objectID": "content/articles/vancalster2019/index.html#why-does-poor-calibration-occur",
-    "href": "content/articles/vancalster2019/index.html#why-does-poor-calibration-occur",
-    "title": "Van Calster, McLeronon and Van Smeden et al., 2019.",
-    "section": "Why does poor calibration occur?",
-    "text": "Why does poor calibration occur?\n\nFirstly, poorly matching external validation sets may lead to issues in translating risk predictions, with the symptom of poor calibration.\nIn a healthcare context, this may be exemplified by differences in practice between clinics, regions or countries: ‘The predictors in the algorithm may explain a part of the heterogeneity, but often differences between predictors will not explain all differences between settings’.\nSecondly, overfitting is another common cause, noticeable already in internal validation.\nThis may occur by forcing too many predictors into a model, or by relying on extremely flexible models such as neural networks, or decision trees."
-  },
-  {
-    "objectID": "content/articles/vancalster2019/index.html#how-can-it-be-measured",
-    "href": "content/articles/vancalster2019/index.html#how-can-it-be-measured",
-    "title": "Van Calster, McLeronon and Van Smeden et al., 2019.",
-    "section": "How can it be measured?",
-    "text": "How can it be measured?\n\nA hierarchical set of criteria are suggested, as delineated in detail in a previous publication from the authors Van Calster, Niebor and Vergouwe et al., 2016.\nMean or ‘calibration-in-the-large’ is achieved when the mean predicted risk matches the overall event rate, with too low indicating an underfit model, too high indicating an overfit model.\nWeak calibration is achieved if, on average, no over- or underestimation of risk occurs while also not giving too extreme risk predictions.\nModerate calibration is achieved if estimated risk predictions accurately match observed proportions, in large (in contrast to mean calibration which is on average).\nStrong calibration is the optimal goal, and it is achieved when the predicted risk matches the observed proportion ‘for every possible combination of predictor values’.\nA pedagogical example of the computation of the above is provided in the Supplementary Material of the paper, and is worth checking out for those interested in implementing these in practice."
-  },
-  {
-    "objectID": "content/articles/vancalster2019/index.html#how-can-poor-calibration-be-mitigated",
-    "href": "content/articles/vancalster2019/index.html#how-can-poor-calibration-be-mitigated",
-    "title": "Van Calster, McLeronon and Van Smeden et al., 2019.",
-    "section": "How can poor calibration be mitigated?",
-    "text": "How can poor calibration be mitigated?\n\nThe authors mention shrinkage strategies to avoid overfitting occurring when the model is too complex for the data (e.g., using ridge or lasso).\nThey also mention ‘updating’, exemplified by the updating of regression model coefficients through adding calibration intercept and scaling coefficients by the calibration slope.\nIn practice, I found both approaches poor in improving calibrations: neither may be possible within a machine learning context, and their effect on calibration may be minor.\nInstead, I would also like to mention Platt Scaling, Isotonic Regression and Beta Calibration, which can be read about in Kull, Filho and Flach (2017).\n\n\n\n\n\n\n\nWhat should go here?\n\n\n\n\nText!\n\n\n\n\nAnd what should go here?\nAnything here?\n\n\n\n\n\n\n\nWhat about here? Is there anything worth putting here?\n\n\n\n\nText!"
-  },
-  {
-    "objectID": "content/articles/vancalster2016/index.html",
-    "href": "content/articles/vancalster2016/index.html",
-    "title": "Van Calster, Niebeor and Vergouwe et al., 2016.",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjectives\n\nPaper by STRATOS initiative-involved researchers, defines a hierarchy of calibration - from weak to strong - and illustrates them with simulations and examples.\n\nRelated articles\n\nVan Calster, McLernon and Van Smeden et al. (2019) PubMed kepipedia; Kull, Filho and Flach (2017) GitHub.\n\nLink\n\nDOI: 10.1016/j.jclinepi.2015.12.005"
-  },
-  {
-    "objectID": "content/articles/vancalster2016/index.html#background",
-    "href": "content/articles/vancalster2016/index.html#background",
-    "title": "Van Calster, Niebeor and Vergouwe et al., 2016.",
-    "section": "Background",
-    "text": "Background\n\nHaving a well-calibrated model (i.e., a model that provides accurate probabilities of risk) is an often overlooked aspect of prediction modeling.\nNevertheless, it is rarely emphasized in practice, rarely investigated, and rarely elaborated upon.\nIn this paper, the authors streamline definitions, as well as the numerical assessment of, levels of calibration."
-  },
-  {
-    "objectID": "content/articles/vancalster2016/index.html#a-hierarchy-of-risk-calibration",
-    "href": "content/articles/vancalster2016/index.html#a-hierarchy-of-risk-calibration",
-    "title": "Van Calster, Niebeor and Vergouwe et al., 2016.",
-    "section": "A hierarchy of risk calibration",
-    "text": "A hierarchy of risk calibration\n\nMean calibration\n\nThe first level concerns mean calibration, or ‘calibration-in-the-large’, which simply compares the average predicted risk with the observed event rate.\nWhile simple, it is insufficient as the sole criterion.\n\n\n\nWeak calibration\n\nThe second level concerns weak calibration, which is indicative of there being no overfitting or underfitting, nor any systematic over- or underestimation of predicted risks.\nIt can be assessed by computing the calibration intercept and the calibration slope, where the former should be close to zero, the latter close to one.\nMore specifically, the calibration intercept is, for a binary outcome vector Y and predicted risk estimates P, obtained by a logistic regression Y ~ I(P) where I(P) indicates the use of an offset.\nSimilarly, the calibration slope is then obtained by a logistic regression Y ~ P.\nNote that this is still assessing calibration in an aggregate level, and weak calibration also suffers from generally being achieved if standard estimation methods are used.\n\n\n\nModerate calibration\n\nCommon notion of calibration: achieved if, among those with the same predicted risk, the observed event rate equals the predicted risk.\nIf we again suppose a binary outcome vector Y and predicted risk estimates P, then we can assess this by fitting (and subsequently plotting) Y ~ f(P), where f is a smoothing function (loess/spline).\nOne may also bin the estimated risk predictions (e.g., splitting [0, 1] into pieces of ten, each estimated risk prediction belonging to one bin), and assess moderate calibration in each bin.\n\n\n\nStrong calibration\n\nFor strong calibration, we require predicted risk to match observed event rates for each and every covariate pattern.\nThe authors note that this is generally infeasible in any realistic setting, and therefore mention it as a utopic goal to aim for."
-  },
-  {
-    "objectID": "content/articles/vancalster2016/index.html#conclusion",
-    "href": "content/articles/vancalster2016/index.html#conclusion",
-    "title": "Van Calster, Niebeor and Vergouwe et al., 2016.",
+    "objectID": "content/articles/lee2011/index.html#conclusion",
+    "href": "content/articles/lee2011/index.html#conclusion",
+    "title": "Lee et al., 2011",
     "section": "Conclusion",
-    "text": "Conclusion\n\nWhile strong calibration is the optimal goal, moderate calibration is the realistic goal which we ought to achieve in our model development.\nAs final recommendations they suggest graphically assessing models for moderate calibration, and providing the summary statistics for weak calibration.\n\n\n\n\n\n\n\nWhat should go here?\n\n\n\n\nText!\n\n\n\n\nAnd what should go here?\nAnything here?\n\n\n\n\n\n\n\nWhat about here? Is there anything worth putting here?\n\n\n\n\nText!"
+    "text": "Conclusion\n\nFunction and patient global assessment are often interpreted as RA-related, but these measures also reflect a wide range of other factors\nFor example, fibromyalgia is a non-inflammatory condition that is not associated with joint damage\nRA patients with fibromyalgia have much worse function but only slightly elevated sedimentation rate (inflammation)\nThe strong association between baseline fatigue, sleep problems, poor self-efficacy and baseline and one-year pain severity supports the existence of an enhanced, non-inflammatory pain state (more on pain in fibromyalgia)"
   },
   {
-    "objectID": "content/programming/index.html",
-    "href": "content/programming/index.html",
-    "title": "Programming",
+    "objectID": "content/articles/capelusnik2021/index.html",
+    "href": "content/articles/capelusnik2021/index.html",
+    "title": "Capelusnik & Aletaha, 2021",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nA love letter to Julia\n\n\nWhy coding in Julia is fun to me \n\n\n\nJulia\n\n\n\n\n\n\nJun 2, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
+    "text": "At a glance\n\n\n\n\nObjective\n\nTo perform a comprehensive analysis of predictors of achieving disease activity outcomes by change, response and state measures.\n\nRelated articles\n\nCapelusnik and Aletaha do not specifically look at MTX treatment response, but articles relating to said topic are probably still interesting, so see Duong et al., 2022, Myasoedova et al., 2021, Sergeant et al., 2018, Castrejón et al., 2016.\n\nLink\n\nDOI: https://doi.org/10.1136/annrheumdis-2021-220853"
+  },
+  {
+    "objectID": "content/articles/capelusnik2021/index.html#background",
+    "href": "content/articles/capelusnik2021/index.html#background",
+    "title": "Capelusnik & Aletaha, 2021",
+    "section": "Background",
+    "text": "Background"
+  },
+  {
+    "objectID": "content/articles/capelusnik2021/index.html#methods",
+    "href": "content/articles/capelusnik2021/index.html#methods",
+    "title": "Capelusnik & Aletaha, 2021",
+    "section": "Methods",
+    "text": "Methods\n\nData from three RA trials (one main analysis, two for validation)\nAnalyse effect of patient and disease characteristics (host vs disease) measured by composite indices (remission or low disease activity as defined by SDAI, and change on a continuous scale)"
+  },
+  {
+    "objectID": "content/articles/capelusnik2021/index.html#results",
+    "href": "content/articles/capelusnik2021/index.html#results",
+    "title": "Capelusnik & Aletaha, 2021",
+    "section": "Results",
+    "text": "Results\n\nLower disease activity at baseline was associated with state outcome (remission / low disease activity), see also Duong et al., 2022\nHigh baseline values were associated with change outcomes (large SDAI absolute change)\nMultivariate (TODO: check if they mean multivariable) analysis identified predictors of state outcomes:\n\nshort disease duration\nmale sex\nlower disease activity\n\nNo significant predictors were found for the prediction of response except for CRP, where higher levels at baseline were associated with better responses (TODO: how was response defined?)\n\n\n\n\n\n\n\nCorrelated intercepts and slopes\n\n\n\nIt is not surprising that people with higher disease activity at baseline show higher absolute change at follow up, while those with lower disease activity show higher rates of remission at follow up.\nI wonder what these regression coefficients would look like if one would specifically model the intercept-slope interaction."
+  },
+  {
+    "objectID": "content/articles/capelusnik2021/index.html#conclusions",
+    "href": "content/articles/capelusnik2021/index.html#conclusions",
+    "title": "Capelusnik & Aletaha, 2021",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nPrediction of treatment success is limited in RA\nParticularly in early RA, prediction of state targets can be achieved by lower baseline levels of disease activity (not surprising, I think, see above)\nSex and disease duration may improve predictability of state targets"
+  },
+  {
+    "objectID": "content/articles/salmeen2011/index.html",
+    "href": "content/articles/salmeen2011/index.html",
+    "title": "Salmeen et al., 2011",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjective\n\nTo test wheter considering ultrasound measurements allow for the definition of stricter remission criteria, which ensure that patients in remission are free of synovitis.\n\nRelated articles\n\nFor other articles casting doubt on the validity of the DAS28, see Lee et al., 2011.\n\nLink\n\nDOI: https://doi.org/10.1136/ard.2010.134445"
+  },
+  {
+    "objectID": "content/articles/salmeen2011/index.html#background",
+    "href": "content/articles/salmeen2011/index.html#background",
+    "title": "Salmeen et al., 2011",
+    "section": "Background",
+    "text": "Background"
+  },
+  {
+    "objectID": "content/articles/salmeen2011/index.html#methods",
+    "href": "content/articles/salmeen2011/index.html#methods",
+    "title": "Salmeen et al., 2011",
+    "section": "Methods",
+    "text": "Methods\n\nSample included patients with DAS28 \\(\\leq\\) 2.6 (implies DAS28ESR was used) for at least 6 months\nThese patients were classified using standard DAS28-, more stringent DAS28-, and SDAI cutoffs\nRecords of ultrasound were made to compare against clinical disease activity measures"
+  },
+  {
+    "objectID": "content/articles/salmeen2011/index.html#results",
+    "href": "content/articles/salmeen2011/index.html#results",
+    "title": "Salmeen et al., 2011",
+    "section": "Results",
+    "text": "Results\n\n128 patients receiving either DMARD or DMARD and TNFi were included (median DAS28ESR 1.7, all &lt; 2.6)\nOf 640 imaged joints, 5% had moderate or severe power Doppler (PD) activity, 8% were clinically swollen, 1% were tender\nModerate to severe PD activity was present in patients fulfilling DAS28ESR (21%), ACR (15%) or SDAI (19%) remission\nMore stringent DAS28ESR and SDAI criteria reduced the mean number of swollen and tender joints, but not the percentage of patients with PD activity"
+  },
+  {
+    "objectID": "content/articles/salmeen2011/index.html#conclusions",
+    "href": "content/articles/salmeen2011/index.html#conclusions",
+    "title": "Salmeen et al., 2011",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nUsing more stringent remission criteria reduces symptoms of inflammation, but not PD activity in patients with remission\nClinical criteria may be sufficiently insensitive (?) to detect low but clinically relevant levels of inflammation accurately"
+  },
+  {
+    "objectID": "content/articles/castrejon2016/index.html",
+    "href": "content/articles/castrejon2016/index.html",
+    "title": "Castrejón et al., 2018",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjective\n\nTo identify baseline variables that predict remission according to different criteria in RA\n\nRelated articles\n\nFor more articles on prediction of MTX treatment response, see Duong et al., 2022, Myasoedova et al., 2021, Sergeant et al., 2018.\n\nLink\n\nDOI: https://doi.org/10.3899/jrheum.141586"
+  },
+  {
+    "objectID": "content/articles/castrejon2016/index.html#background",
+    "href": "content/articles/castrejon2016/index.html#background",
+    "title": "Castrejón et al., 2018",
+    "section": "Background",
+    "text": "Background\nTODO"
+  },
+  {
+    "objectID": "content/articles/castrejon2016/index.html#methods",
+    "href": "content/articles/castrejon2016/index.html#methods",
+    "title": "Castrejón et al., 2018",
+    "section": "Methods",
+    "text": "Methods\n\nAnalysed individual variables and indices at baseline\nPredicted remission at either 6 or 12 months according to Boolean remission, SDAI, CDAI and DAS28"
+  },
+  {
+    "objectID": "content/articles/castrejon2016/index.html#results",
+    "href": "content/articles/castrejon2016/index.html#results",
+    "title": "Castrejón et al., 2018",
+    "section": "Results",
+    "text": "Results\n\nRemission was predicted “significantly” (?) in 27 to 51 percent of patients\nRelevant predictors were younger age, low scores (no brainer? see also Capelusnik & Aletaha, 2021) on composites and their components, HAQ, pain, etc\nRemission was not predicted by the absence of “poor prognosis RA” (meaning “difficult to treat RA”?) or radiographic erosions\nIn multivariate regressions that included only three variables (sounds like some model selection?) low HAQ predicted remission according to all criteria as effectively as SJC, ESR, or CRP"
+  },
+  {
+    "objectID": "content/articles/castrejon2016/index.html#conclusions",
+    "href": "content/articles/castrejon2016/index.html#conclusions",
+    "title": "Castrejón et al., 2018",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nYounger age and (low scores on) six core data set clinical measures predicted remission\nAbsence of traditional “poor prognosis RA” indicators, RA, ACPA, or radiographic erosions did not predict remission"
+  },
+  {
+    "objectID": "content/articles/smolen2020/index.html",
+    "href": "content/articles/smolen2020/index.html",
+    "title": "Smolen et al., 2020",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjectives\n\nTo provide an update of the European League Against Rheumatism (EULAR) RA management recommendations to account for the most recent developments in the field.\n\nRelated articles\n\nTreatment recommendations by the ACR (Fraenkel et al., 2021).\n\nLink\n\nDOI: https://doi.org/10.1136/annrheumdis-2019-216655"
+  },
+  {
+    "objectID": "content/articles/smolen2020/index.html#methods",
+    "href": "content/articles/smolen2020/index.html#methods",
+    "title": "Smolen et al., 2020",
+    "section": "Methods",
+    "text": "Methods\n\nSummarise new supporting or contradicting evidence for therapies\nLiterature search and predefined voting process on current levels of evidence"
+  },
+  {
+    "objectID": "content/articles/smolen2020/index.html#results",
+    "href": "content/articles/smolen2020/index.html#results",
+    "title": "Smolen et al., 2020",
+    "section": "Results",
+    "text": "Results\n\nTask force agreed on five overarching principles and 12 recommendations concerning use of csDMARDs (MTX, leflunomide, sulfasalizine), glucocorticoids (GCs), bDMARDs (TNFis), and tsDMARDs (JAKis)\nGuidance on monotherapy, combination therapy, treatment strategy (treat-to-target) and tapering on sustained clinical remission is provided\n\nBegin with MTX plus GCs and upon insufficient response within 3 to 6 months, stratify by risk factors\nIn the presence of poor prognostic factors (autoantibodies, high disease activity, early erosions or failure of two csDMARDs), any bDMARD or JAKi should be added to the csDMARD\nAdd a bDMARD (another or same class) or tsDMARD is recommended\n\n\n\n\n\n\n\n\nDefining MTX failure\n\n\n\nAccording to this definition, MTX treatment has been unsuccessful once a patient adds any bDMARD or JAKi. Classifying initial treatment success for MTX in SRQ should therefore look for the addition of other drugs and not the stopping date of MTX.\n\n\n\nOn sustained remission, DMARDs may be tapered but not stopped\nLevels of agreement among experts were high mostly"
+  },
+  {
+    "objectID": "content/articles/smolen2020/index.html#conclusion",
+    "href": "content/articles/smolen2020/index.html#conclusion",
+    "title": "Smolen et al., 2020",
+    "section": "Conclusion",
+    "text": "Conclusion\nWIP"
+  },
+  {
+    "objectID": "content/articles/myasoedova2021/index.html",
+    "href": "content/articles/myasoedova2021/index.html",
+    "title": "Myasoedova et al., 2021",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjective\n\nTo test the ability of ML approaches with clinical and genomic biomarkers to predict MTX treatment response in patients with early RA.\n\nRelated articles\n\nFor more articles on prediction of MTX treatment response, see Duong et al., 2022, Sergeant et al., 2018, Castrejón et al., 2016.\n\nLink\n\nDOI: https://doi.org/10.1002/acr.24834"
+  },
+  {
+    "objectID": "content/articles/myasoedova2021/index.html#background",
+    "href": "content/articles/myasoedova2021/index.html#background",
+    "title": "Myasoedova et al., 2021",
+    "section": "Background",
+    "text": "Background\n\nMTX may be the only drug necessary to control RA for some, but in 30-40% there is no response\n50% of patients discontinue MTX within 3-5 years (Aletaha & Smolen, 2002)\nComposite disease activity measures reflect a clinically meaningful target of reaching low disease activity (see Van Gestel et al., 1996, Van Gestel et al., 1998, and Fransen & van Riel, 2005)"
+  },
+  {
+    "objectID": "content/articles/myasoedova2021/index.html#methods",
+    "href": "content/articles/myasoedova2021/index.html#methods",
+    "title": "Myasoedova et al., 2021",
+    "section": "Methods",
+    "text": "Methods\n\nDemographic, clinical and genomic data of 643 european-ancestry patients with early RA\nResponse to MTX was defined as good or moderate by the EULAR response criteria at the 3-month follow-up\nRandom forests were trained and prediction performance was evaluated with AUC"
+  },
+  {
+    "objectID": "content/articles/myasoedova2021/index.html#results",
+    "href": "content/articles/myasoedova2021/index.html#results",
+    "title": "Myasoedova et al., 2021",
+    "section": "Results",
+    "text": "Results\n\nIn-sample AUC 0.84, out-of-sample prediction accuracy 76% (with p values for both, lol?)\nIntergenic SNPs had variable importance above 60 (whatever that means), and among with baseline DAS28 were the top predictors of MTX response"
+  },
+  {
+    "objectID": "content/articles/myasoedova2021/index.html#conclusion",
+    "href": "content/articles/myasoedova2021/index.html#conclusion",
+    "title": "Myasoedova et al., 2021",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nPharmacogenomic biomarkers combined with baseline DAS28 can be useful in predicting response to MTX in patients with early RA\nML is promising in this area, potentially able to predict timely escalation of treatment strategies in early RA"
+  },
+  {
+    "objectID": "content/programming/whyjulia/index.html",
+    "href": "content/programming/whyjulia/index.html",
+    "title": "A love letter to Julia",
+    "section": "",
+    "text": "Have to write something here, but then, if I haven’t convinced you, you’re welcome to watch Julia burn."
+  },
+  {
+    "objectID": "content/statistics/kmeans/index.html",
+    "href": "content/statistics/kmeans/index.html",
+    "title": "K-means from scratch",
+    "section": "",
+    "text": "This is my attempt at coding \\(K\\)-means from scratch. I have used the pseudocode from this handout on AI systems as a starting point but so far not looked into optimized solutions. I can already think of a few improvements which would affect efficiency though, so this version is certainly clunkier and slower than necessary. 🐢\nLet’s begin by describing the goal of \\(K\\)-means mathematically.\n\\[\n\\text{minimize} \\ \\sum_{i=1}^n \\| \\mathbf{x}_i - \\boldsymbol{\\mu}_{z_i} \\|^2 \\ \\text{w.r.t.} \\ (\\boldsymbol{\\mu}, z)\n\\]\nIn this equation, \\(\\boldsymbol{\\mu}_k\\) is the center of the \\(k\\)-th cluster, and \\(z_i\\) is an index of the cluster for \\(i\\)-th point \\(\\mathbf{x}_i\\). I have also seen \\(K\\)-means being described as a coordinate-descent algorithm, but I am not yet deep enough into the terminology to understand that well."
+  },
+  {
+    "objectID": "content/statistics/kmeans/index.html#main-function",
+    "href": "content/statistics/kmeans/index.html#main-function",
+    "title": "K-means from scratch",
+    "section": "Main function",
+    "text": "Main function\nfunction kmeans(k, X; max_iter=1000, seed=42)\n    \n    # Dimensionality of the problem\n    nfeatures, nobs = size(X)\n\n    # Initialize random centroids and empty label vector\n    initctr = initcentroids(nfeatures, k; seed)\n    initlbl = Vector{Int64}(undef, nobs)\n\n    # Track the state of the algorithm\n    state = KmeansResult(k, X, initctr, initlbl, 0, seed, [], [])\n    \n    # Minimize Euclidean distance until convergence or maximum iterations\n    while notconverged(state.log_centroids, state.iter, max_iter)\n\n        # Assign labels to each observation based on centroid location\n        assign!(state.labels, X, state.centroids)\n        push!(state.log_labels, copy(state.labels))\n\n        # Reposition centroids based on assigned observations\n        reposition!(state.centroids, X, state.labels, k, state.iter)\n        push!(state.log_centroids, copy(state.centroids))\n\n        # Increment iteration counter\n        state.iter += 1\n    end\n\n    # Warn if no convergence after reaching iteration limit\n    state.iter == max_iter && @warn \"Did not converge after $max_iter iterations.\"\n    \n    return state\nend;"
+  },
+  {
+    "objectID": "content/statistics/kmeans/index.html#helper-functions",
+    "href": "content/statistics/kmeans/index.html#helper-functions",
+    "title": "K-means from scratch",
+    "section": "Helper functions",
+    "text": "Helper functions\nNow that we’ve laid out the general logic we want the \\(K\\)-means algorithm to follow, we still need to craft a few tools to make it run.\nFirst up is an object class (called a struct in Julia), which will allow us to track all relevant parameters of the algorithm in a single place. This will also be the result that is returned to the user.\nIn detail, we’ll track and return the following:\n\nk, the number of clusters to be fit\nX, the matrix of the data to be clustered\ncentroids, the final centroids of the clusters\nlabels, the final labels of the observations\niter, the number of iterations until the algorithm ended\nseed, the random seed used for cluster initialization\nlog_centroids, a vector of centroid-matrices, for each iteration one matrix\nlog_labels, a vector of label-vectors, for each iteration one vector\n\nmutable struct KmeansResult\n    k::Int64\n    X::Matrix{Float64}\n    centroids::Matrix{Float64}\n    labels::Vector{Int64}\n    iter::Int64\n    seed::Int64\n    log_centroids::AbstractArray\n    log_labels::AbstractArray\nend\n\nWhy mutable struct?\nUnlike mutable structs, pure structs are immutable after creation, meaning that the values stored in each field cannot be altered. The pure version would be a poor choice in our case, since we want to update the state of the algorithm at each iteration step. Therefore, we need a mutable struct. This type is generally less memory efficient and comes with reduced performance, but we can’t avoid it here (I think)!\n\n\nInitializing centroids\nFirst, we need a function which initializes random centroids at the beginning of the algorithm (but it’s also very useful as a reboot when one of our centroids ends up without any observations assigned to it! 🤫).\nWe’ll use the Xoshiro256++ pseudorandom number generator to manually set random seeds for initial centroids.\nimport Random: Xoshiro\n\ninitcentroids(d, k; seed=42) = randn(Xoshiro(seed), d, k);\n\n\nChecking convergence\nWe need a function which determines if the \\(K\\)-means algorithm has converged, or if it has reached the maximum number of iterations.\nDuring each iteration, this function checks for three conditions.\n\n1. First iteration\nThe algorithm cannot converge during the first iteration (itr &lt; 2) because we define convergence as the absence of change in centroids between two consecutive evaluations. Hence, we need a second iteration to evaluate convergence.\n\n\n2. Static centroids\nI’ve already mentioned the second condition, which is that there is no change in centroids between two consecutive iterations. Since we want the condition to evaluate to false, we have to flip it and get ctr[itr] ≠ ctr[itr-1].\n\n\n3. Maximum iterations\nFinally, the algorithm should stop once it has reached the maximum number of iterations (itr &lt; max).\nnotconverged(ctr, itr, max) = (itr &lt; 2 || ctr[itr] != ctr[itr-1]) && itr &lt; max;\nLooking at the boolean algebra connecting these three conditions in the function above, we see that the algorithm will stop, i.e., notconverged() will return false, when both condition 1 and 2 evaluate to false, or when condition 3 evaluates to false.\n\n\n\nCalculating distances\nThe \\(K\\)-means algorithm uses Euclidean distances between the vector of the centroid(s) and each observation. We’ll use a version of the formula which generalizes to higher dimensions.\n\\[\n\\Delta(p,q)={\\sqrt {(p-q)^{2}}}\n\\]\neuclidean(x, y) = √(sum((x .- y) .^ 2));\nAs it stands, this function will work well for calculating the distance between two vectors. What we really need though are pairwise distances between two sets of vectors, one being the observations and the other one being the centroids.\nTo help with this, I’ll define a helper which makes the euclidean() function work as described.\nfunction pairwise(f, x, y; dims=1)\n    [f(i, j) for i in eachslice(x, dims=dims), j in eachslice(y, dims=dims)]\nend;\n\n\nAssigning labels\nWe label each observation depending on which centroids it’s closest to in Euclidean space.\nThis function could be improved because it is inefficient1 and could be prettier 2.\nfunction assign!(lab, X, ctr)\n    Δ = pairwise(euclidean, X, ctr, dims=2)\n    idxmin = findmin(Δ, dims=2)[2]\n    [lab[i] = idxmin[i][2] for i in eachindex(idxmin)]\nend;\n\n\nRepositioning centroids\nIn each iteration, we want to reposition the centroids to the means of the observations assigned to them.\nThis concept breaks down if one of the centroids is assigned no observations at all. In this scenario, we will reinitiate that centroid randomly and move to the next iteration.\nimport StatsBase: mean\n\nfunction reposition!(c_new, X, labels, k, iter)\n    for i in 1:k\n        idx = labels .== i\n        if all(!, idx)\n            c_new[:, i] = initcentroids(size(c_new, 1), 1; seed=iter)\n        else\n            c_new[:, i] = [mean(r) for r in eachslice(X[:, idx], dims=1)]\n        end\n    end\nend;\n\nWant a different random centroid?\nWe’ll have to use a different seed than the one initcentroids() uses by default! Otherwise, we would initiate a new centroid in exactly the same position as the one that failed us before. I have chosen to set the seed to iter, so even if the reinitiation fails repeatedly, the algorithm will try with a new centroid each time. Finally, if it never succeeds, the algorithm still stops at upon reaching the maximum number of iterations.\n\n\n\nStandardising features\nFeatures passed to \\(K\\)-means must be standardised.\nstandardise(x) = (x .- mean(x)) ./ std(x);\nSo far so good! I think that’s all we need."
+  },
+  {
+    "objectID": "content/statistics/kmeans/index.html#inspecting-the-data",
+    "href": "content/statistics/kmeans/index.html#inspecting-the-data",
+    "title": "K-means from scratch",
+    "section": "Inspecting the data",
+    "text": "Inspecting the data\nPlay around with the sliders to set the sample size, number of clusters, and cluster separation. Then we’ll use this data to test our new \\(K\\)-means algorithm!\nusing StatsPlots\n\nX = reduce(hcat, generate_multivariate_data(3000, 4, 10))\n\nhistogram2d(X[1, :], X[2, :], bins=50)\n\nWhat does the input to separation do?\nIf you pay attention to the axes, you’ll realize that this parameter simply stretches out the space in which the gaussians are located, thus pulling them apart or moving them closer together."
+  },
+  {
+    "objectID": "content/statistics/kmeans/index.html#and-action",
+    "href": "content/statistics/kmeans/index.html#and-action",
+    "title": "K-means from scratch",
+    "section": "And action!",
+    "text": "And action!\nWe will fit five clusters to this data and set a seed.\nk = 6;\nseed = 42;\nTime to fit!\nfit = kmeans(k, Z, seed=seed);\nWe can inspect the result by looking at the different fields of fit. To check the final centroids, we would do the following:\nfit.centroids"
+  },
+  {
+    "objectID": "content/statistics/kmeans/index.html#tracking-k-means",
+    "href": "content/statistics/kmeans/index.html#tracking-k-means",
+    "title": "K-means from scratch",
+    "section": "Tracking K-means",
+    "text": "Tracking K-means\nLet’s look at the steps the \\(K\\)-means algorithm takes to find its solution.\n@gif for i in eachindex(fit.log_centroids)\n    scatter(Z[1, :], Z[2, :], c=fit.log_labels[i], markershape=:xcross, legend=:none)\n    scatter!(fit.log_centroids[i][1, :], fit.log_centroids[i][2, :], c=[1:k;])\n    title!(\"Iteration $i\")\n    xlims!(-3, 3), ylims!(-3, 3)\nend every 1 fps=15"
+  },
+  {
+    "objectID": "content/statistics/kmeans/index.html#footnotes",
+    "href": "content/statistics/kmeans/index.html#footnotes",
+    "title": "K-means from scratch",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n🐢 This is currently updating the labels indiscriminately without checking if the centroid has changed at all.↩︎\n🪳 I don’t like the way I’m accessing the CartesianIndices returned by findmin(). There is probably a better solution with view().↩︎"
+  },
+  {
+    "objectID": "content/statistics/index.html",
+    "href": "content/statistics/index.html",
+    "title": "Statistics",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nSimulations for power analysis\n\n\nEstimating the number of samples required to detect relevant predictors among large numbers of irrelevant predictors. \n\n\n\nSimulation\n\n\nBayesian statistics\n\n\nPower analysis\n\n\nSparsity\n\n\nR\n\n\nStan\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nDiagnosing issues in MCMC sampling\n\n\nMCMC is your workhorse, so make sure it’s healthy \n\n\n\nMCMC\n\n\nBayesian statistics\n\n\nNUTS\n\n\n\n\n\n\nJun 1, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nK-means from scratch\n\n\nA step-by-step walkthrough of a simple clustering algorithm \n\n\n\nJulia\n\n\nClustering\n\n\n\n\n\n\nNov 2, 2023\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/statistics/diagnosemcmc/index.html",
+    "href": "content/statistics/diagnosemcmc/index.html",
+    "title": "Diagnosing issues in MCMC sampling",
+    "section": "",
+    "text": "Well! I should write a well thought-out explanation here when it’s not late in the evening."
+  },
+  {
+    "objectID": "content/statistics/diagnosemcmc/index.html#whats-mcmc",
+    "href": "content/statistics/diagnosemcmc/index.html#whats-mcmc",
+    "title": "Diagnosing issues in MCMC sampling",
+    "section": "",
+    "text": "Well! I should write a well thought-out explanation here when it’s not late in the evening."
+  },
+  {
+    "objectID": "content/statistics/diagnosemcmc/index.html#relevant-mcmc-internals",
+    "href": "content/statistics/diagnosemcmc/index.html#relevant-mcmc-internals",
+    "title": "Diagnosing issues in MCMC sampling",
+    "section": "Relevant MCMC internals",
+    "text": "Relevant MCMC internals\nThis is my current understanding of which MCMC internals should be checked, how potential issues can be resolved, and what the internals reflect. No guarantee!\n\n\\(\\hat{R}\\)\n\n\\(\\hat{R}\\) should be very close to 1 for all parameters.\n\n\\(\\hat{R}\\) is a convergence measure (variance within vs between chains, I think) and must be very close to 1. Otherwise, our chains have not converged to the sample from the same posterior distribution. If \\(\\hat{R}\\) is elevated, you can usually fix this by simply drawing more samples per chain. In case the posterior geometry can be simplified with, e.g., non centered parametrisation in hierarchical models, this is often a more efficient step to take.\n\n\nESS\nLarge effective sample size is important because it ensures stable estimates in the low-density regions of the posterior. Note that the effective sample size can be larger than the actual number of samples drawn.\n\nAim for ESS of at least 10 000 per parameter and posterior region (bulk / tail).\n\nBe skeptical if your ESS bulk is much lower than the tail! You might be working with a multimodal posterior.\n\n\nDivergent transitions\nSomething about skaters flying out into the infinite universe.\n\nDivergent transitions are bad. We don’t want them.\n\nIf you have some, they should not be concentrated in any particular region of the posterior.\n\n\nTree depth\nThe tree depth can tell us if a model is poorly identified or (I think) has other sampling issues like a bimodal posterior.\n\nIf your tree depth hits the default maximum tree depth of 10, you’re in trouble.\n\nIf the tree depth is really high, the NUTS algorithm builds a very complicated sampling tree, which leads to very, very, very slow sampling."
+  },
+  {
+    "objectID": "content/statistics/diagnosemcmc/index.html#other-mcmc-internals",
+    "href": "content/statistics/diagnosemcmc/index.html#other-mcmc-internals",
+    "title": "Diagnosing issues in MCMC sampling",
+    "section": "Other MCMC internals",
+    "text": "Other MCMC internals\nThere are other internals like the leepfrog step size, loglikelihood (?), hamiltonian energy, energy error… not sure about these."
   },
   {
     "objectID": "content/statistics/simulatepower/index.html",
@@ -252,298 +392,193 @@
     "text": "Visualization\nLet’s have a look at what our models for the different batch sizes found!\n    # Quick and dirty ggplot theme\n    bayesplot_theme_set(theme_minimal())\n  \n    # Create posterior density plot for this iteration\n    mcmc_areas(\n        posterior,\n        pars = paste0(\"b_X\", sort(c(rel_idx, irl_idx))),\n        prob = 0.8\n    ) + ggtitle(\n            \"Posterior densities\",\n            paste0(\n              \"Metabolites: \", n_metabolites,\n              \" | Sample size: \", n_batches, \"x\", n_per_batch\n            )\n        )\n    \n    # Save results to current directory\n    ggsave(\n        paste0(\n            \"horseshoe_posteriors_\",\n            n_samples,\n            \"samples\",\n            n_metabolites,\n            \"metabolites.svg\"\n        ),\n        height = 5,\n        width = 7\n    )\n} # End of loop, seems that the highlighter is confused :D\nThe visualization here omits a lot of the irrelevant metabolites to improve visual clarity. In each plot, a different selection of irrelevant metabolites is sampled, while the relevant ones are always included (b_X23 and b_X62).\n\n\n\n\n\n\n\n\n\nResults for two batches\n\n\n\n\n\n\n\nResults for three batches\n\n\n\n\n\n\n\n\n\nResults for four batches\n\n\n\n\n\n\n\nResults for five batches\n\n\n\n\n\nAlright! It seems that five batches would be necessary with the assumptions about the signal-to-noise ratio made here."
   },
   {
-    "objectID": "content/statistics/diagnosemcmc/index.html",
-    "href": "content/statistics/diagnosemcmc/index.html",
-    "title": "Diagnosing issues in MCMC sampling",
+    "objectID": "content/programming/index.html",
+    "href": "content/programming/index.html",
+    "title": "Programming",
     "section": "",
-    "text": "Well! I should write a well thought-out explanation here when it’s not late in the evening."
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nA love letter to Julia\n\n\nWhy coding in Julia is fun to me \n\n\n\nJulia\n\n\n\n\n\n\nJun 2, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/statistics/diagnosemcmc/index.html#whats-mcmc",
-    "href": "content/statistics/diagnosemcmc/index.html#whats-mcmc",
-    "title": "Diagnosing issues in MCMC sampling",
+    "objectID": "content/articles/vancalster2016/index.html",
+    "href": "content/articles/vancalster2016/index.html",
+    "title": "Van Calster, Niebeor and Vergouwe et al., 2016.",
     "section": "",
-    "text": "Well! I should write a well thought-out explanation here when it’s not late in the evening."
+    "text": "At a glance\n\n\n\n\nObjectives\n\nPaper by STRATOS initiative-involved researchers, defines a hierarchy of calibration - from weak to strong - and illustrates them with simulations and examples.\n\nRelated articles\n\nVan Calster, McLernon and Van Smeden et al. (2019) PubMed kepipedia; Kull, Filho and Flach (2017) GitHub.\n\nLink\n\nDOI: 10.1016/j.jclinepi.2015.12.005"
   },
   {
-    "objectID": "content/statistics/diagnosemcmc/index.html#relevant-mcmc-internals",
-    "href": "content/statistics/diagnosemcmc/index.html#relevant-mcmc-internals",
-    "title": "Diagnosing issues in MCMC sampling",
-    "section": "Relevant MCMC internals",
-    "text": "Relevant MCMC internals\nThis is my current understanding of which MCMC internals should be checked, how potential issues can be resolved, and what the internals reflect. No guarantee!\n\n\\(\\hat{R}\\)\n\n\\(\\hat{R}\\) should be very close to 1 for all parameters.\n\n\\(\\hat{R}\\) is a convergence measure (variance within vs between chains, I think) and must be very close to 1. Otherwise, our chains have not converged to the sample from the same posterior distribution. If \\(\\hat{R}\\) is elevated, you can usually fix this by simply drawing more samples per chain. In case the posterior geometry can be simplified with, e.g., non centered parametrisation in hierarchical models, this is often a more efficient step to take.\n\n\nESS\nLarge effective sample size is important because it ensures stable estimates in the low-density regions of the posterior. Note that the effective sample size can be larger than the actual number of samples drawn.\n\nAim for ESS of at least 10 000 per parameter and posterior region (bulk / tail).\n\nBe skeptical if your ESS bulk is much lower than the tail! You might be working with a multimodal posterior.\n\n\nDivergent transitions\nSomething about skaters flying out into the infinite universe.\n\nDivergent transitions are bad. We don’t want them.\n\nIf you have some, they should not be concentrated in any particular region of the posterior.\n\n\nTree depth\nThe tree depth can tell us if a model is poorly identified or (I think) has other sampling issues like a bimodal posterior.\n\nIf your tree depth hits the default maximum tree depth of 10, you’re in trouble.\n\nIf the tree depth is really high, the NUTS algorithm builds a very complicated sampling tree, which leads to very, very, very slow sampling."
-  },
-  {
-    "objectID": "content/statistics/diagnosemcmc/index.html#other-mcmc-internals",
-    "href": "content/statistics/diagnosemcmc/index.html#other-mcmc-internals",
-    "title": "Diagnosing issues in MCMC sampling",
-    "section": "Other MCMC internals",
-    "text": "Other MCMC internals\nThere are other internals like the leepfrog step size, loglikelihood (?), hamiltonian energy, energy error… not sure about these."
-  },
-  {
-    "objectID": "content/statistics/index.html",
-    "href": "content/statistics/index.html",
-    "title": "Statistics",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nSimulations for power analysis\n\n\nEstimating the number of samples required to detect relevant predictors among large numbers of irrelevant predictors. \n\n\n\nSimulation\n\n\nBayesian statistics\n\n\nPower analysis\n\n\nSparsity\n\n\nR\n\n\nStan\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nDiagnosing issues in MCMC sampling\n\n\nMCMC is your workhorse, so make sure it’s healthy \n\n\n\nMCMC\n\n\nBayesian statistics\n\n\nNUTS\n\n\n\n\n\n\nJun 1, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nK-means from scratch\n\n\nA step-by-step walkthrough of a simple clustering algorithm \n\n\n\nJulia\n\n\nClustering\n\n\n\n\n\n\nNov 2, 2023\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "content/statistics/kmeans/index.html",
-    "href": "content/statistics/kmeans/index.html",
-    "title": "K-means from scratch",
-    "section": "",
-    "text": "This is my attempt at coding \\(K\\)-means from scratch. I have used the pseudocode from this handout on AI systems as a starting point but so far not looked into optimized solutions. I can already think of a few improvements which would affect efficiency though, so this version is certainly clunkier and slower than necessary. 🐢\nLet’s begin by describing the goal of \\(K\\)-means mathematically.\n\\[\n\\text{minimize} \\ \\sum_{i=1}^n \\| \\mathbf{x}_i - \\boldsymbol{\\mu}_{z_i} \\|^2 \\ \\text{w.r.t.} \\ (\\boldsymbol{\\mu}, z)\n\\]\nIn this equation, \\(\\boldsymbol{\\mu}_k\\) is the center of the \\(k\\)-th cluster, and \\(z_i\\) is an index of the cluster for \\(i\\)-th point \\(\\mathbf{x}_i\\). I have also seen \\(K\\)-means being described as a coordinate-descent algorithm, but I am not yet deep enough into the terminology to understand that well."
-  },
-  {
-    "objectID": "content/statistics/kmeans/index.html#main-function",
-    "href": "content/statistics/kmeans/index.html#main-function",
-    "title": "K-means from scratch",
-    "section": "Main function",
-    "text": "Main function\nfunction kmeans(k, X; max_iter=1000, seed=42)\n    \n    # Dimensionality of the problem\n    nfeatures, nobs = size(X)\n\n    # Initialize random centroids and empty label vector\n    initctr = initcentroids(nfeatures, k; seed)\n    initlbl = Vector{Int64}(undef, nobs)\n\n    # Track the state of the algorithm\n    state = KmeansResult(k, X, initctr, initlbl, 0, seed, [], [])\n    \n    # Minimize Euclidean distance until convergence or maximum iterations\n    while notconverged(state.log_centroids, state.iter, max_iter)\n\n        # Assign labels to each observation based on centroid location\n        assign!(state.labels, X, state.centroids)\n        push!(state.log_labels, copy(state.labels))\n\n        # Reposition centroids based on assigned observations\n        reposition!(state.centroids, X, state.labels, k, state.iter)\n        push!(state.log_centroids, copy(state.centroids))\n\n        # Increment iteration counter\n        state.iter += 1\n    end\n\n    # Warn if no convergence after reaching iteration limit\n    state.iter == max_iter && @warn \"Did not converge after $max_iter iterations.\"\n    \n    return state\nend;"
-  },
-  {
-    "objectID": "content/statistics/kmeans/index.html#helper-functions",
-    "href": "content/statistics/kmeans/index.html#helper-functions",
-    "title": "K-means from scratch",
-    "section": "Helper functions",
-    "text": "Helper functions\nNow that we’ve laid out the general logic we want the \\(K\\)-means algorithm to follow, we still need to craft a few tools to make it run.\nFirst up is an object class (called a struct in Julia), which will allow us to track all relevant parameters of the algorithm in a single place. This will also be the result that is returned to the user.\nIn detail, we’ll track and return the following:\n\nk, the number of clusters to be fit\nX, the matrix of the data to be clustered\ncentroids, the final centroids of the clusters\nlabels, the final labels of the observations\niter, the number of iterations until the algorithm ended\nseed, the random seed used for cluster initialization\nlog_centroids, a vector of centroid-matrices, for each iteration one matrix\nlog_labels, a vector of label-vectors, for each iteration one vector\n\nmutable struct KmeansResult\n    k::Int64\n    X::Matrix{Float64}\n    centroids::Matrix{Float64}\n    labels::Vector{Int64}\n    iter::Int64\n    seed::Int64\n    log_centroids::AbstractArray\n    log_labels::AbstractArray\nend\n\nWhy mutable struct?\nUnlike mutable structs, pure structs are immutable after creation, meaning that the values stored in each field cannot be altered. The pure version would be a poor choice in our case, since we want to update the state of the algorithm at each iteration step. Therefore, we need a mutable struct. This type is generally less memory efficient and comes with reduced performance, but we can’t avoid it here (I think)!\n\n\nInitializing centroids\nFirst, we need a function which initializes random centroids at the beginning of the algorithm (but it’s also very useful as a reboot when one of our centroids ends up without any observations assigned to it! 🤫).\nWe’ll use the Xoshiro256++ pseudorandom number generator to manually set random seeds for initial centroids.\nimport Random: Xoshiro\n\ninitcentroids(d, k; seed=42) = randn(Xoshiro(seed), d, k);\n\n\nChecking convergence\nWe need a function which determines if the \\(K\\)-means algorithm has converged, or if it has reached the maximum number of iterations.\nDuring each iteration, this function checks for three conditions.\n\n1. First iteration\nThe algorithm cannot converge during the first iteration (itr &lt; 2) because we define convergence as the absence of change in centroids between two consecutive evaluations. Hence, we need a second iteration to evaluate convergence.\n\n\n2. Static centroids\nI’ve already mentioned the second condition, which is that there is no change in centroids between two consecutive iterations. Since we want the condition to evaluate to false, we have to flip it and get ctr[itr] ≠ ctr[itr-1].\n\n\n3. Maximum iterations\nFinally, the algorithm should stop once it has reached the maximum number of iterations (itr &lt; max).\nnotconverged(ctr, itr, max) = (itr &lt; 2 || ctr[itr] != ctr[itr-1]) && itr &lt; max;\nLooking at the boolean algebra connecting these three conditions in the function above, we see that the algorithm will stop, i.e., notconverged() will return false, when both condition 1 and 2 evaluate to false, or when condition 3 evaluates to false.\n\n\n\nCalculating distances\nThe \\(K\\)-means algorithm uses Euclidean distances between the vector of the centroid(s) and each observation. We’ll use a version of the formula which generalizes to higher dimensions.\n\\[\n\\Delta(p,q)={\\sqrt {(p-q)^{2}}}\n\\]\neuclidean(x, y) = √(sum((x .- y) .^ 2));\nAs it stands, this function will work well for calculating the distance between two vectors. What we really need though are pairwise distances between two sets of vectors, one being the observations and the other one being the centroids.\nTo help with this, I’ll define a helper which makes the euclidean() function work as described.\nfunction pairwise(f, x, y; dims=1)\n    [f(i, j) for i in eachslice(x, dims=dims), j in eachslice(y, dims=dims)]\nend;\n\n\nAssigning labels\nWe label each observation depending on which centroids it’s closest to in Euclidean space.\nThis function could be improved because it is inefficient1 and could be prettier 2.\nfunction assign!(lab, X, ctr)\n    Δ = pairwise(euclidean, X, ctr, dims=2)\n    idxmin = findmin(Δ, dims=2)[2]\n    [lab[i] = idxmin[i][2] for i in eachindex(idxmin)]\nend;\n\n\nRepositioning centroids\nIn each iteration, we want to reposition the centroids to the means of the observations assigned to them.\nThis concept breaks down if one of the centroids is assigned no observations at all. In this scenario, we will reinitiate that centroid randomly and move to the next iteration.\nimport StatsBase: mean\n\nfunction reposition!(c_new, X, labels, k, iter)\n    for i in 1:k\n        idx = labels .== i\n        if all(!, idx)\n            c_new[:, i] = initcentroids(size(c_new, 1), 1; seed=iter)\n        else\n            c_new[:, i] = [mean(r) for r in eachslice(X[:, idx], dims=1)]\n        end\n    end\nend;\n\nWant a different random centroid?\nWe’ll have to use a different seed than the one initcentroids() uses by default! Otherwise, we would initiate a new centroid in exactly the same position as the one that failed us before. I have chosen to set the seed to iter, so even if the reinitiation fails repeatedly, the algorithm will try with a new centroid each time. Finally, if it never succeeds, the algorithm still stops at upon reaching the maximum number of iterations.\n\n\n\nStandardising features\nFeatures passed to \\(K\\)-means must be standardised.\nstandardise(x) = (x .- mean(x)) ./ std(x);\nSo far so good! I think that’s all we need."
-  },
-  {
-    "objectID": "content/statistics/kmeans/index.html#inspecting-the-data",
-    "href": "content/statistics/kmeans/index.html#inspecting-the-data",
-    "title": "K-means from scratch",
-    "section": "Inspecting the data",
-    "text": "Inspecting the data\nPlay around with the sliders to set the sample size, number of clusters, and cluster separation. Then we’ll use this data to test our new \\(K\\)-means algorithm!\nusing StatsPlots\n\nX = reduce(hcat, generate_multivariate_data(3000, 4, 10))\n\nhistogram2d(X[1, :], X[2, :], bins=50)\n\nWhat does the input to separation do?\nIf you pay attention to the axes, you’ll realize that this parameter simply stretches out the space in which the gaussians are located, thus pulling them apart or moving them closer together."
-  },
-  {
-    "objectID": "content/statistics/kmeans/index.html#and-action",
-    "href": "content/statistics/kmeans/index.html#and-action",
-    "title": "K-means from scratch",
-    "section": "And action!",
-    "text": "And action!\nWe will fit five clusters to this data and set a seed.\nk = 6;\nseed = 42;\nTime to fit!\nfit = kmeans(k, Z, seed=seed);\nWe can inspect the result by looking at the different fields of fit. To check the final centroids, we would do the following:\nfit.centroids"
-  },
-  {
-    "objectID": "content/statistics/kmeans/index.html#tracking-k-means",
-    "href": "content/statistics/kmeans/index.html#tracking-k-means",
-    "title": "K-means from scratch",
-    "section": "Tracking K-means",
-    "text": "Tracking K-means\nLet’s look at the steps the \\(K\\)-means algorithm takes to find its solution.\n@gif for i in eachindex(fit.log_centroids)\n    scatter(Z[1, :], Z[2, :], c=fit.log_labels[i], markershape=:xcross, legend=:none)\n    scatter!(fit.log_centroids[i][1, :], fit.log_centroids[i][2, :], c=[1:k;])\n    title!(\"Iteration $i\")\n    xlims!(-3, 3), ylims!(-3, 3)\nend every 1 fps=15"
-  },
-  {
-    "objectID": "content/statistics/kmeans/index.html#footnotes",
-    "href": "content/statistics/kmeans/index.html#footnotes",
-    "title": "K-means from scratch",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\n🐢 This is currently updating the labels indiscriminately without checking if the centroid has changed at all.↩︎\n🪳 I don’t like the way I’m accessing the CartesianIndices returned by findmin(). There is probably a better solution with view().↩︎"
-  },
-  {
-    "objectID": "content/programming/whyjulia/index.html",
-    "href": "content/programming/whyjulia/index.html",
-    "title": "A love letter to Julia",
-    "section": "",
-    "text": "Have to write something here, but then, if I haven’t convinced you, you’re welcome to watch Julia burn."
-  },
-  {
-    "objectID": "content/articles/myasoedova2021/index.html",
-    "href": "content/articles/myasoedova2021/index.html",
-    "title": "Myasoedova et al., 2021",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjective\n\nTo test the ability of ML approaches with clinical and genomic biomarkers to predict MTX treatment response in patients with early RA.\n\nRelated articles\n\nFor more articles on prediction of MTX treatment response, see Duong et al., 2022, Sergeant et al., 2018, Castrejón et al., 2016.\n\nLink\n\nDOI: https://doi.org/10.1002/acr.24834"
-  },
-  {
-    "objectID": "content/articles/myasoedova2021/index.html#background",
-    "href": "content/articles/myasoedova2021/index.html#background",
-    "title": "Myasoedova et al., 2021",
+    "objectID": "content/articles/vancalster2016/index.html#background",
+    "href": "content/articles/vancalster2016/index.html#background",
+    "title": "Van Calster, Niebeor and Vergouwe et al., 2016.",
     "section": "Background",
-    "text": "Background\n\nMTX may be the only drug necessary to control RA for some, but in 30-40% there is no response\n50% of patients discontinue MTX within 3-5 years (Aletaha & Smolen, 2002)\nComposite disease activity measures reflect a clinically meaningful target of reaching low disease activity (see Van Gestel et al., 1996, Van Gestel et al., 1998, and Fransen & van Riel, 2005)"
+    "text": "Background\n\nHaving a well-calibrated model (i.e., a model that provides accurate probabilities of risk) is an often overlooked aspect of prediction modeling.\nNevertheless, it is rarely emphasized in practice, rarely investigated, and rarely elaborated upon.\nIn this paper, the authors streamline definitions, as well as the numerical assessment of, levels of calibration."
   },
   {
-    "objectID": "content/articles/myasoedova2021/index.html#methods",
-    "href": "content/articles/myasoedova2021/index.html#methods",
-    "title": "Myasoedova et al., 2021",
-    "section": "Methods",
-    "text": "Methods\n\nDemographic, clinical and genomic data of 643 european-ancestry patients with early RA\nResponse to MTX was defined as good or moderate by the EULAR response criteria at the 3-month follow-up\nRandom forests were trained and prediction performance was evaluated with AUC"
+    "objectID": "content/articles/vancalster2016/index.html#a-hierarchy-of-risk-calibration",
+    "href": "content/articles/vancalster2016/index.html#a-hierarchy-of-risk-calibration",
+    "title": "Van Calster, Niebeor and Vergouwe et al., 2016.",
+    "section": "A hierarchy of risk calibration",
+    "text": "A hierarchy of risk calibration\n\nMean calibration\n\nThe first level concerns mean calibration, or ‘calibration-in-the-large’, which simply compares the average predicted risk with the observed event rate.\nWhile simple, it is insufficient as the sole criterion.\n\n\n\nWeak calibration\n\nThe second level concerns weak calibration, which is indicative of there being no overfitting or underfitting, nor any systematic over- or underestimation of predicted risks.\nIt can be assessed by computing the calibration intercept and the calibration slope, where the former should be close to zero, the latter close to one.\nMore specifically, the calibration intercept is, for a binary outcome vector Y and predicted risk estimates P, obtained by a logistic regression Y ~ I(P) where I(P) indicates the use of an offset.\nSimilarly, the calibration slope is then obtained by a logistic regression Y ~ P.\nNote that this is still assessing calibration in an aggregate level, and weak calibration also suffers from generally being achieved if standard estimation methods are used.\n\n\n\nModerate calibration\n\nCommon notion of calibration: achieved if, among those with the same predicted risk, the observed event rate equals the predicted risk.\nIf we again suppose a binary outcome vector Y and predicted risk estimates P, then we can assess this by fitting (and subsequently plotting) Y ~ f(P), where f is a smoothing function (loess/spline).\nOne may also bin the estimated risk predictions (e.g., splitting [0, 1] into pieces of ten, each estimated risk prediction belonging to one bin), and assess moderate calibration in each bin.\n\n\n\nStrong calibration\n\nFor strong calibration, we require predicted risk to match observed event rates for each and every covariate pattern.\nThe authors note that this is generally infeasible in any realistic setting, and therefore mention it as a utopic goal to aim for."
   },
   {
-    "objectID": "content/articles/myasoedova2021/index.html#results",
-    "href": "content/articles/myasoedova2021/index.html#results",
-    "title": "Myasoedova et al., 2021",
-    "section": "Results",
-    "text": "Results\n\nIn-sample AUC 0.84, out-of-sample prediction accuracy 76% (with p values for both, lol?)\nIntergenic SNPs had variable importance above 60 (whatever that means), and among with baseline DAS28 were the top predictors of MTX response"
-  },
-  {
-    "objectID": "content/articles/myasoedova2021/index.html#conclusion",
-    "href": "content/articles/myasoedova2021/index.html#conclusion",
-    "title": "Myasoedova et al., 2021",
+    "objectID": "content/articles/vancalster2016/index.html#conclusion",
+    "href": "content/articles/vancalster2016/index.html#conclusion",
+    "title": "Van Calster, Niebeor and Vergouwe et al., 2016.",
     "section": "Conclusion",
-    "text": "Conclusion\n\nPharmacogenomic biomarkers combined with baseline DAS28 can be useful in predicting response to MTX in patients with early RA\nML is promising in this area, potentially able to predict timely escalation of treatment strategies in early RA"
+    "text": "Conclusion\n\nWhile strong calibration is the optimal goal, moderate calibration is the realistic goal which we ought to achieve in our model development.\nAs final recommendations they suggest graphically assessing models for moderate calibration, and providing the summary statistics for weak calibration.\n\n\n\n\n\n\n\nWhat should go here?\n\n\n\n\nText!\n\n\n\n\nAnd what should go here?\nAnything here?\n\n\n\n\n\n\n\nWhat about here? Is there anything worth putting here?\n\n\n\n\nText!"
   },
   {
-    "objectID": "content/articles/smolen2020/index.html",
-    "href": "content/articles/smolen2020/index.html",
-    "title": "Smolen et al., 2020",
+    "objectID": "content/articles/vancalster2019/index.html",
+    "href": "content/articles/vancalster2019/index.html",
+    "title": "Van Calster, McLeronon and Van Smeden et al., 2019.",
     "section": "",
-    "text": "At a glance\n\n\n\n\nObjectives\n\nTo provide an update of the European League Against Rheumatism (EULAR) RA management recommendations to account for the most recent developments in the field.\n\nRelated articles\n\nTreatment recommendations by the ACR (Fraenkel et al., 2021).\n\nLink\n\nDOI: https://doi.org/10.1136/annrheumdis-2019-216655"
+    "text": "At a glance\n\n\n\n\nObjectives\n\nSTRATOS initiative paper, arguing for the relevance and importance of calibration, as a complement to discrimination, in prediction modeling.\n\nRelated articles\n\nVan Calster, Niebor and Vergouwe et al. (2016) on PubMed or kepipedia; Kull, Filho and Flach (2017) GitHub.\n\nLink\n\nDOI: 10.1186/s12916-019-1466-7"
   },
   {
-    "objectID": "content/articles/smolen2020/index.html#methods",
-    "href": "content/articles/smolen2020/index.html#methods",
-    "title": "Smolen et al., 2020",
+    "objectID": "content/articles/vancalster2019/index.html#background",
+    "href": "content/articles/vancalster2019/index.html#background",
+    "title": "Van Calster, McLeronon and Van Smeden et al., 2019.",
+    "section": "Background",
+    "text": "Background\n\nAuthors argue that, while important, good discrimination is not the sole factor in the quality of a prediction model.\nThey note that a ‘worse’ model with respect to discrimination (e.g. AUC) may still be preferable if it is providing accurate risk predictions."
+  },
+  {
+    "objectID": "content/articles/vancalster2019/index.html#why-does-poor-calibration-occur",
+    "href": "content/articles/vancalster2019/index.html#why-does-poor-calibration-occur",
+    "title": "Van Calster, McLeronon and Van Smeden et al., 2019.",
+    "section": "Why does poor calibration occur?",
+    "text": "Why does poor calibration occur?\n\nFirstly, poorly matching external validation sets may lead to issues in translating risk predictions, with the symptom of poor calibration.\nIn a healthcare context, this may be exemplified by differences in practice between clinics, regions or countries: ‘The predictors in the algorithm may explain a part of the heterogeneity, but often differences between predictors will not explain all differences between settings’.\nSecondly, overfitting is another common cause, noticeable already in internal validation.\nThis may occur by forcing too many predictors into a model, or by relying on extremely flexible models such as neural networks, or decision trees."
+  },
+  {
+    "objectID": "content/articles/vancalster2019/index.html#how-can-it-be-measured",
+    "href": "content/articles/vancalster2019/index.html#how-can-it-be-measured",
+    "title": "Van Calster, McLeronon and Van Smeden et al., 2019.",
+    "section": "How can it be measured?",
+    "text": "How can it be measured?\n\nA hierarchical set of criteria are suggested, as delineated in detail in a previous publication from the authors Van Calster, Niebor and Vergouwe et al., 2016.\nMean or ‘calibration-in-the-large’ is achieved when the mean predicted risk matches the overall event rate, with too low indicating an underfit model, too high indicating an overfit model.\nWeak calibration is achieved if, on average, no over- or underestimation of risk occurs while also not giving too extreme risk predictions.\nModerate calibration is achieved if estimated risk predictions accurately match observed proportions, in large (in contrast to mean calibration which is on average).\nStrong calibration is the optimal goal, and it is achieved when the predicted risk matches the observed proportion ‘for every possible combination of predictor values’.\nA pedagogical example of the computation of the above is provided in the Supplementary Material of the paper, and is worth checking out for those interested in implementing these in practice."
+  },
+  {
+    "objectID": "content/articles/vancalster2019/index.html#how-can-poor-calibration-be-mitigated",
+    "href": "content/articles/vancalster2019/index.html#how-can-poor-calibration-be-mitigated",
+    "title": "Van Calster, McLeronon and Van Smeden et al., 2019.",
+    "section": "How can poor calibration be mitigated?",
+    "text": "How can poor calibration be mitigated?\n\nThe authors mention shrinkage strategies to avoid overfitting occurring when the model is too complex for the data (e.g., using ridge or lasso).\nThey also mention ‘updating’, exemplified by the updating of regression model coefficients through adding calibration intercept and scaling coefficients by the calibration slope.\nIn practice, I found both approaches poor in improving calibrations: neither may be possible within a machine learning context, and their effect on calibration may be minor.\nInstead, I would also like to mention Platt Scaling, Isotonic Regression and Beta Calibration, which can be read about in Kull, Filho and Flach (2017).\n\n\n\n\n\n\n\nWhat should go here?\n\n\n\n\nText!\n\n\n\n\nAnd what should go here?\nAnything here?\n\n\n\n\n\n\n\nWhat about here? Is there anything worth putting here?\n\n\n\n\nText!"
+  },
+  {
+    "objectID": "content/articles/index.html",
+    "href": "content/articles/index.html",
+    "title": "Articles",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nModrák et al., 2021\n\n\nDisease progression of 213 patients hospitalized with COVID-19 in the Czech Republic in March-October 2020: An exploratory analysis \n\n\n\nCOVID-19\n\n\nTrajectory\n\n\nHidden Markov models\n\n\n\n\n\n\nJun 10, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nCapelusnik & Aletaha, 2021\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nLee et al., 2011\n\n\nPain persists in DAS28 rheumatoid arthritis remission but not in ACR/EULAR remission: a longitudinal observational study \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\nValidity\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nSalmeen et al., 2011\n\n\nShould imaging be a component of rheumatoid arthritis remission criteria? A comparison between traditional and modified composite remission scores and imaging assessments \n\n\n\nRheumatoid arthritis\n\n\nRemission\n\n\nComposites\n\n\nValidity\n\n\n\n\n\n\nJun 3, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nVan Calster, Niebeor and Vergouwe et al., 2016.\n\n\nA calibration hierarchy for risk models was defined: from utopia to empirical data \n\n\n\nPrediction\n\n\nCalibration\n\n\n\n\n\n\nJun 3, 2024\n\n\nAnton Öberg Sysojev\n\n\n\n\n\n\n\nVan Calster, McLeronon and Van Smeden et al., 2019.\n\n\nCalibration: the Achilles heel of predictive analytics \n\n\n\nPrediction\n\n\nCalibration\n\n\n\n\n\n\nJun 3, 2024\n\n\nAnton Öberg Sysojev\n\n\n\n\n\n\n\nCastrejón et al., 2018\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 31, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nSergeant et al., 2018\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 30, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nPadyukov, L., 2022\n\n\nGenetics of rheumatoid arthritis \n\n\n\nAlleles\n\n\nArthritis\n\n\nRheumatoid/etiology/genetics\n\n\nAutoantibodies\n\n\nGenetic Predisposition to Disease\n\n\nHLA-DRB1 Chains/genetics\n\n\nHumans\n\n\nProteomics\n\n\nAutoantibody\n\n\nAutoimmunity\n\n\nGenetic polymorphism\n\n\nHla\n\n\nInflammation\n\n\nRheumatoid arthritis\n\n\n\n\n\n\nMay 29, 2024\n\n\nYounes Laalou\n\n\n\n\n\n\n\nSmolen et al., 2020\n\n\nEULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2019 update \n\n\n\nRheumatoid arthritis\n\n\nTreatment\n\n\nGuidelines\n\n\n\n\n\n\nMay 27, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nMyasoedova et al., 2021\n\n\nToward Individualized Prediction of Response to Methotrexate in Early Rheumatoid Arthritis: A Pharmacogenomics-Driven Machine Learning Approach \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\nGenetics\n\n\n\n\n\n\nMay 25, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nDuong et al., 2022\n\n\nClinical predictors of response to methotrexate in patients with rheumatoid arthritis: a machine learning approach using clinical trial data \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 23, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/articles/duong2022/index.html",
+    "href": "content/articles/duong2022/index.html",
+    "title": "Duong et al., 2022",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjectives\n\nTo identify clinical predictors of response to MTX in patients with RA using ML methods.\n\nRelated articles\n\nOther articles predicting MTX treatment response are Sergeant et al., 2018, Castrejón et al., 2016, Myasoedova et al., 2021.\n\nLink\n\nDOI: https://doi.org/10.1186/s13075-022-02851-5"
+  },
+  {
+    "objectID": "content/articles/duong2022/index.html#background",
+    "href": "content/articles/duong2022/index.html#background",
+    "title": "Duong et al., 2022",
+    "section": "Background",
+    "text": "Background\n\nMTX is the popular first-line DMARD treatment in RA\nThere are no clinically useful tools to predict response to MTX treatment in patients with RA"
+  },
+  {
+    "objectID": "content/articles/duong2022/index.html#methods",
+    "href": "content/articles/duong2022/index.html#methods",
+    "title": "Duong et al., 2022",
     "section": "Methods",
-    "text": "Methods\n\nSummarise new supporting or contradicting evidence for therapies\nLiterature search and predefined voting process on current levels of evidence"
+    "text": "Methods\n\nDMARD-naïve patients with RA from RCTs were accessed through a database\nRequired DAS28-ESR at baseline and 12 and 24 weeks\nLatent class modelling of MTX response\nLasso and random forests were used to identify predictors of response\nModel performance was assessed using AUC"
   },
   {
-    "objectID": "content/articles/smolen2020/index.html#results",
-    "href": "content/articles/smolen2020/index.html#results",
-    "title": "Smolen et al., 2020",
+    "objectID": "content/articles/duong2022/index.html#results",
+    "href": "content/articles/duong2022/index.html#results",
+    "title": "Duong et al., 2022",
     "section": "Results",
-    "text": "Results\n\nTask force agreed on five overarching principles and 12 recommendations concerning use of csDMARDs (MTX, leflunomide, sulfasalizine), glucocorticoids (GCs), bDMARDs (TNFis), and tsDMARDs (JAKis)\nGuidance on monotherapy, combination therapy, treatment strategy (treat-to-target) and tapering on sustained clinical remission is provided\n\nBegin with MTX plus GCs and upon insufficient response within 3 to 6 months, stratify by risk factors\nIn the presence of poor prognostic factors (autoantibodies, high disease activity, early erosions or failure of two csDMARDs), any bDMARD or JAKi should be added to the csDMARD\nAdd a bDMARD (another or same class) or tsDMARD is recommended\n\n\n\n\n\n\n\n\nDefining MTX failure\n\n\n\nAccording to this definition, MTX treatment has been unsuccessful once a patient adds any bDMARD or JAKi. Classifying initial treatment success for MTX in SRQ should therefore look for the addition of other drugs and not the stopping date of MTX.\n\n\n\nOn sustained remission, DMARDs may be tapered but not stopped\nLevels of agreement among experts were high mostly"
+    "text": "Results\n\n775 patients from 4 RCTs were included\nTwo classes of patients were identified based on DAS28-ESR change over 24 weeks: good vs poor responders\nTop predictors were baseline DAS28, ACPA, HAQ – highest likelihood of response in DAS28 &lt; 7.4, ACPA positive, HAQ &lt; 2\nIsn’t this a bit of a no brainer? If you’re doing better at the start, you’re more likely to achieve a certain low threshold after a short amount of time? See also Capelusnik & Aletaha, 2021."
   },
   {
-    "objectID": "content/articles/smolen2020/index.html#conclusion",
-    "href": "content/articles/smolen2020/index.html#conclusion",
-    "title": "Smolen et al., 2020",
+    "objectID": "content/articles/duong2022/index.html#conclusions",
+    "href": "content/articles/duong2022/index.html#conclusions",
+    "title": "Duong et al., 2022",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nDeveloped and externally validated a prediction model for response to MTX within 24 weeks in DMARD-naïve patients with RA\nOne of the first studies to use ML methods to identify latent trajectories of DAS28-ESR over 24 weeks\n\n\n\n\n\n\n\nHeterogeneous responses to MTX unaccounted for in treatment guidelines\n\n\n\nThe vast heterogeneity in response to MTX among individual patients with RA is insufficiently addressed in the current treatment guidelines, and systematic patient-tailored tools to personalize early RA management are lacking (for more information on treatment guidelines, see Smolen et al., 2020, Fraenkel et al., 2021).\n\n\n\nLower baseline disease activity and better functional status are predictive of good responders to MTX is in line with previous studies ([[Capelusnik & Aletaha, 2021]], [[Sergeant et al., 2018]], [[Castrejón et al., 2016]])\nAuthors claim that people below certain cutoffs (see [[#Results]]) have an 80% probability of responding to MTX treatment, but it is unclear to me how much uncertainty there is on an individual level – after all, this prediction should only matter on an individual level\n\n\n\n\n\n\n\nMore discussion\n\n\n\nThe authors go into further detail about - Relevance of different time windows - Relevance of ACPA positivity - Relevance of individual DAS28 components for prediction and point to another study from the Netherlands where this was similar (see here, yet to be summarised) - Sociodemographic characteristics - External validation of results - Limitations and strengths of their study"
+  },
+  {
+    "objectID": "content/articles/leonidpadyukov2022/index.html",
+    "href": "content/articles/leonidpadyukov2022/index.html",
+    "title": "Padyukov, L., 2022",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjectives\n\n\n\n\nRelated articles :\n\nLink\n\nDOI: [https://doi.org/10.1007/s00281-022-00912-0]"
+  },
+  {
+    "objectID": "content/articles/sergeant2018/index.html",
+    "href": "content/articles/sergeant2018/index.html",
+    "title": "Sergeant et al., 2018",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjective\n\nTo identify baseline predictors of non-response to MTX and combine these into a prediction algorithm.\n\nRelated articles\n\nFor more articles on prediction of MTX treatment response, see Duong et al., 2022, Myasoedova et al., 2021, Castrejón et al., 2016.\n\nLink\n\nDOI: https://doi.org/10.1186/s13075-018-1645-5"
+  },
+  {
+    "objectID": "content/articles/sergeant2018/index.html#background",
+    "href": "content/articles/sergeant2018/index.html#background",
+    "title": "Sergeant et al., 2018",
+    "section": "Background",
+    "text": "Background\n\nMTX is the DMARD of choice in anti-rheumatic treatment\nResponse to MTX varies between patients"
+  },
+  {
+    "objectID": "content/articles/sergeant2018/index.html#methods",
+    "href": "content/articles/sergeant2018/index.html#methods",
+    "title": "Sergeant et al., 2018",
+    "section": "Methods",
+    "text": "Methods\n\nParticipants from the UK multi-center prospective observational study RAMS (RA medication study)\nMTX-naïve patients\nNon-response was defined as “no response” after the EULAR response criteria (see also Smolen et al., 2020), discontinuation of MTX due to inefficacy or starting biologic therapy\nTested association of baseline demographic, clinical and psychosocial predictors with non-response using logistic regression\nAUC and calibration plots to assess predictive performance"
+  },
+  {
+    "objectID": "content/articles/sergeant2018/index.html#results",
+    "href": "content/articles/sergeant2018/index.html#results",
+    "title": "Sergeant et al., 2018",
+    "section": "Results",
+    "text": "Results\n\n43% of patients were classified as non-responders\nindependent multivariable predictors of MTX non-response were RF negativity, higher HAQ, higher TJC, lower DAS28 and higher Hospital Anxiety and Depression Scale anxiety score\nOptimism-corrected (huh?) AUC was 0.74"
+  },
+  {
+    "objectID": "content/articles/sergeant2018/index.html#conclusions",
+    "href": "content/articles/sergeant2018/index.html#conclusions",
+    "title": "Sergeant et al., 2018",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nFirst MTX non-response model to be developed in a large cohort where MTX starters where analysed with demographic, clinical and psychosocial predictors\nAnxiety is a predictor of non-response and could be addressed at treatment commencement"
+  },
+  {
+    "objectID": "content/articles/modrak2021/index.html",
+    "href": "content/articles/modrak2021/index.html",
+    "title": "Modrák et al., 2021",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjective\n\nTo explore associations between COVID-19 treatments and patient outcomes.\n\nRelated articles\n\nCurrently none. This article may be related to other articles modeling disease trajectories over time.\n\nDOI\n\nDOI: https://doi.org/10.1371/journal.pone.0245103"
+  },
+  {
+    "objectID": "content/articles/modrak2021/index.html#background",
+    "href": "content/articles/modrak2021/index.html#background",
+    "title": "Modrák et al., 2021",
+    "section": "Background",
+    "text": "Background\n\nLack of knowledge about effective treatments for COVID-19\nExisting methods for predicting COVID-19 severity are at high risk of bias"
+  },
+  {
+    "objectID": "content/articles/modrak2021/index.html#methods",
+    "href": "content/articles/modrak2021/index.html#methods",
+    "title": "Modrák et al., 2021",
+    "section": "Methods",
+    "text": "Methods\n\nConvenience sample from 10 sites\nData were available on daily resolution\nMultiverse analysis, which reports and compare different models to capture uncertainty about different models and its impact on the conclusions\nAmong the models run is a Bayesian HMM using rates, restricted transitions, and terminal states implemented in brms with some added special sauce (for more detail, see the GitHub repo and a post on the Stan discourse)"
+  },
+  {
+    "objectID": "content/articles/modrak2021/index.html#results",
+    "href": "content/articles/modrak2021/index.html#results",
+    "title": "Modrák et al., 2021",
+    "section": "Results",
+    "text": "Results\n\nMostly inconclusive results\nAdjusted models suggest that effect of some candidate treatments is spurious"
+  },
+  {
+    "objectID": "content/articles/modrak2021/index.html#conclusion",
+    "href": "content/articles/modrak2021/index.html#conclusion",
+    "title": "Modrák et al., 2021",
     "section": "Conclusion",
-    "text": "Conclusion\nWIP"
-  },
-  {
-    "objectID": "content/articles/castrejon2016/index.html",
-    "href": "content/articles/castrejon2016/index.html",
-    "title": "Castrejón et al., 2018",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjective\n\nTo identify baseline variables that predict remission according to different criteria in RA\n\nRelated articles\n\nFor more articles on prediction of MTX treatment response, see Duong et al., 2022, Myasoedova et al., 2021, Sergeant et al., 2018.\n\nLink\n\nDOI: https://doi.org/10.3899/jrheum.141586"
-  },
-  {
-    "objectID": "content/articles/castrejon2016/index.html#background",
-    "href": "content/articles/castrejon2016/index.html#background",
-    "title": "Castrejón et al., 2018",
-    "section": "Background",
-    "text": "Background\nTODO"
-  },
-  {
-    "objectID": "content/articles/castrejon2016/index.html#methods",
-    "href": "content/articles/castrejon2016/index.html#methods",
-    "title": "Castrejón et al., 2018",
-    "section": "Methods",
-    "text": "Methods\n\nAnalysed individual variables and indices at baseline\nPredicted remission at either 6 or 12 months according to Boolean remission, SDAI, CDAI and DAS28"
-  },
-  {
-    "objectID": "content/articles/castrejon2016/index.html#results",
-    "href": "content/articles/castrejon2016/index.html#results",
-    "title": "Castrejón et al., 2018",
-    "section": "Results",
-    "text": "Results\n\nRemission was predicted “significantly” (?) in 27 to 51 percent of patients\nRelevant predictors were younger age, low scores (no brainer? see also Capelusnik & Aletaha, 2021) on composites and their components, HAQ, pain, etc\nRemission was not predicted by the absence of “poor prognosis RA” (meaning “difficult to treat RA”?) or radiographic erosions\nIn multivariate regressions that included only three variables (sounds like some model selection?) low HAQ predicted remission according to all criteria as effectively as SJC, ESR, or CRP"
-  },
-  {
-    "objectID": "content/articles/castrejon2016/index.html#conclusions",
-    "href": "content/articles/castrejon2016/index.html#conclusions",
-    "title": "Castrejón et al., 2018",
-    "section": "Conclusions",
-    "text": "Conclusions\n\nYounger age and (low scores on) six core data set clinical measures predicted remission\nAbsence of traditional “poor prognosis RA” indicators, RA, ACPA, or radiographic erosions did not predict remission"
-  },
-  {
-    "objectID": "content/articles/salmeen2011/index.html",
-    "href": "content/articles/salmeen2011/index.html",
-    "title": "Salmeen et al., 2011",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjective\n\nTo test wheter considering ultrasound measurements allow for the definition of stricter remission criteria, which ensure that patients in remission are free of synovitis.\n\nRelated articles\n\nFor other articles casting doubt on the validity of the DAS28, see Lee et al., 2011.\n\nLink\n\nDOI: https://doi.org/10.1136/ard.2010.134445"
-  },
-  {
-    "objectID": "content/articles/salmeen2011/index.html#background",
-    "href": "content/articles/salmeen2011/index.html#background",
-    "title": "Salmeen et al., 2011",
-    "section": "Background",
-    "text": "Background"
-  },
-  {
-    "objectID": "content/articles/salmeen2011/index.html#methods",
-    "href": "content/articles/salmeen2011/index.html#methods",
-    "title": "Salmeen et al., 2011",
-    "section": "Methods",
-    "text": "Methods\n\nSample included patients with DAS28 \\(\\leq\\) 2.6 (implies DAS28ESR was used) for at least 6 months\nThese patients were classified using standard DAS28-, more stringent DAS28-, and SDAI cutoffs\nRecords of ultrasound were made to compare against clinical disease activity measures"
-  },
-  {
-    "objectID": "content/articles/salmeen2011/index.html#results",
-    "href": "content/articles/salmeen2011/index.html#results",
-    "title": "Salmeen et al., 2011",
-    "section": "Results",
-    "text": "Results\n\n128 patients receiving either DMARD or DMARD and TNFi were included (median DAS28ESR 1.7, all &lt; 2.6)\nOf 640 imaged joints, 5% had moderate or severe power Doppler (PD) activity, 8% were clinically swollen, 1% were tender\nModerate to severe PD activity was present in patients fulfilling DAS28ESR (21%), ACR (15%) or SDAI (19%) remission\nMore stringent DAS28ESR and SDAI criteria reduced the mean number of swollen and tender joints, but not the percentage of patients with PD activity"
-  },
-  {
-    "objectID": "content/articles/salmeen2011/index.html#conclusions",
-    "href": "content/articles/salmeen2011/index.html#conclusions",
-    "title": "Salmeen et al., 2011",
-    "section": "Conclusions",
-    "text": "Conclusions\n\nUsing more stringent remission criteria reduces symptoms of inflammation, but not PD activity in patients with remission\nClinical criteria may be sufficiently insensitive (?) to detect low but clinically relevant levels of inflammation accurately"
-  },
-  {
-    "objectID": "content/articles/capelusnik2021/index.html",
-    "href": "content/articles/capelusnik2021/index.html",
-    "title": "Capelusnik & Aletaha, 2021",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjective\n\nTo perform a comprehensive analysis of predictors of achieving disease activity outcomes by change, response and state measures.\n\nRelated articles\n\nCapelusnik and Aletaha do not specifically look at MTX treatment response, but articles relating to said topic are probably still interesting, so see Duong et al., 2022, Myasoedova et al., 2021, Sergeant et al., 2018, Castrejón et al., 2016.\n\nLink\n\nDOI: https://doi.org/10.1136/annrheumdis-2021-220853"
-  },
-  {
-    "objectID": "content/articles/capelusnik2021/index.html#background",
-    "href": "content/articles/capelusnik2021/index.html#background",
-    "title": "Capelusnik & Aletaha, 2021",
-    "section": "Background",
-    "text": "Background"
-  },
-  {
-    "objectID": "content/articles/capelusnik2021/index.html#methods",
-    "href": "content/articles/capelusnik2021/index.html#methods",
-    "title": "Capelusnik & Aletaha, 2021",
-    "section": "Methods",
-    "text": "Methods\n\nData from three RA trials (one main analysis, two for validation)\nAnalyse effect of patient and disease characteristics (host vs disease) measured by composite indices (remission or low disease activity as defined by SDAI, and change on a continuous scale)"
-  },
-  {
-    "objectID": "content/articles/capelusnik2021/index.html#results",
-    "href": "content/articles/capelusnik2021/index.html#results",
-    "title": "Capelusnik & Aletaha, 2021",
-    "section": "Results",
-    "text": "Results\n\nLower disease activity at baseline was associated with state outcome (remission / low disease activity), see also Duong et al., 2022\nHigh baseline values were associated with change outcomes (large SDAI absolute change)\nMultivariate (TODO: check if they mean multivariable) analysis identified predictors of state outcomes:\n\nshort disease duration\nmale sex\nlower disease activity\n\nNo significant predictors were found for the prediction of response except for CRP, where higher levels at baseline were associated with better responses (TODO: how was response defined?)\n\n\n\n\n\n\n\nCorrelated intercepts and slopes\n\n\n\nIt is not surprising that people with higher disease activity at baseline show higher absolute change at follow up, while those with lower disease activity show higher rates of remission at follow up.\nI wonder what these regression coefficients would look like if one would specifically model the intercept-slope interaction."
-  },
-  {
-    "objectID": "content/articles/capelusnik2021/index.html#conclusions",
-    "href": "content/articles/capelusnik2021/index.html#conclusions",
-    "title": "Capelusnik & Aletaha, 2021",
-    "section": "Conclusions",
-    "text": "Conclusions\n\nPrediction of treatment success is limited in RA\nParticularly in early RA, prediction of state targets can be achieved by lower baseline levels of disease activity (not surprising, I think, see above)\nSex and disease duration may improve predictability of state targets"
-  },
-  {
-    "objectID": "content/articles/lee2011/index.html",
-    "href": "content/articles/lee2011/index.html",
-    "title": "Lee et al., 2011",
-    "section": "",
-    "text": "At a glance\n\n\n\n\nObjective\n\nTo understand the degree to which pain persists in patients with DAS28CRP remission.\n\nRelated articles\n\nFor other articles casting doubt on the validity of the DAS28, see Salmeen et al., 2011.\n\nLink\n\nDOI: https://arthritis-research.biomedcentral.com/articles/10.1186/ar3353"
-  },
-  {
-    "objectID": "content/articles/lee2011/index.html#background",
-    "href": "content/articles/lee2011/index.html#background",
-    "title": "Lee et al., 2011",
-    "section": "Background",
-    "text": "Background\n\nCause of pain in patients in remission unknown, but may be inflammation, structural joint damage, and / or non-disease-related factors"
-  },
-  {
-    "objectID": "content/articles/lee2011/index.html#methods",
-    "href": "content/articles/lee2011/index.html#methods",
-    "title": "Lee et al., 2011",
-    "section": "Methods",
-    "text": "Methods\n\n157 RA patients from the Brigham and Women’s Hospital Rheumatoid Arthritis Sequential Study (BRASS) at baseline and one-year follow up\nMultivariable-adjusted logistic regression onto pain with predictors disease-related predictors (such as MDHAQ function score, disease duration or patient global assessment … why is patient global assessment disease-related?), and others like fatigue, sleep problems"
-  },
-  {
-    "objectID": "content/articles/lee2011/index.html#results",
-    "href": "content/articles/lee2011/index.html#results",
-    "title": "Lee et al., 2011",
-    "section": "Results",
-    "text": "Results\n\nCause of pain in patients in remission is not likely inflammation or structural joint damage, because CRP, swollen-joint count, and tender-joint count were not significantly associated with pain\nFunction scores and patient global assessment were significantly associated with pain at baseline and one year follow up"
-  },
-  {
-    "objectID": "content/articles/lee2011/index.html#conclusion",
-    "href": "content/articles/lee2011/index.html#conclusion",
-    "title": "Lee et al., 2011",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nFunction and patient global assessment are often interpreted as RA-related, but these measures also reflect a wide range of other factors\nFor example, fibromyalgia is a non-inflammatory condition that is not associated with joint damage\nRA patients with fibromyalgia have much worse function but only slightly elevated sedimentation rate (inflammation)\nThe strong association between baseline fatigue, sleep problems, poor self-efficacy and baseline and one-year pain severity supports the existence of an enhanced, non-inflammatory pain state (more on pain in fibromyalgia)"
+    "text": "Conclusion\n\nOther studies on the analyzed treatments likely overestimated their effectiveness"
   },
   {
     "objectID": "content/epidemiology/cutoffs/index.html",

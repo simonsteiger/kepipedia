@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Simon Steiger">
-<meta name="dcterms.date" content="2024-06-05">
+<meta name="dcterms.date" content="2024-06-10">
 
-<title>KEPipedia - Capelusnik &amp; Aletaha, 2021</title>
+<title>KEPipedia - Modrák et al., 2021</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
-  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -136,12 +136,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Capelusnik &amp; Aletaha, 2021</h1>
-<p class="subtitle lead"></p><p>Prediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS)</p><p></p>
+<h1 class="title">Modrák et al., 2021</h1>
+<p class="subtitle lead"></p><p>Disease progression of 213 patients hospitalized with COVID-19 in the Czech Republic in March-October 2020: An exploratory analysis</p><p></p>
   <div class="quarto-categories">
-    <div class="quarto-category">Rheumatoid arthritis</div>
-    <div class="quarto-category">Prediction</div>
-    <div class="quarto-category">Composites</div>
+    <div class="quarto-category">COVID-19</div>
+    <div class="quarto-category">Trajectory</div>
+    <div class="quarto-category">Hidden Markov models</div>
   </div>
   </div>
 
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 5, 2024</p>
+      <p class="date">June 10, 2024</p>
     </div>
   </div>
   
@@ -184,63 +184,46 @@ At a glance
 <dl>
 <dt>Objective</dt>
 <dd>
-To perform a comprehensive analysis of predictors of achieving disease activity outcomes by change, response and state measures.
+To explore associations between COVID-19 treatments and patient outcomes.
 </dd>
 <dt>Related articles</dt>
 <dd>
-Capelusnik and Aletaha do not specifically look at MTX treatment response, but articles relating to said topic are probably still interesting, so see <a href="../../../content/articles/duong2022/index.html">Duong et al., 2022</a>, <a href="../../../content/articles/myasoedova2021/index.html">Myasoedova et al., 2021</a>, <a href="../../../content/articles/sergeant2018/index.html">Sergeant et al., 2018</a>, <a href="../../../content/articles/castrejon2016/index.html">Castrejón et al., 2016</a>.
+Currently none. This article may be related to other articles modeling disease trajectories over time.
 </dd>
-<dt>Link</dt>
+<dt>DOI</dt>
 <dd>
-DOI: <a href="https://doi.org/10.1136/annrheumdis-2021-220853">https://doi.org/10.1136/annrheumdis-2021-220853</a>
+DOI: <a href="https://doi.org/10.1371/journal.pone.0245103">https://doi.org/10.1371/journal.pone.0245103</a>
 </dd>
 </dl>
 </div>
 </div>
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
+<ul>
+<li>Lack of knowledge about effective treatments for COVID-19</li>
+<li>Existing methods for predicting COVID-19 severity are at high risk of bias</li>
+</ul>
 </section>
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
 <ul>
-<li>Data from three RA trials (one main analysis, two for validation)</li>
-<li>Analyse effect of patient and disease characteristics (<strong>host vs disease</strong>) measured by composite indices (remission or low disease activity as defined by SDAI, and change on a continuous scale)</li>
+<li>Convenience sample from 10 sites</li>
+<li>Data were available on daily resolution</li>
+<li>Multiverse analysis, which reports and compare different models to capture uncertainty about different models and its impact on the conclusions</li>
+<li>Among the models run is a Bayesian HMM using rates, restricted transitions, and terminal states implemented in <code>brms</code> with some added special sauce (for more detail, see the <a href="https://github.com/cas-bioinf/covid19retrospective">GitHub repo</a> and a <a href="https://discourse.mc-stan.org/t/fitting-hmms-with-time-varying-transition-matrices-using-brms-a-prototype/19645">post on the Stan discourse</a>)</li>
 </ul>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
 <ul>
-<li>Lower disease activity at baseline was associated with state outcome (remission / low disease activity), see also <a href="../../../content/articles/duong2022/index.html">Duong et al., 2022</a></li>
-<li>High baseline values were associated with change outcomes (large SDAI absolute change)</li>
-<li>Multivariate (TODO: check if they mean <em>multivariable</em>) analysis identified predictors of <strong>state outcomes</strong>:
-<ul>
-<li>short disease duration</li>
-<li>male sex</li>
-<li>lower disease activity</li>
-</ul></li>
-<li>No significant predictors were found for the prediction of response except for CRP, where higher levels at baseline were associated with better responses (TODO: how was response defined?)</li>
+<li>Mostly inconclusive results</li>
+<li>Adjusted models suggest that effect of some candidate treatments is spurious</li>
 </ul>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Correlated intercepts and slopes
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>It is not surprising that people with higher disease activity at baseline show higher absolute change at follow up, while those with lower disease activity show higher rates of remission at follow up.</p>
-<p>I wonder what these regression coefficients would look like if one would specifically <a href="https://www.youtube.com/watch?v=Es44-Bp1aKo">model the intercept-slope interaction</a>.</p>
-</div>
-</div>
 </section>
-<section id="conclusions" class="level2">
-<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <ul>
-<li>Prediction of treatment success is limited in RA</li>
-<li>Particularly in early RA, prediction of state targets can be achieved by lower baseline levels of disease activity (not surprising, I think, see above)</li>
-<li>Sex and disease duration may improve predictability of state targets</li>
+<li>Other studies on the analyzed treatments likely overestimated their effectiveness</li>
 </ul>
 
 
