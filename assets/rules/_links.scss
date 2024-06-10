@@ -12,9 +12,9 @@
 }
 
 .listing-category {
-    @include custom-category($light-orange, $orange);
+    @include custom-category($color-secondary, $color-highlight, $color-hover-secondary, $color-hover-highlight);
 }
 
 .quarto-category {
-    @include custom-category($light-orange, $orange);
+    @include custom-category($color-secondary, $color-highlight, $color-hover-secondary, $color-hover-highlight);
 }

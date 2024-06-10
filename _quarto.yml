@@ -6,8 +6,6 @@ website:
   title: "KEPipedia"
   navbar:
     left:
-      - text: Home
-        href: index.qmd
       - text: Epidemiology
         href: content/epidemiology/index.qmd
       - text: Statistics

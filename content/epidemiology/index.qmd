@@ -1,6 +1,6 @@
 ---
 title: "Epidemiology"
-subtitle: "Blog-style entries and short wikis on epi topics"
+subtitle: ""
 #description: |
 #    This is a preliminary landing page. Hopefully there will be some content here soon!
 listing:
