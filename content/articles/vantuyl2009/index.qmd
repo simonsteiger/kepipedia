@@ -1,0 +1,105 @@
+---
+title: Van Tuyl et al., 2009
+date: 2024-06-10
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - Remission
+    - Composites
+    - Validity
+subtitle: >
+    Defining remission in Rheumatoid Arthritis: Results of an Initial ACR Consensus Conference
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objectives
+: To move towards a uniform definition of remission in RA.
+
+Related articles
+: Maybe articles about the core set of variables. [Lee et al., 2011](../lee2011/index.qmd) about imaging data and remission.
+
+Link
+: DOI: [https://doi.org/10.1002/art.24392](https://doi.org/10.1002/art.24392)
+
+:::
+
+## Background
+
+- At the time the manuscript was written (2009), the ACR definition of clinical remission was from 1981
+- Relatively few patients achieved remission at that time (1980s)
+- Authors report better correlation between (old) ACR criteria and full-joint-count DAS, not the DAS28
+
+## Methods
+
+- Qualitative discussion between expert RA clinicians.
+
+## Results
+
+- Should remission be defined differently for trials and in the clinic?
+
+### Defining remission
+
+::: {.callout-note}
+
+### What is remission?
+
+According to Maarten Boers, it is:
+
+- the absence of disease activity
+- neither cure nor arrest of the disease, the disease may return
+- a state, not a transition between states
+- independent of the time spent in the remission state[^1]
+
+:::
+
+- Generally speaking, ACR, CDAI, SDAI and PAS/RAPID3 are "strict", while DAS28 and mACR are "lax" (with remission in the latter group equal to minimal disease activity in the former)
+
+The expert panel agreed on the need for a strict definition of remission, which can reliably differentiate low disease activity from remission.
+
+This strict definition should include 
+
+- no clinical disease (although entirely absent disease activity or pain may not always be possible)
+- no progression over time
+
+### Validity
+
+::: {.callout-note}
+
+### Issues of validity in defining remission in RA
+
+1. Are 28 joints enough? Is it acceptable to label a patient as "in remission" if they have active joints in the feet?
+2. Should the component measures be restricted to the ACR core set?
+3. What's the role of morning stiffness / fatigue in defining remission?
+4. What's the role of imaging? Should remission imply a lack of radiographic progression? See also [Lee et al., 2011](../lee2011/index.qmd).
+5. How should changes due to chronic disease be incorporated (or not) into remission?
+6. Should remission at some timepoint predict remission in the future? Has a subject achieved remission who is not in remission at time `t` but was at time `t-1`?
+7. Should remission predict outcomes such as joint damage, disability, death (i.e., have predictive validity)? 
+
+:::
+
+The expert panel felt that:
+
+- remission should be independent of long term outcomes such as radiographic damage
+- remission should signal no / reduced progression of joint damage and less deterioration / more improvement in functional status (HAQ)
+- from the previous point follows that remission should have predictive validity
+
+
+
+### Selectivity
+
+Not sure if this is the right word.
+What the athors mean and I want to label is about discriminating well between two hypothetical patients who belong to different categories (in German, this is [Trennschärfe](https://de.wikipedia.org/wiki/Trennsch%C3%A4rfe_eines_Tests), which might be related to statistical power but for a measure and not a hypothesis test).
+
+::: {.callout}
+
+### Issues of discrimination in definitions of remission in RA
+
+- A measure of remisson should be able to discriminate well between patients in different disease states
+- If this is not the case, a larger sample would be needed to detect an existing difference between, e.g., placebo and treatment groups
+
+:::
+
+[^1]: The time spent may however be relevant for defining a sustained state of remission
