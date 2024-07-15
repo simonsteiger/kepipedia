@@ -1,0 +1,83 @@
+---
+title: Prevoo et al., 1995
+date: 2024-07-15
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - Composites
+subtitle: >
+    Modified disease activity scores that include twenty-eight-joint counts
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objective
+: The development and validation of Modified Disease Activity Scores (DAS) that include different 28-joint counts.
+
+Related articles
+: Articles showing that the DAS28 is too quick to categorise patients as in remission due to, e.g., [residual pain](../lee2011/index.qmd) and [power Doppler activity](../salmeen2011/index.qmd). TODO add more articles on validation of DAS28.
+
+Link
+: DOI: [https://doi.org/10.1002/art.1780380107](https://doi.org/10.1002/art.1780380107)
+
+:::
+
+## Background
+
+- At the time, the only other available disease activity score included two comprehensive joint counts, i.e., the Ritchie Articular Index (RAI) and the total number of swollen joints.
+- Recent studies had indicated that joint counts consisting of only 28 joints are as valid as more comprehensive joint counts.
+- The present article aims to develop and validate a disease activity score based on these less comprehensive joint counts.
+
+## Methods
+
+This section will mostly focus on the development of the scores and less on the validation.
+
+### Patients
+
+Inclusion critera were as follows: 
+
+- recent-onset RA (disease duration of *less than one year*)
+- no previous DMARD-treatment
+
+This resulted in a sample size of 227 patients from one clinic, and 97 patients from another clinic.
+
+### Variables
+
+| Patient-reported outcomes | Lab measures                    | Joint counts                    | Treatment data           |
+|---------------------------|---------------------------------|---------------------------------|--------------------------|
+| Global health (VAS)       | ESR                             | Ritchie Articular Index         | Start of DMARD or NSAID  |
+| Morning stiffness         | Thrombocyte count               | Total tender joints (53 joints) | Change of DMARD or NSAID |
+| Grip strength             | Albumin                         | Total tender joints (44 joints) | Stop of DMARD or NSAID   |
+| HAQ                       | Hemoglobin                      | 28 swollen joint count          | Start of DMARD or NSAID  |
+|                           | $\alpha_1$-globulin             | 28 tender joint count           |                          |
+|                           | $\alpha_2$-globulin             |                                 |                          |
+|                           | $\beta$-globulin                |                                 |                          |
+|                           | $\gamma$-globulin               |                                 |                          |
+
+### Construction of scores
+
+According to the authors, the most important feature of a disease activity score is to discriminate between high and low disease activity.
+
+::: {.callout-note}
+
+### Defining disease activity
+
+High
+: The clinician decides that the patient should *start* DMARD treatment or *change* DMARD treatment
+
+Low
+: The clinician decides that the patient *stop* DMARD treatment because of remission, or existing DMARD treatment was *unchanged*.
+
+:::
+
+Two periods of high and two periods of low disease activity were randomly chosen per patient with a time period of >1 year (not sure what "time period" refers to here).
+
+This DAS was obtained from canonical discriminant analysis and from logistic discriminant analysis.
+The same procedure was performed for both comprehensive and 28-joint counts to compare the resulting scores.
+
+## Conclusion
+
+- We all know the result! A very popular score.
+- TODO add more details.
