@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Simon Steiger">
-<meta name="dcterms.date" content="2024-05-25">
+<meta name="dcterms.date" content="2024-06-10">
 
-<title>Myasoedova et al., 2021 – KEPipedia</title>
+<title>Van Tuyl et al., 2009 – KEPipedia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -126,8 +126,12 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
+  <ul class="collapse">
+  <li><a href="#defining-remission" id="toc-defining-remission" class="nav-link" data-scroll-target="#defining-remission">Defining remission</a></li>
+  <li><a href="#validity" id="toc-validity" class="nav-link" data-scroll-target="#validity">Validity</a></li>
+  <li><a href="#selectivity" id="toc-selectivity" class="nav-link" data-scroll-target="#selectivity">Selectivity</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -136,14 +140,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Myasoedova et al., 2021</h1>
-<p class="subtitle lead"></p><p>Toward Individualized Prediction of Response to Methotrexate in Early Rheumatoid Arthritis: A Pharmacogenomics-Driven Machine Learning Approach</p><p></p>
+<h1 class="title">Van Tuyl et al., 2009</h1>
+<p class="subtitle lead"></p><p>Defining remission in Rheumatoid Arthritis: Results of an Initial ACR Consensus Conference</p><p></p>
   <div class="quarto-categories">
     <div class="quarto-category">Rheumatoid arthritis</div>
-    <div class="quarto-category">Treatment response</div>
-    <div class="quarto-category">Prediction</div>
+    <div class="quarto-category">Remission</div>
     <div class="quarto-category">Composites</div>
-    <div class="quarto-category">Genetics</div>
+    <div class="quarto-category">Validity</div>
   </div>
   </div>
 
@@ -161,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 25, 2024</p>
+      <p class="date">June 10, 2024</p>
     </div>
   </div>
   
@@ -184,17 +187,17 @@ At a glance
 </div>
 <div class="callout-body-container callout-body">
 <dl>
-<dt>Objective</dt>
+<dt>Objectives</dt>
 <dd>
-To test the ability of ML approaches with clinical and genomic biomarkers to predict MTX treatment response in patients with early RA.
+To move towards a uniform definition of remission in RA.
 </dd>
 <dt>Related articles</dt>
 <dd>
-For more articles on prediction of MTX treatment response, see <a href="../../../content/articles/duong2022/index.html">Duong et al., 2022</a>, <a href="../../../content/articles/sergeant2018/index.html">Sergeant et al., 2018</a>, <a href="../../../content/articles/castrejon2016/index.html">Castrejón et al., 2016</a>.
+Maybe articles about the core set of variables. <a href="../../../content/articles/lee2011/index.html">Lee et al., 2011</a> about imaging data and remission.
 </dd>
 <dt>Link</dt>
 <dd>
-DOI: <a href="https://doi.org/10.1002/acr.24834">https://doi.org/10.1002/acr.24834</a>
+DOI: <a href="https://doi.org/10.1002/art.24392">https://doi.org/10.1002/art.24392</a>
 </dd>
 </dl>
 </div>
@@ -202,37 +205,114 @@ DOI: <a href="https://doi.org/10.1002/acr.24834">https://doi.org/10.1002/acr.248
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
 <ul>
-<li>MTX may be the only drug necessary to control RA for some, but in 30-40% there is no response</li>
-<li>50% of patients discontinue MTX within 3-5 years (Aletaha &amp; Smolen, 2002)</li>
-<li>Composite disease activity measures reflect a clinically meaningful target of reaching low disease activity (see Van Gestel et al., 1996, Van Gestel et al., 1998, and Fransen &amp; van Riel, 2005)</li>
+<li>At the time the manuscript was written (2009), the ACR definition of clinical remission was from 1981</li>
+<li>Relatively few patients achieved remission at that time (1980s)</li>
+<li>Authors report better correlation between (old) ACR criteria and full-joint-count DAS, not the DAS28</li>
 </ul>
 </section>
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
 <ul>
-<li>Demographic, clinical and genomic data of 643 european-ancestry patients with early RA</li>
-<li>Response to MTX was defined as good or moderate by the EULAR response criteria at the 3-month follow-up</li>
-<li>Random forests were trained and prediction performance was evaluated with AUC</li>
+<li>Qualitative discussion between expert RA clinicians.</li>
 </ul>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
 <ul>
-<li>In-sample AUC 0.84, out-of-sample prediction accuracy 76% (with p values for both, lol?)</li>
-<li>Intergenic SNPs had variable importance above 60 (whatever that means), and among with <strong>baseline DAS28</strong> were the top predictors of MTX response</li>
+<li>Should remission be defined differently for trials and in the clinic?</li>
 </ul>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<section id="defining-remission" class="level3">
+<h3 class="anchored" data-anchor-id="defining-remission">Defining remission</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is remission?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>According to Maarten Boers, it is:</p>
 <ul>
-<li>Pharmacogenomic biomarkers combined with baseline DAS28 can be useful in predicting response to MTX in patients with early RA</li>
-<li>ML is promising in this area, potentially able to predict timely escalation of treatment strategies in early RA</li>
+<li>the absence of disease activity</li>
+<li>neither cure nor arrest of the disease, the disease may return</li>
+<li>a state, not a transition between states</li>
+<li>independent of the time spent in the remission state<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
 </ul>
+</div>
+</div>
+<ul>
+<li>Generally speaking, ACR, CDAI, SDAI and PAS/RAPID3 are “strict”, while DAS28 and mACR are “lax” (with remission in the latter group equal to minimal disease activity in the former)</li>
+</ul>
+<p>The expert panel agreed on the need for a strict definition of remission, which can reliably differentiate low disease activity from remission.</p>
+<p>This strict definition should include</p>
+<ul>
+<li>no clinical disease (although entirely absent disease activity or pain may not always be possible)</li>
+<li>no progression over time</li>
+</ul>
+</section>
+<section id="validity" class="level3">
+<h3 class="anchored" data-anchor-id="validity">Validity</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Issues of validity in defining remission in RA
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Are 28 joints enough? Is it acceptable to label a patient as “in remission” if they have active joints in the feet?</li>
+<li>Should the component measures be restricted to the ACR core set?</li>
+<li>What’s the role of morning stiffness / fatigue in defining remission?</li>
+<li>What’s the role of imaging? Should remission imply a lack of radiographic progression? See also <a href="../../../content/articles/lee2011/index.html">Lee et al., 2011</a>.</li>
+<li>How should changes due to chronic disease be incorporated (or not) into remission?</li>
+<li>Should remission at some timepoint predict remission in the future? Has a subject achieved remission who is not in remission at time <code>t</code> but was at time <code>t-1</code>?</li>
+<li>Should remission predict outcomes such as joint damage, disability, death (i.e., have predictive validity)?</li>
+</ol>
+</div>
+</div>
+<p>The expert panel felt that:</p>
+<ul>
+<li>remission should be independent of long term outcomes such as radiographic damage</li>
+<li>remission should signal no / reduced progression of joint damage and less deterioration / more improvement in functional status (HAQ)</li>
+<li>from the previous point follows that remission should have predictive validity</li>
+</ul>
+</section>
+<section id="selectivity" class="level3">
+<h3 class="anchored" data-anchor-id="selectivity">Selectivity</h3>
+<p>Not sure if this is the right word. What the athors mean and I want to label is about discriminating well between two hypothetical patients who belong to different categories (in German, this is <a href="https://de.wikipedia.org/wiki/Trennsch%C3%A4rfe_eines_Tests">Trennschärfe</a>, which might be related to statistical power but for a measure and not a hypothesis test).</p>
+<div class="callout callout-style-simple callout-none callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Issues of discrimination in definitions of remission in RA
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>A measure of remisson should be able to discriminate well between patients in different disease states</li>
+<li>If this is not the case, a larger sample would be needed to detect an existing difference between, e.g., placebo and treatment groups</li>
+</ul>
+</div>
+</div>
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The time spent may however be relevant for defining a sustained state of remission<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
