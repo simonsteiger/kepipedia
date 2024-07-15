@@ -26,6 +26,8 @@ The composite measures are sorted alphabetically from left to right.
 
 **TODO**: Add CDAI and sources for each column.
 
+**TODO**: What about ACR70 etc criteria? These quantify the reduction of symptoms (e.g., tender joints) in percent from the baseline value (I assume, ... the baseline part)
+
 ## Psoriatric arthritis
 
 TODO

@@ -1,8 +1,6 @@
 ---
 title: "Articles"
 subtitle: "An overview over relevant literature"
-#description: |
-#    This is a preliminary landing page. Hopefully there will be some content here soon!
 listing:
   contents:
     - "**/index.qmd"
