@@ -1,0 +1,80 @@
+---
+title: Fransen et al., 2004
+date: 2024-07-16
+author: Simon Steiger
+categories:
+    - Rheumatoid arthritis
+    - Composites
+    - Remission
+subtitle: >
+    Remission in rheumatoid arthritis: agreement of the disease activity score (DAS28) with the ARA preliminary remission criteria
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objectives
+: To determine which cut-off point in the RA disease activity score (DAS28) corresponds to fulfilment of the ARA criteria for clinical remission.
+
+Key findings
+: DAS28 < 2.6 corresponds to fulfilment of the ARA criteria for clinical remission. Even more important than remission is the duration a patient was in low disease activity.
+
+Related articles
+: Other foundational articles on the DAS28 are [Prevoo et al., 1995](../prevoo1995/index.qmd), TODO.
+
+Link
+: DOI: [https://doi.org/10.1093/rheumatology/keh297](https://doi.org/10.1093/rheumatology/keh297)
+
+:::
+
+## Background
+
+- At the time, remission in RA was poorly defined
+- Disease activity should be treated as a continuum, but it is important to define at which point a patient has sufficiently low disease activity to be considered in remission
+- It was unknown which DAS28 value corresponds to the definition of remission according to the American Rheumatology Association (ARA) definition
+
+## Methods
+
+### Patients
+
+The data were from the same cohort used for the development of the DAS, the DAS28, and the DAS remission cutoff, see [Prevoo et al., 1995](../prevoo1995/index.qmd) for more details on this sample.
+
+### ARA criteria
+
+The ARA criteria for clinical remission in RA were met when five of the six following criteria were fulfilled for at least two consecutive months:
+
+- morning stiffness $\leq$ 15 minutes
+- no fatigue
+- no joint pain (by history)
+- no joint tenderness or pain on motion
+- no soft tissue swelling in joints or tendon sheaths
+- ESR < 30 $\frac{\text{mm}}{\text{hr}}$ for females and 20 $\frac{\text{mm}}{\text{hr}}$ for males
+
+### Modified ARA remission
+
+Patient data was recorded every three months, but fatigue was not assessed.
+The authors therefore modified the ARA criteria.
+Four out of five of the modified criteria needed to be fulfilled to be classified as in remission:
+
+- morning stiffness $\leq$ 15 minutes
+- VAS pain $\leq$ 10 mm
+- 53 tender joint count at zero
+- 44 swollen joint count at zero
+- ESR < 30 $\frac{\text{mm}}{\text{hr}}$ for females and 20 $\frac{\text{mm}}{\text{hr}}$ for males
+
+### Statistical analyses
+
+At each visit, DAS, DAS28 and modified ARA remission was determined.
+ROC analysis was used to determine cutoffs with maximum sensitivity and specificity in DAS28 which corresponds to the modified ARA remission.
+
+
+## Results
+
+The optimal cutoff point for DAS28 remission was found to be 2.66, while it is noted that the DAS with the full joint counts, ESR, and general health was more sensitive than the DAS28-4 and DAS28-3 (see TODO for the formulas of these DAS28-subtypes).
+This cutoff of 2.66 was also close to the cutoff obtained by transforming the DAS cutoff to DAS28, which yielded 2.65.
+The authors then conservatively round these values to 2.6, and present this as the optimal cutoff given their data.
+
+## Conclusions
+
+The authors conclude by discussing their adaptation of the ARA remission criteria.
