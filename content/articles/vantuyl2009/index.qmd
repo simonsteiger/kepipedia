@@ -93,7 +93,7 @@ The expert panel felt that:
 Not sure if this is the right word.
 What the athors mean and I want to label is about discriminating well between two hypothetical patients who belong to different categories (in German, this is [Trennschärfe](https://de.wikipedia.org/wiki/Trennsch%C3%A4rfe_eines_Tests), which might be related to statistical power but for a measure and not a hypothesis test).
 
-::: {.callout}
+::: {.callout-note}
 
 ### Issues of discrimination in definitions of remission in RA
 
