@@ -1,6 +1,7 @@
 ---
 title: "A love letter to Julia"
 author: Simon Steiger
+draft: true
 date: "2024-06-02"
 categories:
     - Julia
