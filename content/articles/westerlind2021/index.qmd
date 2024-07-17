@@ -1,0 +1,117 @@
+---
+title: Westerlind et al., 2021
+date: 2024-07-17
+author: Simon Steiger
+draft: true
+categories:
+    - Rheumatoid arthritis
+    - Treatment response
+    - Prediction
+    - Swedish registers
+subtitle: >
+    What is the persistence to methotrexate in rheumatoid arthritis, and does machine learning outperform hypothesis-based approaches to its prediction?
+---
+
+::: {.callout-note}
+
+### At a glance
+
+Objectives
+: To assess the 1-year persistence to methotrexate (MTX) and to compare data-driven and hypothesis-based methods to predict this persistence.
+
+Key findings
+: Two thirds of patients with early RA who start MTX remain on this therapy at 1 year after initiation. Predicting persistence is challenging with either hypothesis-based or data-driven methods, and may require additional types of data.
+
+Related articles
+: Other studies working on persistence, using similar methods (Anton's?), or the description of the SRQ by Erikson et al. could fit here.
+
+Link
+: DOI: [https://doi.org/10.1002/acr2.11266](https://doi.org/10.1002/acr2.11266)
+
+:::
+
+## Background
+
+Prediction of clinical outcomes in RA at diagnosis and later throughout the disease progression is often attempted but rarely achieved (see also [Duong et al., 2022](../duong2022/index.qmd), [Castrejón et al., 2016](../castrejon2016/index.qmd), and [Myasoedova et al., 2021](../myasoedova2021/index.qmd)).
+Identifying those patients who are likely to respond well to the common first line treatment MTX would allow prescribing other treatments, which are more likely to have an effect than MTX, to the remaining group of patients.
+
+::: {.callout-tip}
+
+### Utility functions
+
+This sounds like the utility of identifying patients who are very likely to respond poorly is higher than that of identifying patients who are very likely to respond well to MTX.
+
+Maybe it's worthwhile considering modelling this utility? See [Michael Betancourt's blog](https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html) as a possible starting point.
+
+:::
+
+Previous studies have rarely achieved an area under the [receiver operating characteristic](https://en.wikipedia.org/wiki/Receiver_operating_characteristic) (AUROC) greater than 0.70.
+Most studies attempted to predict treatment response at shorter follow-up (three or six months) with smaller sample sizes.
+
+At the time of writing, machine learning had not been widely used for modeling in RA research.
+There are large amounts of additional data on medical and family history of patients which is difficult to manually incorporate into regression models. 
+Since machine learning methods promise automatic identification of relevant predictors from thousands of predictors, they may improve predictive power by detecting and incorporating useful predictors from these unexplored data sources.
+
+::: {.callout-warning}
+
+### Reading the Lasso
+
+I have to do more reading here, but have heard that variable selection techniques like [Lasso](https://en.wikipedia.org/wiki/Lasso_(statistics)) are fine for prediction tasks, reading into the specific variables they use to get the job done can be misleading.
+
+:::
+
+## Methods
+
+### Data sources
+
+- Swedish Rheumatology Quality Register (**SRQ**) for clinical data registered at inclusion and later visits
+- National Patient Register (**NPR**) for visits to specialty care
+- Prescribed Drug Register (**PDR**) for drug dispensations
+- Total Population Register for sociodemographics
+- Longitudinal Integration Database for Health Insurance and Labor Market Studies (**LISA**) for sick leave and disability pension
+- Multi-Generatio Register for data on first-degree relatives
+
+For more detail on the data linkage used, see Erikson et al. (TODO)
+
+### Inclusion criteria
+
+Patients included were
+
+- new-onset RA
+- registered in SRQ between 2006 and 2016
+- registration within 1 year of RA symptom onset
+- started MTX DMARD monotherapy as the first ever DMARD
+- any of `M05`, `M06`, and `M13` ICD10 codes
+
+### Defining persistence
+
+To be classified as MTX persistent, a patient had to
+
+- have a treatment record of MTX in the SRQ spanning 365 days after initiation
+- not have received any other DMARD in this period
+
+Further sub-outcomes were analysed and reported in the supplementary material but these are ommitted here.
+
+### Covariates
+
+Four nested covariate data sets were created.
+All included the SRQ and sociodemographic data.
+
+Set A included a traditional expert opinion-based set of predictors.
+Set B expanded this information by using all primary diagnoses and prescriptions from the NPR and PDR.
+Set C split information added in set B into time intervals (the year before, 1-5 years before, 5-10 years before).
+Set D added contributory codes to the previously recorded main codes in set C.
+
+### Statistics
+
+Models were trained on a random 90% partition of the data and validated on the remaining 10%.
+
+TODO add more detail
+
+## Results
+
+TODO
+
+## Conclusions
+
+TODO
