@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-author','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -194,7 +194,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Composites">Composites <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Psoriatric arthritis">Psoriatric arthritis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rheumatoid arthritis">Rheumatoid arthritis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Spondyloarthritis">Spondyloarthritis <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -233,7 +233,40 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-categories="Rheumatoid arthritis,Psoriatric arthritis,Spondyloarthritis,Composites" data-listing-date-sort="1717365600000" data-listing-file-modified-sort="1721297491068" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../content/epidemiology/cutoffs/index.html" class="no-external">Cutoffs used it Rheumatology</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../content/epidemiology/cutoffs/index.html" class="no-external">The use of composite scores is wide-spread and cutoffs play an essential role in classifying the disease activity of patients </a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Rheumatoid arthritis'); return false;">
+Rheumatoid arthritis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Psoriatric arthritis'); return false;">
+Psoriatric arthritis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Spondyloarthritis'); return false;">
+Spondyloarthritis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Composites'); return false;">
+Composites
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../../content/epidemiology/cutoffs/index.html" class="no-external">
+<div class="listing-date">
+Jun 3, 2024
+</div>
+<div class="listing-author">
+Simon Steiger
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
