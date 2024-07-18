@@ -1,0 +1,50 @@
+---
+title: "Mathematical notation for probability theory"
+author: Simon Steiger
+draft: true
+date: "2024-07-18"
+categories:
+    - Cheatsheet
+    - Reporting
+subtitle: >
+    From sets to sparsity and product spaces to priors.
+---
+
+# General
+
+Since my school days, I have lacked confidence in writing mathematical notation.
+This cheatsheet is here to remedy that!
+
+The notations I list here is all but set in stone, but seems to be least one of the common ways to approach notation in this subject area.
+It is adapted from Michael Betancourt's [blog](https://betanalpha.github.io/writing/)
+
+# Set notation
+
+| Notation | Interpretation |
+|:--------:|:--------|
+| $X$ | The **ambient set** captures all objects of interest. |
+| $x$ | A variable element in the ambient set $X$. |
+| $x_n \in X$ | A specific element $x_n$ from the ambient set $X$. |
+| $\text{x}$ | A variable subset of the ambient set $X$. |
+| $X = \{\text{🥦, 🥫, 🥐}\}$ | A set with a finite number of elements. |
+| $\text{x} \subset X$ | A **subset** of $X$. |
+| $\text{x} \subseteq X$ | A subset potentially containing all elements of $X$. |
+| $\text{x}'$ | A subset of another subset $\text{x}$. |
+| $\emptyset = \{\}$ | The **empty set** which contains no elements at all. |
+| $\{x_n\}$ | A subset with a single element is the **atomic set**[^1]. |
+| $2^X$ | The **power set** of $X$ is the collection of all its subsets. |
+| $\text{x} = \{\text{🥦}\}, \text{x}^c = \{\text{🥫, 🥐}\}$ | The **complement** $\text{x}^c$ of $\text{x}$ includes all $x_n \in X$ not already in $\text{x}$. |
+| $\{\text{🥦, 🥫}\} \cup \{\text{🥫, 🥐}\} = \{\text{🥦, 🥫, 🥐}\}$ | A **union** includes all elements found in *either* subset. |
+| $\{\text{🥦, 🥫}\} \cap \{\text{🥫, 🥐}\} = \{\text{🥫}\}$ | An **intersection** includes all elements found in *both* subsets. |
+
+: Set notation and its interpretation {tbl-colwidths="[30,70]" .striped .borderless}
+
+[^1]: Atomic vectors finally make sense (looking at you here, `R`!).
+
+::: {.callout-caution}
+
+### Work in progress
+
+This document will be extended with more chapters!
+
+:::
