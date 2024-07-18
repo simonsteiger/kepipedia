@@ -2,11 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/content/epidemiology/cutoffs/index.html",
       "/content/statistics/simulatepower/index.html",
-      "/content/statistics/diagnosemcmc/index.html",
       "/content/statistics/kmeans/index.html",
-      "/content/programming/whyjulia/index.html",
       "/content/articles/fransen2004/index.html",
       "/content/articles/prevoo1995/index.html",
       "/content/articles/modrak2021/index.html",
@@ -25,10 +22,8 @@
     ]
   },
   {
-    "listing": "/content/programming/index.html",
-    "items": [
-      "/content/programming/whyjulia/index.html"
-    ]
+    "listing": "/content/epidemiology/index.html",
+    "items": []
   },
   {
     "listing": "/content/articles/index.html",
@@ -51,16 +46,13 @@
     ]
   },
   {
-    "listing": "/content/epidemiology/index.html",
-    "items": [
-      "/content/epidemiology/cutoffs/index.html"
-    ]
+    "listing": "/content/programming/index.html",
+    "items": []
   },
   {
     "listing": "/content/statistics/index.html",
     "items": [
       "/content/statistics/simulatepower/index.html",
-      "/content/statistics/diagnosemcmc/index.html",
       "/content/statistics/kmeans/index.html"
     ]
   }
