@@ -1,6 +1,7 @@
 ---
 title: "Diagnosing issues in MCMC sampling"
 author: Simon Steiger
+draft: true
 date: "2024-06-01"
 categories:
     - MCMC
@@ -20,11 +21,11 @@ Well! I should write a well thought-out explanation here when it's not late in t
 This is my current understanding of which MCMC internals should be checked, how potential issues can be resolved, and what the internals reflect.
 No guarantee!
 
-### $\hat{R}$
+### R hat
 
-> $\hat{R}$ should be very close to 1 for all parameters.
+> $\hat{R}$ should be extremely close to 1 for all parameters.
 
-$\hat{R}$ is a convergence measure (variance within vs between chains, I think) and must be very close to 1.
+$\hat{R}$ (pronounced "R hat") is a convergence measure (variance within vs between chains, I think) and must be extremely close to 1.
 Otherwise, our chains have not converged to the sample from the same posterior distribution.
 If $\hat{R}$ is elevated, you can usually fix this by simply drawing more samples per chain.
 In case the posterior geometry can be simplified with, e.g., non centered parametrisation in hierarchical models, this is often a more efficient step to take.

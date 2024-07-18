@@ -5,7 +5,7 @@ author: Simon Steiger
 categories:
     - COVID-19
     - Trajectory
-    - Hidden Markov models
+    - Hidden Markov Models
 subtitle: >
     Disease progression of 213 patients hospitalized with COVID-19 in the Czech Republic in March-October 2020: An exploratory analysis
 ---

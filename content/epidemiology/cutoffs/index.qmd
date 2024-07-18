@@ -1,6 +1,7 @@
 ---
 title: "Cutoffs used it Rheumatology"
 author: Simon Steiger
+draft: true
 date: "2024-06-03"
 categories:
     - Rheumatoid arthritis
