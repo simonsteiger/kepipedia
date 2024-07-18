@@ -22,15 +22,8 @@
     ]
   },
   {
-    "listing": "/content/programming/index.html",
+    "listing": "/content/epidemiology/index.html",
     "items": []
-  },
-  {
-    "listing": "/content/statistics/index.html",
-    "items": [
-      "/content/statistics/simulatepower/index.html",
-      "/content/statistics/kmeans/index.html"
-    ]
   },
   {
     "listing": "/content/articles/index.html",
@@ -53,7 +46,14 @@
     ]
   },
   {
-    "listing": "/content/epidemiology/index.html",
+    "listing": "/content/programming/index.html",
     "items": []
+  },
+  {
+    "listing": "/content/statistics/index.html",
+    "items": [
+      "/content/statistics/simulatepower/index.html",
+      "/content/statistics/kmeans/index.html"
+    ]
   }
 ]
