@@ -1,7 +1,6 @@
 ---
 title: "Diagnosing issues in MCMC sampling"
 author: Simon Steiger
-draft: true
 date: "2024-06-01"
 categories:
     - MCMC

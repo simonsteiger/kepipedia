@@ -1,7 +1,6 @@
 ---
 title: "Mathematical notation for probability theory"
 author: Simon Steiger
-draft: true
 date: "2024-07-18"
 categories:
     - Cheatsheet
