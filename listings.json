@@ -2,11 +2,33 @@
   {
     "listing": "/index.html",
     "items": [
-      "/content/epidemiology/cutoffs/index.html",
       "/content/statistics/simulatepower/index.html",
-      "/content/statistics/diagnosemcmc/index.html",
       "/content/statistics/kmeans/index.html",
-      "/content/programming/whyjulia/index.html",
+      "/content/articles/fransen2004/index.html",
+      "/content/articles/prevoo1995/index.html",
+      "/content/articles/modrak2021/index.html",
+      "/content/articles/vantuyl2009/index.html",
+      "/content/articles/capelusnik2021/index.html",
+      "/content/articles/lee2011/index.html",
+      "/content/articles/salmeen2011/index.html",
+      "/content/articles/vancalster2016/index.html",
+      "/content/articles/vancalster2019/index.html",
+      "/content/articles/castrejon2016/index.html",
+      "/content/articles/sergeant2018/index.html",
+      "/content/articles/leonidpadyukov2022/index.html",
+      "/content/articles/smolen2020/index.html",
+      "/content/articles/myasoedova2021/index.html",
+      "/content/articles/duong2022/index.html"
+    ]
+  },
+  {
+    "listing": "/content/epidemiology/index.html",
+    "items": []
+  },
+  {
+    "listing": "/content/articles/index.html",
+    "items": [
+      "/content/articles/fransen2004/index.html",
       "/content/articles/prevoo1995/index.html",
       "/content/articles/modrak2021/index.html",
       "/content/articles/vantuyl2009/index.html",
@@ -25,41 +47,13 @@
   },
   {
     "listing": "/content/programming/index.html",
-    "items": [
-      "/content/programming/whyjulia/index.html"
-    ]
-  },
-  {
-    "listing": "/content/articles/index.html",
-    "items": [
-      "/content/articles/prevoo1995/index.html",
-      "/content/articles/modrak2021/index.html",
-      "/content/articles/vantuyl2009/index.html",
-      "/content/articles/capelusnik2021/index.html",
-      "/content/articles/lee2011/index.html",
-      "/content/articles/salmeen2011/index.html",
-      "/content/articles/vancalster2016/index.html",
-      "/content/articles/vancalster2019/index.html",
-      "/content/articles/castrejon2016/index.html",
-      "/content/articles/sergeant2018/index.html",
-      "/content/articles/leonidpadyukov2022/index.html",
-      "/content/articles/smolen2020/index.html",
-      "/content/articles/myasoedova2021/index.html",
-      "/content/articles/duong2022/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/content/statistics/index.html",
     "items": [
       "/content/statistics/simulatepower/index.html",
-      "/content/statistics/diagnosemcmc/index.html",
       "/content/statistics/kmeans/index.html"
-    ]
-  },
-  {
-    "listing": "/content/epidemiology/index.html",
-    "items": [
-      "/content/epidemiology/cutoffs/index.html"
     ]
   }
 ]

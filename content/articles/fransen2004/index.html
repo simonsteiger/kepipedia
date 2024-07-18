@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Simon Steiger">
-<meta name="dcterms.date" content="2024-06-10">
+<meta name="dcterms.date" content="2024-07-16">
 
-<title>Modrák et al., 2021 – KEPipedia</title>
+<title>Fransen et al., 2004 – KEPipedia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -125,9 +154,15 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a>
+  <ul class="collapse">
+  <li><a href="#patients" id="toc-patients" class="nav-link" data-scroll-target="#patients">Patients</a></li>
+  <li><a href="#ara-criteria" id="toc-ara-criteria" class="nav-link" data-scroll-target="#ara-criteria">ARA criteria</a></li>
+  <li><a href="#modified-ara-remission" id="toc-modified-ara-remission" class="nav-link" data-scroll-target="#modified-ara-remission">Modified ARA remission</a></li>
+  <li><a href="#statistical-analyses" id="toc-statistical-analyses" class="nav-link" data-scroll-target="#statistical-analyses">Statistical analyses</a></li>
+  </ul></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
   </ul>
 </nav>
     </div>
@@ -136,12 +171,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Modrák et al., 2021</h1>
-<p class="subtitle lead"></p><p>Disease progression of 213 patients hospitalized with COVID-19 in the Czech Republic in March-October 2020: An exploratory analysis</p><p></p>
+<h1 class="title">Fransen et al., 2004</h1>
+<p class="subtitle lead"></p><p>Remission in rheumatoid arthritis: agreement of the disease activity score (DAS28) with the ARA preliminary remission criteria</p><p></p>
   <div class="quarto-categories">
-    <div class="quarto-category">COVID-19</div>
-    <div class="quarto-category">Trajectory</div>
-    <div class="quarto-category">Hidden Markov Models</div>
+    <div class="quarto-category">Rheumatoid arthritis</div>
+    <div class="quarto-category">Composites</div>
+    <div class="quarto-category">Remission</div>
   </div>
   </div>
 
@@ -159,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 10, 2024</p>
+      <p class="date">July 16, 2024</p>
     </div>
   </div>
   
@@ -182,17 +217,21 @@ At a glance
 </div>
 <div class="callout-body-container callout-body">
 <dl>
-<dt>Objective</dt>
+<dt>Objectives</dt>
 <dd>
-To explore associations between COVID-19 treatments and patient outcomes.
+To determine which cut-off point in the RA disease activity score (DAS28) corresponds to fulfilment of the ARA criteria for clinical remission.
+</dd>
+<dt>Key findings</dt>
+<dd>
+DAS28 &lt; 2.6 corresponds to fulfilment of the ARA criteria for clinical remission. Even more important than remission is the duration a patient was in low disease activity.
 </dd>
 <dt>Related articles</dt>
 <dd>
-Currently none. This article may be related to other articles modeling disease trajectories over time.
+Other foundational articles on the DAS28 are <a href="../../../content/articles/prevoo1995/index.html">Prevoo et al., 1995</a>, TODO.
 </dd>
-<dt>DOI</dt>
+<dt>Link</dt>
 <dd>
-DOI: <a href="https://doi.org/10.1371/journal.pone.0245103">https://doi.org/10.1371/journal.pone.0245103</a>
+DOI: <a href="https://doi.org/10.1093/rheumatology/keh297">https://doi.org/10.1093/rheumatology/keh297</a>
 </dd>
 </dl>
 </div>
@@ -200,31 +239,52 @@ DOI: <a href="https://doi.org/10.1371/journal.pone.0245103">https://doi.org/10.1
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
 <ul>
-<li>Lack of knowledge about effective treatments for COVID-19</li>
-<li>Existing methods for predicting COVID-19 severity are at high risk of bias</li>
+<li>At the time, remission in RA was poorly defined</li>
+<li>Disease activity should be treated as a continuum, but it is important to define at which point a patient has sufficiently low disease activity to be considered in remission</li>
+<li>It was unknown which DAS28 value corresponds to the definition of remission according to the American Rheumatology Association (ARA) definition</li>
 </ul>
 </section>
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<section id="patients" class="level3">
+<h3 class="anchored" data-anchor-id="patients">Patients</h3>
+<p>The data were from the same cohort used for the development of the DAS, the DAS28, and the DAS remission cutoff, see <a href="../../../content/articles/prevoo1995/index.html">Prevoo et al., 1995</a> for more details on this sample.</p>
+</section>
+<section id="ara-criteria" class="level3">
+<h3 class="anchored" data-anchor-id="ara-criteria">ARA criteria</h3>
+<p>The ARA criteria for clinical remission in RA were met when five of the six following criteria were fulfilled for at least two consecutive months:</p>
 <ul>
-<li>Convenience sample from 10 sites</li>
-<li>Data were available on daily resolution</li>
-<li>Multiverse analysis, which reports and compare different models to capture uncertainty about different models and its impact on the conclusions</li>
-<li>Among the models run is a Bayesian HMM using rates, restricted transitions, and terminal states implemented in <code>brms</code> with some added special sauce (for more detail, see the <a href="https://github.com/cas-bioinf/covid19retrospective">GitHub repo</a> and a <a href="https://discourse.mc-stan.org/t/fitting-hmms-with-time-varying-transition-matrices-using-brms-a-prototype/19645">post on the Stan discourse</a>)</li>
+<li>morning stiffness <span class="math inline">\(\leq\)</span> 15 minutes</li>
+<li>no fatigue</li>
+<li>no joint pain (by history)</li>
+<li>no joint tenderness or pain on motion</li>
+<li>no soft tissue swelling in joints or tendon sheaths</li>
+<li>ESR &lt; 30 <span class="math inline">\(\frac{\text{mm}}{\text{hr}}\)</span> for females and 20 <span class="math inline">\(\frac{\text{mm}}{\text{hr}}\)</span> for males</li>
 </ul>
+</section>
+<section id="modified-ara-remission" class="level3">
+<h3 class="anchored" data-anchor-id="modified-ara-remission">Modified ARA remission</h3>
+<p>Patient data was recorded every three months, but fatigue was not assessed. The authors therefore modified the ARA criteria. Four out of five of the modified criteria needed to be fulfilled to be classified as in remission:</p>
+<ul>
+<li>morning stiffness <span class="math inline">\(\leq\)</span> 15 minutes</li>
+<li>VAS pain <span class="math inline">\(\leq\)</span> 10 mm</li>
+<li>53 tender joint count at zero</li>
+<li>44 swollen joint count at zero</li>
+<li>ESR &lt; 30 <span class="math inline">\(\frac{\text{mm}}{\text{hr}}\)</span> for females and 20 <span class="math inline">\(\frac{\text{mm}}{\text{hr}}\)</span> for males</li>
+</ul>
+</section>
+<section id="statistical-analyses" class="level3">
+<h3 class="anchored" data-anchor-id="statistical-analyses">Statistical analyses</h3>
+<p>At each visit, DAS, DAS28 and modified ARA remission was determined. ROC analysis was used to determine cutoffs with maximum sensitivity and specificity in DAS28 which corresponds to the modified ARA remission.</p>
+</section>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
-<ul>
-<li>Mostly inconclusive results</li>
-<li>Adjusted models suggest that effect of some candidate treatments is spurious</li>
-</ul>
+<p>The optimal cutoff point for DAS28 remission was found to be 2.66, while it is noted that the DAS with the full joint counts, ESR, and general health was more sensitive than the DAS28-4 and DAS28-3 (see TODO for the formulas of these DAS28-subtypes). This cutoff of 2.66 was also close to the cutoff obtained by transforming the DAS cutoff to DAS28, which yielded 2.65. The authors then conservatively round these values to 2.6, and present this as the optimal cutoff given their data.</p>
 </section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<ul>
-<li>Other studies on the analyzed treatments likely overestimated their effectiveness</li>
-</ul>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<p>The authors conclude by discussing their adaptation of the ARA remission criteria.</p>
 
 
 </section>
