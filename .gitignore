@@ -1,6 +1,5 @@
 /.quarto/
 /_site/
-*.html
 *.csv
 *.png
 *.jp*g
