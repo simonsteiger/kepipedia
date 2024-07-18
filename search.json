@@ -11,14 +11,14 @@
     "href": "index.html#epidemiology",
     "title": "Welcome to the inofficial KEP Wiki",
     "section": "Epidemiology",
-    "text": "Epidemiology\n\n\n\n\n\nNo matching items\n\n\nSee all →"
+    "text": "Epidemiology\n\n\n\n\n\n\n\nCutoffs used it Rheumatology\n\n\n\nSimon Steiger\n\n\nJun 3, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
   },
   {
     "objectID": "index.html#statistics",
     "href": "index.html#statistics",
     "title": "Welcome to the inofficial KEP Wiki",
     "section": "Statistics",
-    "text": "Statistics\n\n\n\n\n\n\n\nSimulations for power analysis\n\n\n\nSimon Steiger\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\n\n\n\nK-means from scratch\n\n\n\nSimon Steiger\n\n\nNov 2, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
+    "text": "Statistics\n\n\n\n\n\n\n\nMathematical notation for probability theory\n\n\n\nSimon Steiger\n\n\nJul 18, 2024\n\n\n\n\n\n\n\n\n\n\n\nSimulations for power analysis\n\n\n\nSimon Steiger\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\n\n\n\nDiagnosing issues in MCMC sampling\n\n\n\nSimon Steiger\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
   },
   {
     "objectID": "index.html#programming",
@@ -32,7 +32,21 @@
     "href": "index.html#articles",
     "title": "Welcome to the inofficial KEP Wiki",
     "section": "Articles",
-    "text": "Articles\n\n\n\n\n\n\n\nFransen et al., 2004\n\n\n\nSimon Steiger\n\n\nJul 16, 2024\n\n\n\n\n\n\n\n\n\n\n\nPrevoo et al., 1995\n\n\n\nSimon Steiger\n\n\nJul 15, 2024\n\n\n\n\n\n\n\n\n\n\n\nModrák et al., 2021\n\n\n\nSimon Steiger\n\n\nJun 10, 2024\n\n\n\n\n\n\n\n\n\n\n\nVan Tuyl et al., 2009\n\n\n\nSimon Steiger\n\n\nJun 10, 2024\n\n\n\n\n\n\n\n\n\n\n\nCapelusnik & Aletaha, 2021\n\n\n\nSimon Steiger\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\n\n\n\nLee et al., 2011\n\n\n\nSimon Steiger\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n👾"
+    "text": "Articles\n\n\n\n\n\n\n\nWesterlind et al., 2021\n\n\n\nSimon Steiger\n\n\nJul 17, 2024\n\n\n\n\n\n\n\n\n\n\n\nFransen et al., 2004\n\n\n\nSimon Steiger\n\n\nJul 16, 2024\n\n\n\n\n\n\n\n\n\n\n\nPrevoo et al., 1995\n\n\n\nSimon Steiger\n\n\nJul 15, 2024\n\n\n\n\n\n\n\n\n\n\n\nModrák et al., 2021\n\n\n\nSimon Steiger\n\n\nJun 10, 2024\n\n\n\n\n\n\n\n\n\n\n\nVan Tuyl et al., 2009\n\n\n\nSimon Steiger\n\n\nJun 10, 2024\n\n\n\n\n\n\n\n\n\n\n\nCapelusnik & Aletaha, 2021\n\n\n\nSimon Steiger\n\n\nJun 5, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
+  },
+  {
+    "objectID": "content/statistics/mathnotation/index.html",
+    "href": "content/statistics/mathnotation/index.html",
+    "title": "Mathematical notation for probability theory",
+    "section": "",
+    "text": "Since my school days, I have lacked confidence in writing mathematical notation. This cheatsheet is here to remedy that!\nThe notations I list here is all but set in stone, but seems to be least one of the common ways to approach notation in this subject area. It is adapted from Michael Betancourt’s blog"
+  },
+  {
+    "objectID": "content/statistics/mathnotation/index.html#footnotes",
+    "href": "content/statistics/mathnotation/index.html#footnotes",
+    "title": "Mathematical notation for probability theory",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAtomic vectors finally make sense (looking at you here, R!).↩︎"
   },
   {
     "objectID": "content/statistics/kmeans/index.html",
@@ -88,7 +102,7 @@
     "href": "content/epidemiology/index.html",
     "title": "Epidemiology",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nCutoffs used it Rheumatology\n\n\nThe use of composite scores is wide-spread and cutoffs play an essential role in classifying the disease activity of patients \n\n\n\nRheumatoid arthritis\n\n\nPsoriatric arthritis\n\n\nSpondyloarthritis\n\n\nComposites\n\n\n\n\n\n\nJun 3, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/articles/prevoo1995/index.html",
@@ -123,7 +137,7 @@
     "href": "content/articles/index.html",
     "title": "Articles",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nFransen et al., 2004\n\n\nRemission in rheumatoid arthritis: agreement of the disease activity score (DAS28) with the ARA preliminary remission criteria \n\n\n\nRheumatoid arthritis\n\n\nComposites\n\n\nRemission\n\n\n\n\n\n\nJul 16, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nPrevoo et al., 1995\n\n\nModified disease activity scores that include twenty-eight-joint counts \n\n\n\nRheumatoid arthritis\n\n\nComposites\n\n\n\n\n\n\nJul 15, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nModrák et al., 2021\n\n\nDisease progression of 213 patients hospitalized with COVID-19 in the Czech Republic in March-October 2020: An exploratory analysis \n\n\n\nCOVID-19\n\n\nTrajectory\n\n\nHidden Markov Models\n\n\n\n\n\n\nJun 10, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nVan Tuyl et al., 2009\n\n\nDefining remission in Rheumatoid Arthritis: Results of an Initial ACR Consensus Conference \n\n\n\nRheumatoid arthritis\n\n\nRemission\n\n\nComposites\n\n\nValidity\n\n\n\n\n\n\nJun 10, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nCapelusnik & Aletaha, 2021\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nLee et al., 2011\n\n\nPain persists in DAS28 rheumatoid arthritis remission but not in ACR/EULAR remission: a longitudinal observational study \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\nValidity\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nSalmeen et al., 2011\n\n\nShould imaging be a component of rheumatoid arthritis remission criteria? A comparison between traditional and modified composite remission scores and imaging assessments \n\n\n\nRheumatoid arthritis\n\n\nRemission\n\n\nComposites\n\n\nValidity\n\n\n\n\n\n\nJun 3, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nVan Calster, Niebeor and Vergouwe et al., 2016.\n\n\nA calibration hierarchy for risk models was defined: from utopia to empirical data \n\n\n\nPrediction\n\n\nCalibration\n\n\n\n\n\n\nJun 3, 2024\n\n\nAnton Öberg Sysojev\n\n\n\n\n\n\n\nVan Calster, McLeronon and Van Smeden et al., 2019.\n\n\nCalibration: the Achilles heel of predictive analytics \n\n\n\nPrediction\n\n\nCalibration\n\n\n\n\n\n\nJun 3, 2024\n\n\nAnton Öberg Sysojev\n\n\n\n\n\n\n\nCastrejón et al., 2018\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 31, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nSergeant et al., 2018\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 30, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nPadyukov, L., 2022\n\n\nGenetics of rheumatoid arthritis \n\n\n\nAlleles\n\n\nArthritis\n\n\nRheumatoid/etiology/genetics\n\n\nAutoantibodies\n\n\nGenetic Predisposition to Disease\n\n\nHLA-DRB1 Chains/genetics\n\n\nHumans\n\n\nProteomics\n\n\nAutoantibody\n\n\nAutoimmunity\n\n\nGenetic polymorphism\n\n\nHla\n\n\nInflammation\n\n\nRheumatoid arthritis\n\n\n\n\n\n\nMay 29, 2024\n\n\nYounes Laalou\n\n\n\n\n\n\n\nSmolen et al., 2020\n\n\nEULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2019 update \n\n\n\nRheumatoid arthritis\n\n\nTreatment\n\n\nGuidelines\n\n\n\n\n\n\nMay 27, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nMyasoedova et al., 2021\n\n\nToward Individualized Prediction of Response to Methotrexate in Early Rheumatoid Arthritis: A Pharmacogenomics-Driven Machine Learning Approach \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\nGenetics\n\n\n\n\n\n\nMay 25, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nDuong et al., 2022\n\n\nClinical predictors of response to methotrexate in patients with rheumatoid arthritis: a machine learning approach using clinical trial data \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 23, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nWesterlind et al., 2021\n\n\nWhat is the persistence to methotrexate in rheumatoid arthritis, and does machine learning outperform hypothesis-based approaches to its prediction? \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nSwedish registers\n\n\n\n\n\n\nJul 17, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nFransen et al., 2004\n\n\nRemission in rheumatoid arthritis: agreement of the disease activity score (DAS28) with the ARA preliminary remission criteria \n\n\n\nRheumatoid arthritis\n\n\nComposites\n\n\nRemission\n\n\n\n\n\n\nJul 16, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nPrevoo et al., 1995\n\n\nModified disease activity scores that include twenty-eight-joint counts \n\n\n\nRheumatoid arthritis\n\n\nComposites\n\n\n\n\n\n\nJul 15, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nModrák et al., 2021\n\n\nDisease progression of 213 patients hospitalized with COVID-19 in the Czech Republic in March-October 2020: An exploratory analysis \n\n\n\nCOVID-19\n\n\nTrajectory\n\n\nHidden Markov Models\n\n\n\n\n\n\nJun 10, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nVan Tuyl et al., 2009\n\n\nDefining remission in Rheumatoid Arthritis: Results of an Initial ACR Consensus Conference \n\n\n\nRheumatoid arthritis\n\n\nRemission\n\n\nComposites\n\n\nValidity\n\n\n\n\n\n\nJun 10, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nCapelusnik & Aletaha, 2021\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nLee et al., 2011\n\n\nPain persists in DAS28 rheumatoid arthritis remission but not in ACR/EULAR remission: a longitudinal observational study \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\nValidity\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nSalmeen et al., 2011\n\n\nShould imaging be a component of rheumatoid arthritis remission criteria? A comparison between traditional and modified composite remission scores and imaging assessments \n\n\n\nRheumatoid arthritis\n\n\nRemission\n\n\nComposites\n\n\nValidity\n\n\n\n\n\n\nJun 3, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nVan Calster, Niebeor and Vergouwe et al., 2016.\n\n\nA calibration hierarchy for risk models was defined: from utopia to empirical data \n\n\n\nPrediction\n\n\nCalibration\n\n\n\n\n\n\nJun 3, 2024\n\n\nAnton Öberg Sysojev\n\n\n\n\n\n\n\nVan Calster, McLeronon and Van Smeden et al., 2019.\n\n\nCalibration: the Achilles heel of predictive analytics \n\n\n\nPrediction\n\n\nCalibration\n\n\n\n\n\n\nJun 3, 2024\n\n\nAnton Öberg Sysojev\n\n\n\n\n\n\n\nCastrejón et al., 2018\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 31, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nSergeant et al., 2018\n\n\nPrediction of primary non-response to methotrexate therapy using demographic, clinical and psychosocial variables: results from the UK Rheumatoid Arthritis Medication Study (RAMS) \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 30, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nPadyukov, L., 2022\n\n\nGenetics of rheumatoid arthritis \n\n\n\nAlleles\n\n\nArthritis\n\n\nRheumatoid/etiology/genetics\n\n\nAutoantibodies\n\n\nGenetic Predisposition to Disease\n\n\nHLA-DRB1 Chains/genetics\n\n\nHumans\n\n\nProteomics\n\n\nAutoantibody\n\n\nAutoimmunity\n\n\nGenetic polymorphism\n\n\nHla\n\n\nInflammation\n\n\nRheumatoid arthritis\n\n\n\n\n\n\nMay 29, 2024\n\n\nYounes Laalou\n\n\n\n\n\n\n\nSmolen et al., 2020\n\n\nEULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2019 update \n\n\n\nRheumatoid arthritis\n\n\nTreatment\n\n\nGuidelines\n\n\n\n\n\n\nMay 27, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nMyasoedova et al., 2021\n\n\nToward Individualized Prediction of Response to Methotrexate in Early Rheumatoid Arthritis: A Pharmacogenomics-Driven Machine Learning Approach \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\nGenetics\n\n\n\n\n\n\nMay 25, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nDuong et al., 2022\n\n\nClinical predictors of response to methotrexate in patients with rheumatoid arthritis: a machine learning approach using clinical trial data \n\n\n\nRheumatoid arthritis\n\n\nTreatment response\n\n\nPrediction\n\n\nComposites\n\n\n\n\n\n\nMay 23, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/articles/vancalster2016/index.html",
@@ -406,6 +420,48 @@
     "text": "Conclusions\n\nYounger age and (low scores on) six core data set clinical measures predicted remission\nAbsence of traditional “poor prognosis RA” indicators, RA, ACPA, or radiographic erosions did not predict remission"
   },
   {
+    "objectID": "content/articles/westerlind2021/index.html",
+    "href": "content/articles/westerlind2021/index.html",
+    "title": "Westerlind et al., 2021",
+    "section": "",
+    "text": "At a glance\n\n\n\n\nObjectives\n\nTo assess the 1-year persistence to methotrexate (MTX) and to compare data-driven and hypothesis-based methods to predict this persistence.\n\nKey findings\n\nTwo thirds of patients with early RA who start MTX remain on this therapy at 1 year after initiation. Predicting persistence is challenging with either hypothesis-based or data-driven methods, and may require additional types of data.\n\nRelated articles\n\nOther studies working on persistence, using similar methods (Anton’s?), or the description of the SRQ by Erikson et al. could fit here.\n\nLink\n\nDOI: https://doi.org/10.1002/acr2.11266"
+  },
+  {
+    "objectID": "content/articles/westerlind2021/index.html#background",
+    "href": "content/articles/westerlind2021/index.html#background",
+    "title": "Westerlind et al., 2021",
+    "section": "Background",
+    "text": "Background\nPrediction of clinical outcomes in RA at diagnosis and later throughout the disease progression is often attempted but rarely achieved (see also Duong et al., 2022, Castrejón et al., 2016, and Myasoedova et al., 2021). Identifying those patients who are likely to respond well to the common first line treatment MTX would allow prescribing other treatments, which are more likely to have an effect than MTX, to the remaining group of patients.\n\n\n\n\n\n\nUtility functions\n\n\n\nThis sounds like the utility of identifying patients who are very likely to respond poorly is higher than that of identifying patients who are very likely to respond well to MTX.\nMaybe it’s worthwhile considering modelling this utility? See Michael Betancourt’s blog as a possible starting point.\n\n\nPrevious studies have rarely achieved an area under the receiver operating characteristic (AUROC) greater than 0.70. Most studies attempted to predict treatment response at shorter follow-up (three or six months) with smaller sample sizes.\nAt the time of writing, machine learning had not been widely used for modeling in RA research. There are large amounts of additional data on medical and family history of patients which is difficult to manually incorporate into regression models. Since machine learning methods promise automatic identification of relevant predictors from thousands of predictors, they may improve predictive power by detecting and incorporating useful predictors from these unexplored data sources.\n\n\n\n\n\n\nReading the Lasso\n\n\n\nI have to do more reading here, but have heard that variable selection techniques like Lasso are fine for prediction tasks, reading into the specific variables they use to get the job done can be misleading."
+  },
+  {
+    "objectID": "content/articles/westerlind2021/index.html#methods",
+    "href": "content/articles/westerlind2021/index.html#methods",
+    "title": "Westerlind et al., 2021",
+    "section": "Methods",
+    "text": "Methods\n\nData sources\n\nSwedish Rheumatology Quality Register (SRQ) for clinical data registered at inclusion and later visits\nNational Patient Register (NPR) for visits to specialty care\nPrescribed Drug Register (PDR) for drug dispensations\nTotal Population Register for sociodemographics\nLongitudinal Integration Database for Health Insurance and Labor Market Studies (LISA) for sick leave and disability pension\nMulti-Generatio Register for data on first-degree relatives\n\nFor more detail on the data linkage used, see Erikson et al. (TODO)\n\n\nInclusion criteria\nPatients included were\n\nnew-onset RA\nregistered in SRQ between 2006 and 2016\nregistration within 1 year of RA symptom onset\nstarted MTX DMARD monotherapy as the first ever DMARD\nany of M05, M06, and M13 ICD10 codes\n\n\n\nDefining persistence\nTo be classified as MTX persistent, a patient had to\n\nhave a treatment record of MTX in the SRQ spanning 365 days after initiation\nnot have received any other DMARD in this period\n\nFurther sub-outcomes were analysed and reported in the supplementary material but these are ommitted here.\n\n\nCovariates\nFour nested covariate data sets were created. All included the SRQ and sociodemographic data.\n\nSet A\n\nThis set included a traditional expert opinion-based set of predictors.\n\nSet B\n\nThis set expanded this information by using all primary diagnoses and prescriptions from the NPR and PDR.\n\nSet C\n\nThis set split information added in set B into time intervals (the year before, 1-5 years before, 5-10 years before).\n\nSet D\n\nThis set added contributory codes to the previously recorded main codes in set C.\n\n\n\n\nStatistics\nModels were trained on a random 90% partition of the data and validated on the remaining 10%.\nFor all data sets and outcomes, the authors ran univariate logistic regressions to assess the association with the outcomes.\n\nHypothesis-based modelling\nHypothesis-based models all included data from covariate Set A.\nAfter inspecting univariate associations and distributions of the individual covariates with the outcome, the epidemiologist built two models. One model was based on manually entering and removing individual variables and testing interaction terms and nonlinear terms for continuous variables (this model was labelled manual model). The second model was a simple backward selection1 logistic regression model starting with the full covariate set A.\n\n\nMachine-learning models\nThe authors compared several machine learning methods, including\n\nLasso\nElastic net regularisation\nSupport vector machines with a linear kernel\nRandom forests\nExtreme gradient boosting\n\nFivefold cross-validation was applied in all machine learning models.\nFinally, all but the elastic net model were combined into an ensemble model. All models were used to predict the holdout data, and the AUROC was estimated for all covariate data sets and outcomes."
+  },
+  {
+    "objectID": "content/articles/westerlind2021/index.html#results",
+    "href": "content/articles/westerlind2021/index.html#results",
+    "title": "Westerlind et al., 2021",
+    "section": "Results",
+    "text": "Results\n\nMTX persistence\nOut of 5475 patients, 3835 (70%) remained on MTX DMARD monotherapy one year after RA diagnosis.\n\n\nModel comparison\nThe best AUROCs from the hypothesis-based and machine-learning models were similar, scoring around 0.66 and 0.67, respectively."
+  },
+  {
+    "objectID": "content/articles/westerlind2021/index.html#conclusions",
+    "href": "content/articles/westerlind2021/index.html#conclusions",
+    "title": "Westerlind et al., 2021",
+    "section": "Conclusions",
+    "text": "Conclusions\nMachine-learning approaches are on par with hypothesis-based approaches and may offer valuable opportunities for integrating large numbers of potentially meaningful predictors from currently unavailable data types."
+  },
+  {
+    "objectID": "content/articles/westerlind2021/index.html#footnotes",
+    "href": "content/articles/westerlind2021/index.html#footnotes",
+    "title": "Westerlind et al., 2021",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis variable selection technique is common but has come under intense criticism for violating principles of statistical hypothesis testing and failing to propagate the uncertainty arising in the selection step to when inferences are drawn. It is not yet clear to me in what way this may or may not pose issues in prediction settings.↩︎"
+  },
+  {
     "objectID": "content/articles/smolen2020/index.html",
     "href": "content/articles/smolen2020/index.html",
     "title": "Smolen et al., 2020",
@@ -581,6 +637,34 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "content/epidemiology/cutoffs/index.html",
+    "href": "content/epidemiology/cutoffs/index.html",
+    "title": "Cutoffs used it Rheumatology",
+    "section": "",
+    "text": "The composite measures are sorted alphabetically from left to right.\n\nCutoffs of the most commonly used composite measures for RA disease activity.\n\n\n\n\n\n\n\n\n\nDisease activity\nCDAI\nDAS28CRP\nDAS28ESR\nSDAI\n\n\n\n\nRemission\n?\n\\(&gt;\\) 2.4\n\\(&gt;\\) 2.6\n\\(&gt;\\) 3.3\n\n\nLow\n?\n\\(\\leq\\) 2.9\n\\(\\leq\\) 3.2\n\\(\\leq\\) 11.0\n\n\nModerate\n?\n\\(\\leq\\) 4.6\n\\(\\leq\\) 5.1\n\\(\\leq\\) 26.0\n\n\nHigh\n?\n\\(&lt;\\) 4.6\n\\(&lt;\\) 5.1\n\\(&lt;\\) 26.0\n\n\n\nTODO: Add CDAI and sources for each column.\nTODO: What about ACR70 etc criteria? These quantify the reduction of symptoms (e.g., tender joints) in percent from the baseline value (I assume, … the baseline part)"
+  },
+  {
+    "objectID": "content/epidemiology/cutoffs/index.html#rheumatoid-arthritis",
+    "href": "content/epidemiology/cutoffs/index.html#rheumatoid-arthritis",
+    "title": "Cutoffs used it Rheumatology",
+    "section": "",
+    "text": "The composite measures are sorted alphabetically from left to right.\n\nCutoffs of the most commonly used composite measures for RA disease activity.\n\n\n\n\n\n\n\n\n\nDisease activity\nCDAI\nDAS28CRP\nDAS28ESR\nSDAI\n\n\n\n\nRemission\n?\n\\(&gt;\\) 2.4\n\\(&gt;\\) 2.6\n\\(&gt;\\) 3.3\n\n\nLow\n?\n\\(\\leq\\) 2.9\n\\(\\leq\\) 3.2\n\\(\\leq\\) 11.0\n\n\nModerate\n?\n\\(\\leq\\) 4.6\n\\(\\leq\\) 5.1\n\\(\\leq\\) 26.0\n\n\nHigh\n?\n\\(&lt;\\) 4.6\n\\(&lt;\\) 5.1\n\\(&lt;\\) 26.0\n\n\n\nTODO: Add CDAI and sources for each column.\nTODO: What about ACR70 etc criteria? These quantify the reduction of symptoms (e.g., tender joints) in percent from the baseline value (I assume, … the baseline part)"
+  },
+  {
+    "objectID": "content/epidemiology/cutoffs/index.html#psoriatric-arthritis",
+    "href": "content/epidemiology/cutoffs/index.html#psoriatric-arthritis",
+    "title": "Cutoffs used it Rheumatology",
+    "section": "Psoriatric arthritis",
+    "text": "Psoriatric arthritis\nTODO"
+  },
+  {
+    "objectID": "content/epidemiology/cutoffs/index.html#spondyloarthritis",
+    "href": "content/epidemiology/cutoffs/index.html#spondyloarthritis",
+    "title": "Cutoffs used it Rheumatology",
+    "section": "Spondyloarthritis",
+    "text": "Spondyloarthritis\nTODO"
+  },
+  {
     "objectID": "content/statistics/simulatepower/index.html",
     "href": "content/statistics/simulatepower/index.html",
     "title": "Simulations for power analysis",
@@ -637,10 +721,38 @@
     "text": "Visualization\nLet’s have a look at what our models for the different batch sizes found!\n    # Quick and dirty ggplot theme\n    bayesplot_theme_set(theme_minimal())\n  \n    # Create posterior density plot for this iteration\n    mcmc_areas(\n        posterior,\n        pars = paste0(\"b_X\", sort(c(rel_idx, irl_idx))),\n        prob = 0.8\n    ) + ggtitle(\n            \"Posterior densities\",\n            paste0(\n              \"Metabolites: \", n_metabolites,\n              \" | Sample size: \", n_batches, \"x\", n_per_batch\n            )\n        )\n    \n    # Save results to current directory\n    ggsave(\n        paste0(\n            \"horseshoe_posteriors_\",\n            n_samples,\n            \"samples\",\n            n_metabolites,\n            \"metabolites.svg\"\n        ),\n        height = 5,\n        width = 7\n    )\n} # End of loop, seems that the highlighter is confused :D\nThe visualization here omits a lot of the irrelevant metabolites to improve visual clarity. In each plot, a different selection of irrelevant metabolites is sampled, while the relevant ones are always included (b_X23 and b_X62).\n\n\n\n\n\n\n\n\n\nResults for two batches\n\n\n\n\n\n\n\nResults for three batches\n\n\n\n\n\n\n\n\n\nResults for four batches\n\n\n\n\n\n\n\nResults for five batches\n\n\n\n\n\nAlright! It seems that five batches would be necessary with the assumptions about the signal-to-noise ratio made here."
   },
   {
+    "objectID": "content/statistics/diagnosemcmc/index.html",
+    "href": "content/statistics/diagnosemcmc/index.html",
+    "title": "Diagnosing issues in MCMC sampling",
+    "section": "",
+    "text": "Well! I should write a well thought-out explanation here when it’s not late in the evening."
+  },
+  {
+    "objectID": "content/statistics/diagnosemcmc/index.html#whats-mcmc",
+    "href": "content/statistics/diagnosemcmc/index.html#whats-mcmc",
+    "title": "Diagnosing issues in MCMC sampling",
+    "section": "",
+    "text": "Well! I should write a well thought-out explanation here when it’s not late in the evening."
+  },
+  {
+    "objectID": "content/statistics/diagnosemcmc/index.html#relevant-mcmc-internals",
+    "href": "content/statistics/diagnosemcmc/index.html#relevant-mcmc-internals",
+    "title": "Diagnosing issues in MCMC sampling",
+    "section": "Relevant MCMC internals",
+    "text": "Relevant MCMC internals\nThis is my current understanding of which MCMC internals should be checked, how potential issues can be resolved, and what the internals reflect. No guarantee!\n\nR hat\n\n\\(\\hat{R}\\) should be extremely close to 1 for all parameters.\n\n\\(\\hat{R}\\) (pronounced “R hat”) is a convergence measure (variance within vs between chains, I think) and must be extremely close to 1. Otherwise, our chains have not converged to the sample from the same posterior distribution. If \\(\\hat{R}\\) is elevated, you can usually fix this by simply drawing more samples per chain. In case the posterior geometry can be simplified with, e.g., non centered parametrisation in hierarchical models, this is often a more efficient step to take.\n\n\nESS\nLarge effective sample size is important because it ensures stable estimates in the low-density regions of the posterior. Note that the effective sample size can be larger than the actual number of samples drawn.\n\nAim for ESS of at least 10 000 per parameter and posterior region (bulk / tail).\n\nBe skeptical if your ESS bulk is much lower than the tail! You might be working with a multimodal posterior.\n\n\nDivergent transitions\nSomething about skaters flying out into the infinite universe.\n\nDivergent transitions are bad. We don’t want them.\n\nIf you have some, they should not be concentrated in any particular region of the posterior.\n\n\nTree depth\nThe tree depth can tell us if a model is poorly identified or (I think) has other sampling issues like a bimodal posterior.\n\nIf your tree depth hits the default maximum tree depth of 10, you’re in trouble.\n\nIf the tree depth is really high, the NUTS algorithm builds a very complicated sampling tree, which leads to very, very, very slow sampling."
+  },
+  {
+    "objectID": "content/statistics/diagnosemcmc/index.html#other-mcmc-internals",
+    "href": "content/statistics/diagnosemcmc/index.html#other-mcmc-internals",
+    "title": "Diagnosing issues in MCMC sampling",
+    "section": "Other MCMC internals",
+    "text": "Other MCMC internals\nThere are other internals like the leepfrog step size, loglikelihood (?), hamiltonian energy, energy error… not sure about these."
+  },
+  {
     "objectID": "content/statistics/index.html",
     "href": "content/statistics/index.html",
     "title": "Statistics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nSimulations for power analysis\n\n\nEstimating the number of samples required to detect relevant predictors among large numbers of irrelevant predictors. \n\n\n\nSimulation\n\n\nBayesian statistics\n\n\nPower analysis\n\n\nSparsity\n\n\nR\n\n\nStan\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nK-means from scratch\n\n\nA step-by-step walkthrough of a simple clustering algorithm \n\n\n\nJulia\n\n\nClustering\n\n\n\n\n\n\nNov 2, 2023\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nMathematical notation for probability theory\n\n\nFrom sets to sparsity and product spaces to priors. \n\n\n\nCheatsheet\n\n\nReporting\n\n\n\n\n\n\nJul 18, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nSimulations for power analysis\n\n\nEstimating the number of samples required to detect relevant predictors among large numbers of irrelevant predictors. \n\n\n\nSimulation\n\n\nBayesian statistics\n\n\nPower analysis\n\n\nSparsity\n\n\nR\n\n\nStan\n\n\n\n\n\n\nJun 5, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nDiagnosing issues in MCMC sampling\n\n\nMCMC is your workhorse, so make sure it’s healthy \n\n\n\nMCMC\n\n\nBayesian statistics\n\n\nNUTS\n\n\n\n\n\n\nJun 1, 2024\n\n\nSimon Steiger\n\n\n\n\n\n\n\nK-means from scratch\n\n\nA step-by-step walkthrough of a simple clustering algorithm \n\n\n\nJulia\n\n\nClustering\n\n\n\n\n\n\nNov 2, 2023\n\n\nSimon Steiger\n\n\n\n\n\n\nNo matching items"
   }
 ]

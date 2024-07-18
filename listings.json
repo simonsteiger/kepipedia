@@ -2,8 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/content/epidemiology/cutoffs/index.html",
+      "/content/statistics/mathnotation/index.html",
       "/content/statistics/simulatepower/index.html",
+      "/content/statistics/diagnosemcmc/index.html",
       "/content/statistics/kmeans/index.html",
+      "/content/articles/westerlind2021/index.html",
       "/content/articles/fransen2004/index.html",
       "/content/articles/prevoo1995/index.html",
       "/content/articles/modrak2021/index.html",
@@ -23,11 +27,14 @@
   },
   {
     "listing": "/content/epidemiology/index.html",
-    "items": []
+    "items": [
+      "/content/epidemiology/cutoffs/index.html"
+    ]
   },
   {
     "listing": "/content/articles/index.html",
     "items": [
+      "/content/articles/westerlind2021/index.html",
       "/content/articles/fransen2004/index.html",
       "/content/articles/prevoo1995/index.html",
       "/content/articles/modrak2021/index.html",
@@ -52,7 +59,9 @@
   {
     "listing": "/content/statistics/index.html",
     "items": [
+      "/content/statistics/mathnotation/index.html",
       "/content/statistics/simulatepower/index.html",
+      "/content/statistics/diagnosemcmc/index.html",
       "/content/statistics/kmeans/index.html"
     ]
   }
