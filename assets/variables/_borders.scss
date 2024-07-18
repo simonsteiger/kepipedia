@@ -1,6 +1,6 @@
 $border-radius-lg: 1rem;
 $border-radius-sm: 0.5rem;
-$border-width-lg: 4px;
-$border-width: 2px;
-$border-width-sm: 1px;
+$border-width-lg: 2px; // was 4
+$border-width: 1px; // was 2
+$border-width-sm: 0.5px; // was 1
 $default-border-wide: $border-width solid $light-bg-offset;

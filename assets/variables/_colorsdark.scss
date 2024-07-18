@@ -8,13 +8,19 @@ $medium-grey: #CCD1D5;
 $color-primary: $orange;
 $color-secondary: $dark-plum;
 $color-highlight: $light-orange;
+$link-color: $light-blue;
+
+$light-bg: #201F24;
+$light-bg-offset: $color-secondary;
+$color-fg: white;
+
+$box-shadow-color: #000000;
 
 $color-hover-highlight: lighten($color-highlight, 7%);
 $color-hover-secondary: darken($color-secondary, 2%);
 
-$color-fg: white;
-
-$light-bg: #201F24;
-$light-bg-offset: $color-secondary;
-
-$box-shadow-color: #000000;
+$quarto-category-background-color: lighten($light-bg, 2%);
+$quarto-category-border-color: lighten($light-bg, 30%);
+$quarto-category-hover-background-color: darken($light-bg, 5%);
+$quarto-category-hover-border-color: lighten($light-bg, 50%);
+$quarto-category-highlight: $color-fg;

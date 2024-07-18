@@ -62,11 +62,23 @@
 }
 
 .listing-category {
-    @include custom-category($color-secondary, $color-highlight, $color-hover-secondary, $color-hover-highlight);
+    @include custom-category(
+        $quarto-category-highlight,
+        $quarto-category-background-color,
+        $quarto-category-border-color,
+        $quarto-category-hover-background-color,
+        $quarto-category-hover-border-color
+    );
 }
 
 .quarto-category {
-    @include custom-category($color-secondary, $color-highlight, $color-hover-secondary, $color-hover-highlight);
+    @include custom-category(
+        $quarto-category-highlight,
+        $quarto-category-background-color,
+        $quarto-category-border-color,
+        $quarto-category-hover-background-color,
+        $quarto-category-hover-border-color
+    );
 }
 
 /* mobile query up for screens up to ~576px wide */
@@ -107,7 +119,13 @@
     box-shadow: $default-box-shadow;
     min-height: 120px;
 
-    @include custom-category($color-secondary, $color-highlight, $color-hover-secondary, $color-hover-highlight, $border-width-lg);
+    @include custom-category(
+        $color-secondary,
+        $color-highlight,
+        $color-hover-secondary,
+        $color-hover-highlight,
+        $border-width-lg
+    );
 
     .card-title {
         color: $color-fg !important;

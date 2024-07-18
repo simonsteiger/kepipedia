@@ -4,15 +4,22 @@ $light-orange: darken(#FEEEEB, 5%); // the actual KI color is a little light for
 $light-blue: #EDF4F4;
 $logo-plum: #870052;
 $medium-grey: #CCD1D5;
+$color-fg: black;
 
 $color-primary: $dark-plum;
-$color-secondary: $light-orange;
-$color-highlight: $orange;
+$color-secondary: $light-blue;
+$color-highlight: darken($light-blue, 20%);
+$link-color: $orange;
 
 $color-hover-highlight: darken($color-highlight, 7%);
 $color-hover-secondary: lighten($color-secondary, 2%);
 
-$color-fg: black;
+$quarto-category-background-color: lighten($medium-grey, 10%);
+$quarto-category-border-color: darken($medium-grey, 5%);
+$quarto-category-hover-background-color: lighten($medium-grey, 15%);
+$quarto-category-hover-border-color: darken($medium-grey, 15%);
+$quarto-category-highlight: $color-fg;
+
 
 $light-bg: white;
 $light-bg-offset: $color-secondary;
