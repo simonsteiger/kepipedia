@@ -120,11 +120,11 @@
     min-height: 120px;
 
     @include custom-category(
+        $color-primary,
         $color-secondary,
         $color-highlight,
         $color-hover-secondary,
         $color-hover-highlight,
-        $border-width-lg
     );
 
     .card-title {
