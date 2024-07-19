@@ -17,28 +17,54 @@ This cheatsheet is here to remedy that!
 The notations I list here is all but set in stone, but seems to be least one of the common ways to approach notation in this subject area.
 It is adapted from Michael Betancourt's [blog](https://betanalpha.github.io/writing/)
 
-# Set notation
+# Sets
 
 | Notation | Interpretation |
 |:--------:|:--------|
 | $X$ | The **ambient set** captures all objects of interest. |
-| $x$ | A variable element in the ambient set $X$. |
+| $x \in X$ | A variable element in the ambient set $X$. |
+| $x, x', x'' \in X$ | Distinct variables from the ambient set $X$. |
 | $x_n \in X$ | A specific element $x_n$ from the ambient set $X$. |
-| $\text{x}$ | A variable subset of the ambient set $X$. |
-| $X = \{\text{🥦, 🥫, 🥐}\}$ | A set with a finite number of elements. |
-| $\text{x} \subset X$ | A **subset** of $X$. |
-| $\text{x} \subseteq X$ | A subset potentially containing all elements of $X$. |
-| $\text{x}'$ | A subset of another subset $\text{x}$. |
+| $\tilde{x}$ | A fixed but unspecified element from the ambient set $X$. |
+| $X = \{🥦, 🥫, 🥐\}$ | A set with a finite number of elements. |
+| $\mathbb{N}, \mathbb{Z}, \mathbb{R}$ | Sets of Natural, Integer, and Real numbers.[^2] |
+
+: Set notation and its interpretation {tbl-colwidths="[35,65]" .striped .borderless}
+
+# Subsets
+
+| Notation | Interpretation |
+|:--------:|:--------|
+| $\textsf{x} \subset X$ | A **subset** of $X$. |
+| $\textsf{x}$ | A variable subset of the ambient set $X$. |
+| $\textsf{x} \subseteq X$ | A subset potentially containing all elements of $X$. |
+| $\textsf{x}'$ | A subset of another subset $\textsf{x}$. |
 | $\emptyset = \{\}$ | The **empty set** which contains no elements at all. |
 | $\{x_n\}$ | A subset with a single element is the **atomic set**[^1]. |
 | $2^X$ | The **power set** of $X$ is the collection of all its subsets. |
-| $\text{x} = \{\text{🥦}\}, \text{x}^c = \{\text{🥫, 🥐}\}$ | The **complement** $\text{x}^c$ of $\text{x}$ includes all $x_n \in X$ not already in $\text{x}$. |
-| $\{\text{🥦, 🥫}\} \cup \{\text{🥫, 🥐}\} = \{\text{🥦, 🥫, 🥐}\}$ | A **union** includes all elements found in *either* subset. |
-| $\{\text{🥦, 🥫}\} \cap \{\text{🥫, 🥐}\} = \{\text{🥫}\}$ | An **intersection** includes all elements found in *both* subsets. |
+| $\textsf{x} = \{🥦\}, \textsf{x}^c = \{🥫, 🥐\}$ | The **complement** $\textsf{x}^c$ of $\textsf{x}$ includes all $x_n \in X$ not already in $\textsf{x}$. |
+| $\{🥦, 🥫\} \cup \{🥫, 🥐\} = \{🥦, 🥫, 🥐\}$ | A **union** includes all elements found in *either* subset. |
+| $\{🥦, 🥫\} \cap \{🥫, 🥐\} = \{🥫\}$ | An **intersection** includes all elements found in *both* subsets. |
+| $\textsf{x} = \{x \in X \:\vert\: f(x) = 0 \}$ | The subset of $X$ satisfying the element-wise condition $f(x) = 0$. |
+| $[0, 1]$ | The **closed interval** $\{x \in \mathbb{R} \:\vert\: 0 \leq x \leq 1\}$. |
+| $[0, 1)$ | The **half-open interval** $\{x \in \mathbb{R} \:\vert\: 0 \leq x < 1\}$. |
 
-: Set notation and its interpretation {tbl-colwidths="[30,70]" .striped .borderless}
+: Subset notation and its interpretation {tbl-colwidths="[35,65]" .striped .borderless}
+
+# Functions
+
+| Notation | Interpretation |
+|:--------:|:--------|
+| $f: X \to Y$ | A **function** $f$ mapping the input set X to the output set Y. |
+| $x \mapsto y = f(x)$ | A function $f$ mapping a variable $x \in X$ to $y \in Y$. |
+| $y = f(\tilde{x}) \in Y$ | The **evaluation** of a function $f$ on a given input variable $\tilde{x}$. |
+| $f^{-1}(x)$ | The **inverse** of a function $f$ such that $f^{-1}(f(x)) = x$. |
+| $g \circ f: X \to Z$ | A **function composition** such that $x \mapsto z = g(f(x))$. |
+
+: Function notation and its interpretation {tbl-colwidths="[35,65]" .striped .borderless}
 
 [^1]: Atomic vectors finally make sense (looking at you here, `R`!).
+[^2]: The style these letters are writting in is called *blackboard bold* since it was originall used to clearly represent these sets on chalkboards.
 
 ::: {.callout-caution}
 
