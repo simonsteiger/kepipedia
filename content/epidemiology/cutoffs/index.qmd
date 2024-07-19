@@ -11,7 +11,7 @@ subtitle: >
     The use of composite scores is wide-spread and cutoffs play an essential role in classifying the disease activity of patients
 ---
 
-## Rheumatoid arthritis
+# Rheumatoid arthritis
 
 The composite measures are sorted alphabetically from left to right.
 
@@ -28,10 +28,10 @@ The composite measures are sorted alphabetically from left to right.
 
 **TODO**: What about ACR70 etc criteria? These quantify the reduction of symptoms (e.g., tender joints) in percent from the baseline value (I assume, ... the baseline part)
 
-## Psoriatric arthritis
+# Psoriatric arthritis
 
 TODO
 
-## Spondyloarthritis
+# Spondyloarthritis
 
 TODO
